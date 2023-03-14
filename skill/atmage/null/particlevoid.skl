@@ -1,0 +1,76 @@
+#PVF_File
+
+[name]
+	`乖離 : 虛無`
+
+[name2]
+	`dimensionhollow`
+
+[explain]
+	`    召喚異界的怪物——虛無環繞在腳下。 虛無存在的時間內， 可以增加基本攻擊和次元系列技能的傷害。
+    可通過[乖離 : 迷霧]向前方發射迷霧。`
+
+[basic explain]
+	`    召喚異界的怪物——虛無環繞在腳下。 虛無存在的時間內， 可以增加基本攻擊力和次元系列技能的傷害。
+[是狂氣的痕跡還是我的過失？]`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	20	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	244
+	`Character/Mage/Effect/ATSkillIcon.img`	245
+
+[command]
+[/command]
+
+[command key explain]
+	`操作指令 : ↑→↑ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	100	20
+[/static data]
+
+[level info]
+	4	10	33	15	0	20	40	30	0	30	46	45	0	40	53	60	0	50	60	75	0	60	66	90	0	70	73	105	0	80	79	120	0	90	86	135	0	100	93	150	0	110	99	165	0	120	106	180	0	130	113	195	0	140	119	210	0	150	126	225	0	160	132	240	0	170	139	255	0	180	146	270	0	190	152	285	0	200	159	300	0	210	166	315	0	220	172	330	0	230	179	345	0	240	186	360	0	250	192	375	0	260	199	390	0	270	205	405	0	280	212	420	0	290	219	435	0	300	225	450	0
+[/level info]
+
+[level property]
+	1	99
+	`基本攻擊和次元系列技能傷害增加率 : <float1>%%
+發射迷霧時HP消耗量 : <int>
+迷霧纏繞敵人時， 基本攻擊和次元系列技能傷害增加率 : <float1>%%`	-1	0	0.1	-1	1	1.0	-1	2	0.1
+[/level property]

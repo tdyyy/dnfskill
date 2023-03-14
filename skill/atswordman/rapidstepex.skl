@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`強化 - 一花渡江`
+
+[basic explain]
+	`    快速向前方移動， 對周圍發動爆炸攻擊。`
+
+[explain]
+	`    使用流浪武士領悟的輕功， 快速向前方移動。
+    向前方移動時， 對周圍發動爆炸攻擊。`
+
+[basic explain ex]
+	`    增加[一花渡江]的攻擊力。`
+
+[explain ex]
+	`增加[一花渡江]的攻擊力。r
+技能每增加Lv1時， 攻擊力增加量 : 10%%`
+
+[pre required skill]
+	210	1
+[/pre required skill]
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	7
+
+[growtype maximum level]
+	0	0	5	0	0	5
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	395
+	`Character/Swordman/Effect/ATSkillIcon.img`	396
+
+[dungeon]
+	[consume MP]
+		40	300
+	[cool time]
+		6000	6000
+	[static data]
+		500	120	0	7
+	[/static data]
+	[level info]
+		2	1191	3	1311	3	1432	3	1552	3	1674	3	1794	3	1915	3	2036	3	2157	3	2277	3	2398	3	2520	3	2640	3	2761	3	2881	3	3003	3	3123	3	3244	3	3365	3	3486	3	3606	3	3727	3	3848	3	3969	3	4089	3	4211	3	4332	3	4452	3	4573	3	4694	3	4815	3	4935	3	5057	3	5177	3	5298	3	5418	3	5540	3	5660	3	5781	3	5902	3	6023	3	6144	3	6264	3	6386	3	6506	3	6627	3	6747	3	6869	3	6989	3	7110	3	7230	3	7352	3	7473	3	7593	3	7715	3	7835	3	7956	3	8076	3	8198	3	8318	3	8439	3	8559	3	8681	3	8801	3	8922	3	9043	3	9164	3	9285	3	9405	3	9527	3
+	[/level info]
+	[special level up]
+		-1	0
+		`%`	10
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[consume MP]
+		40	300
+	[cool time]
+		12000	12000
+	[static data]
+		250	60	1	7
+	[/static data]
+	[level info]
+		2	53	3	58	3	63	3	68	3	74	3	79	3	84	3	90	3	95	3	100	3	106	3	111	3	116	3	122	3	127	3	132	3	138	3	143	3	148	3	154	3	159	3	164	3	170	3	175	3	180	3	186	3	191	3	196	3	202	3	207	3	212	3	218	3	223	3	228	3	234	3	239	3	244	3	250	3	255	3	260	3	266	3	271	3	276	3	282	3	287	3	292	3	298	3	303	3	308	3	314	3	319	3	324	3	330	3	335	3	340	3	345	3	351	3	356	3	361	3	367	3	372	3	377	3	383	3	388	3	393	3	399	3	404	3	409	3	415	3	420	3
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`移動距離 : <int>px
+爆炸攻擊力 : <int>%%`	0	0	1.0	-1	0	1.0
+[/level property]

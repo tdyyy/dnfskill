@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`別過來！`
+
+[explain]
+	`將詛咒人偶附著在敵人身上， 使敵人無法移動， 然后引爆詛咒人偶。
+ 施放技能后施放者進入無敵狀態， 直到詛咒人偶爆炸。
+ 對建筑型、 不可抓取的敵人使用時， 詛咒人偶不附著在敵人身上， 直接爆炸。`
+
+[basic explain]
+	`將詛咒人偶附著在敵人身上， 使敵人無法移動， 然后引爆詛咒人偶。
+ 施放技能后施放者進入無敵狀態， 直到詛咒人偶爆炸。
+ 對建筑型、 不可抓取的敵人使用時， 詛咒人偶不附著在敵人身上， 直接爆炸。`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[required level]
+	5
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[consume MP]
+	60	546
+
+[cool time]
+	6000	6000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	690
+	`Character/Mage/Effect/SkillIcon.img`	691
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →↑ + Z`
+
+[static data]
+	150	225
+[/static data]
+
+[level info]
+	1	2441	2688	2936	3184	3431	3679	3927	4174	4422	4670	4917	5165	5413	5661	5908	6156	6404	6651	6899	7147	7394	7642	7890	8137	8385	8633	8880	9128	9376	9623	9871	10119	10366	10614	10862	11109	11357	11605	11852	12100	12348	12595	12843	13091	13338	13586	13834	14081	14329	14577	14824	15072	15320	15567	15815	16063	16310	16558	16806	17053	17301	17549	17796	18044	18292	18539	18787	19035	19282	19530
+[/level info]
+
+[level property]
+	1	99
+	`爆炸魔法攻擊力:<int>%%`	-1	0	1.0
+[/level property]

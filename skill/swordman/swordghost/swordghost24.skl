@@ -1,0 +1,74 @@
+#PVF_File
+
+[name]
+	`夜嘯`
+
+[explain]
+	`    使用強大的力量將大量的死靈之力制壓的劍鬼被稱之為惡鬼羅剎習得后，惡鬼羅剎的基本攻擊和轉職后技能      傷害增加，移動技能強化，和怨靈共鳴使得他使用怨鬼系技能變得更加隨心所欲`
+
+[basic explain]
+	`    使用強大的力量將大量的死靈之力制壓的劍鬼被稱之為惡鬼羅剎習得后，惡鬼羅剎的基本攻擊和轉職后技能      傷害增加，移動技能強化，和怨靈共鳴使得他使用怨鬼系技能變得更加隨心所欲`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	1	1
+
+[cool time]
+	2000	2000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	636
+	`Character/Swordman/Effect/SkillIcon.img`	637
+
+[static data]
+	1
+[/static data]
+
+[level info]
+	2	20	1500	25	1650	30	1800	35	1950	40	2100	45	2250	50	2400	55	2550	60	2700	65	2850	70	3000	75	3150	80	3300	85	3450	90	3600	95	3750	100	3900	105	4050	110	4200	115	4350	120	4500	125	4650	130	4800	135	4950	140	5100	145	5250
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`增加最終傷害率 : <int> %%
+攻擊敵人提高的僵直 : <int> 
+`	-1	0	1.0	-1	1	0.1
+[/level property]

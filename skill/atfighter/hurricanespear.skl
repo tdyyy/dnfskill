@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+	`旋風碎心踢`
+
+[name2]
+	`Spin Kick`
+
+[explain]
+	`先高速旋轉身體引發一陣旋風， 然后躍起利用離心力進行極具威力的踢腿攻擊。
+    被擊中的敵人會向后飛出并倒地。`
+
+[basic explain]
+	`先高速旋轉身體引發一陣旋風， 然后躍起利用離心力進行極具威力的踢腿攻擊。`
+
+[executable states]
+	8
+[/executable states]
+
+[purchase cost]
+	70
+[/purchase cost]
+
+[pre required skill]
+	124	1
+[/pre required skill]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[shake screen]
+	5	300
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	0	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[durability decrease rate]
+	70
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	148
+	`Character/Fighter/Effect/ATSkillIcon.img`	149
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	50	50
+
+[dungeon]
+	[consume MP]
+		935	1960
+	[cool time]
+		50000	50000
+	[static data]
+		250	-350	250	-550
+	[/static data]
+	[level info]
+		3	3735	10157	600	4217	11467	600	4699	12778	600	5182	14090	600	5663	15399	600	6145	16711	600	6627	18020	600	7109	19330	600	7590	20641	600	8073	21951	600	8555	23262	600	9036	24574	600	9519	25883	600	10000	27195	600	10483	28505	600	10965	29816	600	11446	31127	600	11929	32437	600	12410	33747	600	12892	35058	600	13374	36368	600	13856	37679	600	14339	38990	600	14820	40300	600	15302	41611	600	15784	42921	600	16266	44231	600	16747	45542	600	17230	46852	600	17712	48163	600	18193	49474	600	18676	50784	600	19157	52096	600	19640	53405	600	20122	54717	600	20603	56028	600	21086	57338	600	21567	58647	600	22049	59959	600	22532	61268	600	23013	62580	600	23496	63891	600	23977	65201	600	24459	66512	600	24941	67822	600	25423	69132	600	25904	70443	600
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		3	344	803	600	417	972	600	489	1141	600	562	1311	600	634	1480	600	707	1649	600	779	1818	600	852	1987	600	924	2156	600	997	2325	600	1069	2494	600	1141	2663	600	1214	2832	600	1286	3002	600	1359	3171	600	1431	3340	600	1504	3509	600	1576	3678	600	1649	3847	600	1721	4016	600	1794	4185	600	1866	4354	600	1939	4524	600	2011	4693	600	2084	4862	600	2156	5031	600	2229	5200	600	2301	5369	600	2374	5538	600	2446	5707	600	2518	5876	600	2591	6045	600	2663	6215	600	2736	6384	600	2808	6553	600	2881	6722	600	2953	6891	600	3026	7060	600	3098	7229	600	3171	7398	600	3243	7567	600	3316	7737	600	3388	7906	600	3461	8075	600	3533	8244	600	3606	8413	600	3678	8582	600	3751	8751	600	3823	8920	600	3895	9089	600
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`第一擊攻擊力 : <int>%%
+最后一擊攻擊力 : <int>%%`	-1	0	1.0	-1	1	1.0
+[/level property]
+
+[skill preloading image]
+	`Character/Fighter/Effect/SuplexDust.img`
+[/skill preloading image]

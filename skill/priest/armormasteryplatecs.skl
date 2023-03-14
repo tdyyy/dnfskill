@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`圣騎士板甲專精`
+
+[name2]
+	`Crusader's Plate Armor Mastery`
+
+[explain]
+	`裝備板甲系防具時， 可以增加智力、 體力、 精神、 HP最大值、 MP最大值、 MP恢復速度和施放速度; 且MP恢復速度、 施放速度的懲罰效果會消失并減少攻擊速度的懲罰效果。
+ 效果隨裝備的板甲數量增加而增大。`
+
+[basic explain]
+	`裝備板甲系防具時， 可以增加智力、 體力、 精神、 HP最大值、 MP最大值、 MP恢復速度和施放速度; 且MP恢復速度、 施放速度的懲罰效果會消失并減少攻擊速度的懲罰效果。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	1	0	0	0	1
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	34
+	`Character/Priest/Effect/SkillIcon.img`	35
+
+[static data]
+	0	0	4	10	2	5	8	20	0	100	200	0	0	20	0	0	0	0	200	100	0	0	0	0	0	0	0	0
+[/static data]
+
+[pvp]
+	[static data]
+		0	0	0	0	2	5	8	20	0	0	200	0	0	20	0	0	0	0	200	-66	0	0	0	0	0	0	0	0
+	[/static data]
+[/pvp]

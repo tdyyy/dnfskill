@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`驅魔師板甲專精`
+
+[name2]
+	`Exorcist's Plate Armor Mastery`
+
+[explain]
+	`裝備板甲系防具時， 可以增加力量、 體力、 精神、 HP最大值、 MP最大值、 MP恢復速度和物防; 且MP恢復速度、 施放速度和攻擊速度的懲罰效果將會消失。
+ 效果隨裝備的板甲系防具數量增加而增大。`
+
+[basic explain]
+	`裝備板甲系防具時， 可以增加力量、 體力、 精神、 HP最大值、 MP最大值、 MP恢復速度和物防; 且MP恢復速度、 施放速度和攻擊速度的懲罰效果將會消失。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	1	0	1
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	200
+	`Character/Priest/Effect/SkillIcon.img`	201
+
+[static data]
+	0	0	4	10	0	0	4	10	0	150	100	100	0	20	200	0	0	0	0	100	0	0	30	15
+[/static data]
+
+[pvp]
+	[static data]
+		0	0	0	0	0	0	4	10	0	50	100	100	0	20	200	0	0	0	0	33	0	0	30	15
+	[/static data]
+[/pvp]

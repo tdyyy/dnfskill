@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`魔劍控制`
+
+[basic explain]
+	`    獲得控制魔劍普諾的力量， 可以靈活自如地操控魔劍。`
+
+[explain]
+	`    獲得控制魔劍普諾的力量， 可以靈活自如地操控魔劍。
+    掌握該技能后， 增加武器攻擊力和物理暴擊率。`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	30
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	0	0	20	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	52
+	`Character/Swordman/Effect/ATSkillIcon.img`	53
+
+[static data]
+[/static data]
+
+[level info]
+	2	15	3	30	5	45	8	60	10	75	13	90	15	105	18	120	20	135	23	150	25	165	28	180	30	195	33	210	35	225	38	240	40	255	43	270	45	285	48	300	50	315	53	330	55	345	58	360	60	375	63	390	65	405	68	420	70	435	73	450	75
+[/level info]
+
+[pvp]
+	[level info]
+		2	12	0	13	0	14	0	15	0	16	0	17	0	18	0	19	0	20	0	21	0	22	0	23	0	24	0	25	0	26	0	27	0	28	0	29	0	30	0	31	0	32	0	33	0	34	0	35	0	36	0	37	0	38	0	39	0	40	0	41	0	42	0	43	0	44	0	45	0	46	0	47	0	48	0	49	0	50	0	51	0	52	0	53	0	54	0	55	0	56	0	57	0	58	0	59	0	60	0	61	0	62	0	63	0	64	0	65	0	66	0	67	0	68	0	69	0	70	0	71	0	72	0	73	0	74	0	75	0	76	0	77	0	78	0	79	0	80	0	81	0
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`武器攻擊力增加率 : <float1>%%
+物理暴擊率增加率 : <float1>%%`	-1	0	0.1	-1	1	0.1
+[/level property]

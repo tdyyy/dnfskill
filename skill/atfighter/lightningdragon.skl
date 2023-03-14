@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`念獸 : 猛虎震地`
+
+[name2]
+	`Nen Monster : Tiger`
+
+[basic explain]
+	`蓄氣后， 召喚出念獸猛虎并使其撲向敵人； 被猛虎撲中的敵人會受到多段攻擊和爆炸傷害。`
+
+[explain]
+	`蓄氣后， 召喚出念獸猛虎并使其撲向敵人； 被猛虎撲中的敵人會受到多段攻擊和爆炸傷害。`
+
+[executable states]
+	8
+[/executable states]
+
+[feature skill index]
+	157
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[pre required skill]
+	79	1
+[/pre required skill]
+
+[required level]
+	45
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	50	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[consume MP]
+	450	3780
+
+[cool time]
+	45000	45000
+
+[shake screen]
+	3	300
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	16
+	`Character/Fighter/Effect/ATSkillIcon.img`	17
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑→→ + Z`
+
+[skill command advantage]
+	20	40
+
+[dungeon]
+	[static data]
+		4	100
+	[/static data]
+	[level info]
+		2	781	2137	861	2358	943	2579	1022	2799	1103	3020	1185	3241	1265	3462	1347	3683	1426	3904	1508	4125	1588	4346	1670	4568	1749	4789	1830	5009	1912	5230	1992	5451	2074	5672	2153	5893	2234	6114	2316	6335	2396	6556	2477	6778	2557	6999	2639	7219	2719	7440	2799	7661	2880	7882	2961	8103	3043	8324	3123	8545	3203	8766	3284	8987	3365	9209	3447	9429	3526	9650	3608	9871	3688	10092	3770	10313	3850	10534	3930	10755	4011	10976	4092	11197	4174	11417	4253	11639	4333	11860	4415	12081	4496	12302	4576	12523	4657	12744	4738	12965	4819	13186	4901	13407	4980	13627	5061	13848	5142	14070	5223	14291	5302	14512	5384	14733	5464	14954	5546	15175	5627	15396	5707	15617	5788	15837	5869	16058	5950	16279	6029	16501	6111	16722	6192	16943	6273	17164	6353	17385
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		40000	40000
+	[static data]
+		4	100
+	[/static data]
+	[level info]
+		2	44	192	49	212	53	232	58	252	62	272	67	292	71	312	76	332	81	352	85	372	90	392	94	411	99	431	103	451	108	471	113	491	117	511	122	531	126	551	131	571	135	591	140	611	144	630	149	650	154	670	158	690	163	710	167	730	172	750	176	770	181	790	186	810	190	830	195	849	199	869	204	889	208	909	213	929	217	949	222	969	227	989	231	1009	236	1029	240	1049	245	1068	249	1088	254	1108	259	1128	263	1148	268	1168	272	1188	277	1208	281	1228	286	1248	291	1268	295	1287	300	1307	304	1327	309	1347	313	1367	318	1387	322	1407	327	1427	332	1447	336	1467	341	1487	345	1506	350	1526	354	1546	359	1566
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`多段攻擊次數 : <int>
+多段攻擊魔法攻擊力 : <int>%%
+爆炸產生的魔法獨立攻擊力 : <int>`	0	0	1.0	-1	0	1.0	-2	1	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

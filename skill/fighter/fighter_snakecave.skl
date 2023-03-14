@@ -1,0 +1,85 @@
+#PVF_File
+
+[name]
+	`禁技 : 萬毒蛇窟`
+
+[basic explain]
+	`    該技能只能在施放[萬毒噬心訣]的狀態下發動。
+    釋放利用[萬毒噬心訣]獲取的劇毒氣息。 釋放的毒氣變化為蛇的形狀， 對范圍內的敵人造成多段攻擊傷害。`
+
+[explain]
+	`    該技能只能在施放[萬毒噬心訣]的狀態下發動。
+    釋放利用[萬毒噬心訣]獲取的劇毒氣息。 釋放的毒氣變化為蛇的形狀， 對范圍內的敵人造成多段攻擊傷害。 施放時， 按向前方向鍵可以前進更遠的距離。
+    此技能可以在空中施放， 并且可以用方向鍵控制降落的位置。(達到一定高度才可施放)`
+
+[executable states]
+	8	0	14	6
+[/executable states]
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	85
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	1	1	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[durability decrease rate]
+	1260
+
+[consume item]
+	3037	10	10
+[/consume item]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	370
+	`Character/Fighter/Effect/SkillIcon.img`	371
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↑ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	1900	1900
+
+[cool time]
+	180000	180000
+
+[level property]
+	1	99
+	`    [禁技 : 萬毒蛇窟]的攻擊力適用[萬毒噬心訣]中的數值。`
+[/level property]

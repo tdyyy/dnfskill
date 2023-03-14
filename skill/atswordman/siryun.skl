@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`波動斬`
+
+[basic explain]
+	`    向前方發射一定次數的劍氣波動。`
+
+[explain]
+	`    向前方發射一定次數的劍氣波動。`
+
+[executable states]
+	0	108	14	86	143	94	91	134	132	147	145	128	131	169	133	174	135	136	137	138	139	140	126
+[/executable states]
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[required level]
+	5
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	4
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0	1	2	3	4	5
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	2
+	`Character/Swordman/Effect/ATSkillIcon.img`	3
+
+[shake screen]
+	2	10000
+
+[durability decrease rate]
+	21
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓→ + Z`
+
+[skill command advantage]
+	10	20
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[weapon effect type]
+	`[physical]`
+
+[dungeon]
+	[consume MP]
+		17	150
+	[cool time]
+		3000	3000
+	[static data]
+		900	-2000	100	130
+	[/static data]
+	[level info]
+		3	141	0	3	158	0	3	175	0	3	193	0	3	212	0	3	229	0	3	246	0	3	264	0	3	281	0	3	299	0	3	318	0	3	333	0	3	349	0	3	367	0	3	386	0	3	403	0	3	421	0	3	438	0	3	455	0	3	473	0	3	490	0	3	508	0	3	526	0	3	540	0	3	557	0	3	574	0	3	592	0	3	609	0	3	627	0	3	645	0	3	662	0	3	679	0	3	696	0	3	714	0	3	733	0	3	748	0	3	765	0	3	782	0	3	801	0	3	818	0	3	837	0	3	855	0	3	871	0	3	889	0	3	907	0	3	924	0	3	942	0	3	956	0	3	974	0	3	991	0	3	1111	0	3	1131	0	3	1149	0	3	1169	0	3	1187	0	3	1207	0	3	1228	0	3	1246	0	3	1266	0	3	1287	0	3	1304	0	3	1323	0	3	1342	0	3	1363	0	3	1383	0	3	1400	0	3	1422	0	3	1441	0	3	1458	0	3	1482	0	3
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[static data]
+		700	-2000	100	100
+	[/static data]
+	[cool time]
+		4500	4500
+	[level info]
+		3	29	0	2	32	0	2	37	0	2	40	0	2	43	0	2	46	0	2	50	0	2	53	0	2	57	0	2	61	0	2	64	0	2	67	0	2	71	0	2	75	0	2	78	0	2	82	0	2	85	0	2	88	0	2	93	0	2	96	0	2	99	0	2	103	0	2	107	0	2	110	0	2	114	0	2	117	0	2	120	0	2	123	0	2	128	0	2	131	0	2	135	0	2	138	0	2	142	0	2	145	0	2	149	0	2	152	0	2	155	0	2	160	0	2	163	0	2	166	0	2	170	0	2	173	0	2	177	0	2	181	0	2	184	0	2	187	0	2	191	0	2	195	0	2	198	0	2	202	0	2	226	0	2	230	0	2	234	0	2	238	0	2	242	0	2	245	0	2	250	0	2	253	0	2	258	0	2	261	0	2	265	0	2	269	0	2	273	0	2	277	0	2	281	0	2	285	0	2	289	0	2	293	0	2	297	0	2	301	0	2
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`物理攻擊力 : <int>%%
+劍氣多段攻擊次數 : <int>次
+劍氣發射次數 : 2次`	-1	0	1.0	-1	2	1.0
+[/level property]
+
+[feature skill index]
+	26

@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`強化 - 俯沖直拳`
+
+[name2]
+	`Ducking Straight Upgrade`
+
+[explain]
+	`[俯沖]時向前方敵人發出直拳， 并擊飛敵人。`
+
+[basic explain]
+	`[俯沖]時向前方敵人發出直拳， 并擊飛敵人。`
+
+[explain ex]
+	`增加俯沖直拳的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 :10%%`
+
+[basic explain ex]
+	`增加俯沖直拳的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 :10%%`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	5	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[pre required skill]
+	56	10
+[/pre required skill]
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	240
+	`Character/Priest/Effect/SkillIcon.img`	241
+
+[level info]
+	1	872	961	1052	1142	1232	1323	1413	1502	1592	1683	1773	1863	1954	2043	2133	2224	2314	2404	2495	2585	2674	2766	2855	2945	3034	3126	3215	3305	3396	3486	3576	3667	3757	3846	3938	4027	4117	4206	4298	4387	4477	4568	4658	4748	4839	4929	5018	5109	5199	5289	5380	5470	5559	5649	5740	5830	5920	6011	6101	6190	6281	6371	6461	6552	6642	6731	6821	6912	7002	7092
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10	-1	1
+	`%`	10
+[/special level up]
+
+[static data]
+	0	0	1
+[/static data]
+
+[pvp]
+	[level info]
+		2	105	11	116	12	127	13	138	14	149	15	160	16	170	17	181	18	192	19	203	20	214	21	225	22	236	24	247	25	258	26	268	27	279	28	290	29	301	30	312	31	323	32	334	33	345	34	356	35	366	37	377	38	388	39	399	40	410	41	421	42	432	43	443	44	453	45	464	46	475	47	486	49	497	50	508	51	519	52	530	53	541	54	551	55	562	56	573	57	584	58	595	59	606	60	617	62	628	63	638	64	649	65	660	66	671	67	682	68	693	69	704	70	715	71	726	72	736	73	747	75	758	76	769	77	780	78	791	79	802	80	813	81	824	82	834	83	845	84	856	85
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`物理攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`死命召喚`
+
+[explain]
+	`    將詛咒人偶獻祭， 召喚擁有特殊能力的詛咒人偶和僵尸人偶。 該詛咒對范圍內的隊友和敵人分別發揮不同效果。
+ 
+[適用于隊友的效果]
+生成特殊詛咒人偶附著在隊友身上， 增強[禁忌詛咒]的效果。 特殊詛咒人偶生成數量與施放時范圍內存在的隊友數量相同。
+    技能疊加使用時， Buff持續時間在原有時間上累加。
+ 
+[適用于敵人的效果]
+生成僵尸人偶跳到敵人身上后爆炸。 僵尸人偶生成數量與施放時范圍內存在的敵人數量相同， 但最多不超過5個。
+    在決斗場中， 無法探索一定高度以上或無敵狀態的敵人。`
+
+[basic explain]
+	`    將詛咒人偶獻祭， 召喚擁有特殊能力的詛咒人偶和僵尸人偶。 該詛咒對范圍內的隊友和敵人分別發揮不同效果。
+ 
+[適用于隊友的效果]
+生成特殊詛咒人偶附著在隊友身上， 增強[禁忌詛咒]的效果。 特殊詛咒人偶生成數量與施放時范圍內存在的隊友數量相同。
+    技能疊加使用時， Buff持續時間在原有時間上累加。
+ 
+[適用于敵人的效果]
+生成僵尸人偶跳到敵人身上后爆炸。 僵尸人偶生成數量與施放時范圍內存在的敵人數量相同， 但最多不超過5個。
+    在決斗場中， 無法探索一定高度以上或無敵狀態的敵人。`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[pre required skill]
+	150	1
+[/pre required skill]
+
+[required level]
+	40
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[consume MP]
+	402	1342
+
+[cool time]
+	10000	10000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	785
+	`Character/Mage/Effect/SkillIcon.img`	786
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[command key explain]
+	`操作指令 : →↓ + Z`
+
+[static data]
+	1
+[/static data]
+
+[level info]
+	0
+[/level info]
+
+[level property]
+	1	99
+	`詛咒娃娃的消耗量:1個`
+[/level property]

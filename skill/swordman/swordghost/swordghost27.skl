@@ -1,0 +1,74 @@
+#PVF_File
+
+[name]
+	`青血斗鬼`
+
+[explain]
+	`    習得時，提升劍鬼的力量和HP最大值`
+
+[basic explain]
+	`    習得時，提升劍鬼的力量和HP最大值`
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	1	1
+
+[cool time]
+	2000	2000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	590
+	`Character/Swordman/Effect/SkillIcon.img`	591
+
+[static data]
+	1
+[/static data]
+
+[level info]
+	2	35	500	60	653	85	806	110	959	135	1112	160	1265	185	1418	210	1571	235	1724	260	1877	285	2030	310	2183	335	2336	360	2489	385	2642	410	2795	435	2948	460	3101	485	3254	510	3407	535	3560	560	3713	585	3866	610	4019	635	4172	660	4325	685	4478	710	4631	735	4784	760	4937	785	5090	810	5243	835	5396	860	5549	885	5702	910	5855	935	6008	960	6161	985	6314	1010	6467
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`力量提升值 : <int> 
+HP最大值提升 : <int> 
+`	-1	0	1.0	-1	1	1.0
+[/level property]

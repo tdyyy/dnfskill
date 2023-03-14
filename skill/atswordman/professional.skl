@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`刃之心`
+
+[name2]
+	`Equip Light Sword`
+
+[basic explain]
+	`    不法之地的劍客配備唯一信賴的摯友——刃匣“金剛”。 大太刀“黑曜”和小太刀“白牙”收納于“金剛”之中。 基本攻擊變更為刃影專屬姿勢， 且基本攻擊、 前沖攻擊變更為物理獨立攻擊力。`
+
+[explain]
+	`    不法之地的劍客配備唯一信賴的摯友——刃匣“金剛”。 大太刀“黑曜”和小太刀“白牙”收納于“金剛”之中。 基本攻擊變更為刃影專屬姿勢， 且基本攻擊、 前沖攻擊變更為物理獨立攻擊力。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	425
+	`Character/Swordman/Effect/ATSkillIcon.img`	426
+
+[dungeon]
+	[static data]
+		5	2	6	0	0	200	-400	100	-300	250	-400	200	-1000	1000	-8000	3	600	0
+	[/static data]
+	[level info]
+		9	156	86	192	112	112	261	558	1	1
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[static data]
+		5	2	6	0	0	200	-400	100	-300	250	-400	200	-1000	1000	-8000	3	600	0
+	[/static data]
+	[level info]
+		9	173	190	213	251	300	50	150	1	1
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]

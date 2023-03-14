@@ -1,0 +1,45 @@
+#PVF_File
+
+[name]
+	`游俠皮甲專精`
+
+[name2]
+	`Ranger's Leather Armor Mastery`
+
+[explain]
+	`裝備皮甲系防具時， 可以增加MP最大值、 HP最大值 、 攻擊速度、 物理暴擊率、 MP恢復速度、 力量和精神。
+    效果隨裝備的皮甲數量增加而增大， 且增加的物理暴擊率比[皮甲精通]更高。`
+
+[basic explain]
+	`裝備皮甲系防具時， 可以增加MP最大值、 HP最大值 、 攻擊速度、 物理暴擊率、 MP恢復速度、 力量和精神。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	1	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	152
+	`Character/Gunner/Effect/SkillIcon.img`	153
+
+[static data]
+	0	0	0	0	0	0	6	15	0	50	100	150	0	20	200	150	0	0	24	12
+[/static data]

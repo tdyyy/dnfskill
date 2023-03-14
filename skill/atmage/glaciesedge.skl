@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`極冰獵魔斬`
+
+[basic explain]
+	`雙手匯聚寒氣， 制造兩把巨大的冰霜巨劍後， 斬擊敵人。 `
+
+[explain]
+	`雙手匯聚寒氣， 制造兩把巨大的冰霜巨劍後， 斬擊敵人。 `
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	95
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	2
+
+[maximum level]
+	40
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	30	0	0	0	0	0	0
+
+[consume MP]
+	4028	8056
+
+[cool time]
+	290000	290000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	466
+	`Character/Mage/Effect/ATSkillIcon.img`	467
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↓→→ + Z`
+
+[dungeon]
+	[static data]
+		30	750	100	100	150	100	200	0	20
+	[/static data]
+	[level info]
+		1	137611	151572	165532	179492	193453	207414	221375	235336	249295	263256	277217	291178	305138	319098	333059	347020	360980	374941	388902	402862	416822	430783	444744	458705	472666	486625	500586	514547	528508	542468	556428	570389	584350	598310	612271	626232	640192	654152	668113	682074	696035	709994	723955	737916	751877	765838	779798	793758	807719	821680	835640	849601	863562	877522	891482	905443	919404	933365	947324	961285	975246	989207	1003168	1017128	1031088	1045049	1059010	1072970	1086931	1100892
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`冰霜巨劍斬擊攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

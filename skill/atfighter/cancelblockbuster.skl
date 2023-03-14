@@ -1,0 +1,47 @@
+#PVF_File
+
+[name]
+	`取消 - 磚襲`
+
+[name2]
+	`Cancel - Block Buster`
+
+[explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[磚襲]。`
+
+[basic explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[磚襲]。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[pre required skill]
+	60	5
+[/pre required skill]
+
+[required level]
+	38
+
+[type]
+	`[passive]`
+
+[skill class]
+	2
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	1	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	134
+	`Character/Fighter/Effect/SkillIcon.img`	135
+
+[static data]
+[/static data]

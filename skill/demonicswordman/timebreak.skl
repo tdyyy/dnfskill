@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`超時空碎裂`
+
+[basic explain]
+	`聚集時空之力， 瞬間分成數個時間節點， 對大範圍的區域施放斬擊， 隨后回到原點。被斬擊命中的敵人會在壹瞬間無法動彈， 並與時空壹同爆炸。`
+
+[explain]
+	`聚集時空之力， 瞬間分成數個時間節點， 對大範圍的區域施放斬擊， 隨后回到原點。被斬擊命中的敵人會在壹瞬間無法動彈， 並與時空壹同爆炸。`
+
+[pre required skill]
+	81	1
+[/pre required skill]
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	85
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	30	30	30	30	30	30
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[consume item]
+	3037	10	10
+[/consume item]
+
+[consume MP]
+	2500	5000
+
+[cool time]
+	180000	180000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	510
+	`Character/Swordman/Effect/SkillIcon.img`	511
+
+[command]
+[/command]
+
+[command key explain]
+	``
+
+[dungeon]
+	[static data]
+		19	50	100	125
+	[/static data]
+	[level info]
+		2	2294	26353	2515	29866	2736	33380	2957	36893	3178	40407	3400	43920	3621	47434	3842	50947	4063	54461	4284	57974	4505	61487	4726	65001	4947	68514	5168	72028	5389	75541	5611	79055	5832	82568	6053	86082	6274	89595	6495	93108	6716	96622	6937	100135	7158	103649	7379	107162	7600	110676	7822	114189	8043	117702	8264	121216	8485	124729	8706	128243	8927	131756	9148	135270	9369	138783	9590	142297	9811	145810	10033	149323	10254	152837	10475	156350	10696	159864
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`多重斬擊多段攻擊次數 : <int>次
+多重斬擊物理攻擊力 : <int>%%
+時空爆炸物理攻擊力 : <int>%%`	0	0	1.0	-1	0	1.0	-1	1	1.0
+[/level property]

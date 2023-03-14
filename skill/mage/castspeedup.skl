@@ -1,0 +1,62 @@
+#PVF_File
+
+[name2]
+	`Memorize`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	0	10	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[consume MP]
+	0	0
+
+[casting time]
+	0	0
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	52
+	`Character/Mage/Effect/SkillIcon.img`	53
+
+[cool time]
+	0	0
+
+[level info]
+	2	25	300	50	320	75	340	100	360	125	380	150	400	175	420	200	460	225	480	250	500	275	520	300	540	325	560	350	580	375	600	400	620	425	640	450	660	475	680	500	700
+[/level info]
+
+[name]
+	`魔法記憶`
+
+[explain]
+	`增加魔法技能的施放速度， 并減少蓄氣型技能的蓄氣時間上限。`
+
+[basic explain]
+	`加快魔法技能的施展速度并減少蓄氣型技能的蓄氣時間上限。`
+
+[level property]
+	1	99
+	`施放速度增加率 : <float1>%%
+蓄氣時間減少率 : <float1>%%`	-1	0	0.1	-1	1	0.1
+[/level property]

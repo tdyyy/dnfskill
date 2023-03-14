@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`強化 - 風暴之拳`
+
+[explain]
+	`    聚集風的力量， 施展致命的重拳。 若被重拳命中， 則會引發風暴並給予多段傷害。 若使用方向鍵， 可以向前突進並施展重拳。`
+
+[basic explain]
+	`    聚集風的力量， 施展致命的重拳。
+[風暴會將你們碾成碎片！]`
+
+[explain ex]
+	`    增加[風暴之拳]的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`    增加[風暴之拳]的攻擊力。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	138	10
+[/pre required skill]
+
+[required level]
+	65
+
+[required level range]
+	5
+
+[skill class]
+	0
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	0	0	5	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	374
+	`Character/Mage/Effect/ATSkillIcon.img`	375
+
+[static data]
+	2000	100	200	150
+[/static data]
+
+[level info]
+	2	10828	928	11927	1021	13025	1116	14125	1210	15224	1305	16321	1399	17420	1492	18518	1587	19617	1681	20716	1776	21814	1869	22912	1963	24011	2058	25110	2152	26209	2246	27308	2340	28405	2435	29505	2528	30603	2624	31702	2717	32801	2810	33898	2906	34998	2999	36096	3094	37194	3188	38293	3282	39392	3376	40491	3470	41589	3565	42687	3658	43786	3752	44885	3847	45983	3941	47082	4035	48180	4129	49279	4224	50378	4318	51476	4411	52575	4507	53673	4600	54772	4694	55871	4789	56969	4883	58068	4977	59166	5071	60265	5165	61363	5259	62462	5354	63560	5447	64659	5541	65758	5636	66856	5730	67955	5825	69053	5918	70153	6013	71250	6107	72349	6201	73448	6296	74546	6389	75645	6483
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10	-1	1
+	`%`	10
+[/special level up]
+
+[pvp]
+	[level info]
+		0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`拳頭攻擊力:<int>%%`	-1	0	1.0
+[/level property]

@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`星紋隕爆`
+
+[explain]
+	`    變身為貝亞娜， 凝聚自己的力量生成球形類星體炫紋， 然后使其爆炸， 對大范圍內的敵人造成強大物理傷害。
+    在[變身貝亞娜]或[使徒化身]狀態下施放技能時， 有單獨的施放動作。`
+
+[basic explain]
+	`    凝聚自己的力量生成球形類星體炫紋， 然后使其爆炸， 對大范圍內的敵人造成強大物理傷害。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[pre required skill]
+	83	5
+[/pre required skill]
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	2
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	10	10	0	0	0	0
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[consume item]
+	3037	7	7
+[/consume item]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	572
+	`Character/Mage/Effect/SkillIcon.img`	573
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↑↓↓ + Z`
+
+[skill command advantage]
+	20	40
+
+[consume MP]
+	1500	3500
+
+[cool time]
+	145000	145000
+
+[durability decrease rate]
+	1015
+
+[level info]
+	1	35017	43137	51256	59377	67496	75617	83737	91856	99976	108096	116216	124336	132456	140576	148696	156816	164935	173056	181175	189296	197415	205535	213655	221775	229895	238015	246135	254255	262375	270494	278615	286735	294855	302975	311094	319214	327334	335454	343574	351694	359814	367934	376054	384173	392294	400413	408534	416654	424773	432893	441013	449133	457254	465373	473492	481613	489732	497853	505973	514093	522213	530332	538452	546572	554692	562812	570932	579052	587172	595292
+[/level info]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		1	522	643	765	886	1007	1128	1249	1370	1492	1613	1734	1855	1976	2098	2219	2340	2461	2582	2704	2825	2946	3067	3188	3310	3431	3552	3673	3794	3916	4037	4158	4279	4400	4522	4643	4764	4885	5006	5127	5249	5370	5491	5612	5733	5855	5976	6097	6218	6339	6461	6582	6703	6824	6945	7067	7188	7309	7430	7551	7673	7794	7915	8036	8157	8278	8400	8521	8642	8763	8884
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`類星體爆炸物理武器攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

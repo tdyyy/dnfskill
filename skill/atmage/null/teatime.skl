@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`奈雅麗的茶歇時間`
+
+[explain]
+	`    奈雅麗停止攻擊動作， 但可以施放技能。
+    在[奈雅麗的茶歇時間]狀態下, 角色會逐漸恢復MP。`
+
+[basic explain]
+	`    奈雅麗停止攻擊動作， 但可以施放技能。
+[我非常驚訝。 從異界來過來的人， 居然能泡出一杯這么好喝的茶……起碼在這一點上， 我的研究是有價值的。 對了， 這是什么茶呢？]`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[pre required skill]
+	125	1
+[/pre required skill]
+
+[required level]
+	20
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	0	0
+
+[cool time]
+	1000	1000
+
+[casting time]
+	100	100
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	268
+	`Character/Mage/Effect/ATSkillIcon.img`	269
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(BUFF)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓→ + Space`
+
+[skill command advantage]
+	20	40
+
+[static data]
+[/static data]
+
+[level info]
+	0
+[/level info]
+
+[level property]
+	1	99
+	`角色每1秒MP恢復量增加 : 1%%`
+[/level property]

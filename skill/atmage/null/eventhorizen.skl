@@ -1,0 +1,81 @@
+#PVF_File
+
+[name]
+	`次元邊界`
+
+[explain]
+	`    施放時消耗一個次元石， 在下一個次元系列技能附加特殊能力或改變形態。
+    已附加[次元邊界]效果的次元系列技能， 將減少邊界能量條獲得量。
+    可以強制中斷釋放中的轉職技能， 并立即施放該技能。`
+
+[basic explain]
+	`    施放時消耗一個次元石， 在下一個次元系列技能附加特殊能力或改變形態。
+[請注意使用， 請盡快使用， 請不要給別人看， 除非你想其他人把你當成騙子。]`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	242
+	`Character/Mage/Effect/ATSkillIcon.img`	243
+
+[command]
+	{6=`(BUFF)`}
+[/command]
+
+[command key explain]
+	`操作指令 : Space`
+
+[skill command advantage]
+	20	40
+
+[dungeon]
+	[consume MP]
+		0	0
+	[casting time]
+		0	0
+	[cool time]
+		100	100
+	[static data]
+		1
+	[/static data]
+	[level info]
+		0
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`施放時所需次元石數量 : <int>個
+`	0	0	1.0
+[/level property]

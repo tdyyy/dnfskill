@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+	`恐怖咆哮`
+
+[explain]
+	`    瘋瘋熊將附近的敵人吸附到身邊， 然后瞬間變大發出蘊含強大魔力的咆哮。`
+
+[basic explain]
+	`    瘋瘋熊將附近的敵人吸附到身邊， 然后瞬間變大發出蘊含強大魔力的咆哮。`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	70
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[consume MP]
+	860	1500
+
+[cool time]
+	40000	40000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	763
+	`Character/Mage/Effect/SkillIcon.img`	764
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↑ + Z`
+
+[static data]
+	1500	400	300	3000
+[/static data]
+
+[level info]
+	2	2532	150	2789	150	3046	150	3302	150	3559	150	3816	150	4073	150	4330	150	4587	150	4844	150	5101	150	5358	150	5614	150	5871	150	6128	150	6385	150	6642	150	6899	150	7156	150	7413	150	7670	150	7926	150	8183	150	8440	150	8697	150	8954	150	9211	150	9468	150	9725	150	9982	150	10238	150	10495	150	10752	150	11009	150	11266	150	11523	150	11780	150	12037	150	12294	150	12551	150
+[/level info]
+
+[level property]
+	1	99
+	`吸附范圍 : <int>px
+咆哮魔法攻擊力 : <int>
+咆哮多段攻擊次數 : 10`	1	1	2.0	-2	0	1.0
+[/level property]

@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`超然感知`
+
+[basic explain]
+	`    魔法球普通攻擊變更為魔法獨立攻擊， 并生成邊界能量。
+   普通攻擊或次元系列技能命中敵人時， 會引發次元波動， 并增加邊界能量。 能量條填滿時， 可以獲得次元石。
+   施放[次元邊界]技能時， 會消耗次元石。
+    若在一定時間內沒有引發次元波動， 邊界能量條會逐漸減少。
+[若你能看見別人看不見的東西， 只會讓你更麻煩。]`
+
+[explain]
+	`    魔法球普通攻擊變更為魔法獨立攻擊， 并生成邊界能量。
+   普通攻擊或次元系列技能命中敵人時， 會引發次元波動， 并增加邊界能量。 能量條填滿時， 可以獲得次元石。
+   施放[次元邊界]技能時， 會消耗次元石。
+    若在一定時間內沒有引發次元波動， 邊界能量會逐漸減少。`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	240
+	`Character/Mage/Effect/ATSkillIcon.img`	241
+
+[static data]
+	100	5	1000	5	20000	1000	5
+[/static data]
+
+[level info]
+	0
+[/level info]
+
+[level property]
+	1	99
+	`邊界能量條最大值 : <int>
+次元石持有量上限 : <int>個
+普通攻擊命中時能量條增加量 : <int>`	0	0	1.0	1	1	1.0	6	6	1.0
+[/level property]

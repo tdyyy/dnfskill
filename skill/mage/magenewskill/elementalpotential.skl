@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+	`元素奧義`
+
+[explain]
+	`   強化對元素的親和力， 可以更有效率地使用基本攻擊和元素魔法。 上級元素技能增加特殊功能， 強化基本攻擊和所有魔法技能的攻擊力。
+[湮滅黑洞] : 增加吸附範圍。
+[天雷] : 落雷增加吸附敵人的功能。
+[極冰盛宴] : 施放技能後元素師可以自由移動。
+    可以通過右鍵點擊， 設置On/Off上級元素技能附加的特殊功能。`
+
+[basic explain]
+	`    強化對元素的親和力， 可以更有效率的使用元素魔法。`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	30	0	0	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	536
+	`Character/Mage/Effect/SkillIcon.img`	537
+
+[static data]
+[/static data]
+
+[seal enable]
+	1
+
+[level info]
+	1	140	160	180	200	240	260	280	300	320	340	360	380	400	420	440	460	480	500	520	540	560	580	600	620	640	660	680	700
+[/level info]
+
+[pvp]
+	[level info]
+		1	1
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`基本攻擊力和技能攻擊力增加量 : <float1>%%
+[天雷]聚集周圍敵人的範圍 : 500px
+[極冰盛宴]攻擊力增加率 : -40%%
+[湮滅黑洞]範圍增加率 : 10%%
+`	-1	0	0.1
+[/level property]

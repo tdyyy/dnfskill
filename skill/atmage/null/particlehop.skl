@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+	`次元 : 躍遷`
+
+[basic explain]
+	`    開啟異次元裂縫， 引發次元場攻擊敵人并向后方瞬移。
+    被擊狀態下也可以施放該技能， 但是消耗1個次元石。
+[只把瞬移的術式提升1個階段，就得到了這么驚人的效果……]`
+
+[explain]
+	`    開啟異次元裂縫， 引發次元場攻擊敵人并向后方瞬移。
+    被擊狀態下也可以施放該技能， 但是消耗1個次元石。`
+
+[executable states]
+	0	8	14	3	4
+[/executable states]
+
+[pre required skill]
+	20	1
+[/pre required skill]
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	20
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	30	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	20	70
+
+[cool time]
+	15000	10500
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	260
+	`Character/Mage/Effect/ATSkillIcon.img`	261
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →↓ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	30	300	1
+[/static data]
+
+[level info]
+	2	3900	1500	4522	1500	5144	1500	5766	1500	6388	1500	7010	1500	7632	1500	8253	1500	8875	1500	9497	1500	10119	1500	10741	1500	11363	1500	11985	1500	12607	1500	13228	1500	13850	1500	14472	1500	15094	1500	15716	1500	16338	1500	16960	1500	17582	1500	18203	1500	18825	1500	19447	1500	20069	1500	20691	1500	21313	1500	21935	1500
+[/level info]
+
+[level property]
+	1	99
+	`邊界能量條增加量 : <int> %
+后方瞬移距離 : <int>px
+次元場攻擊力 : <int>
+`	0	0	1.0	1	1	1.0	-1	0	1.0
+[/level property]

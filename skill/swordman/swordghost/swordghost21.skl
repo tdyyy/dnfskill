@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`怨鬼: 大回天`
+
+[explain]
+	`    惡鬼羅剎揮劍后怨鬼出現在前方進行連續的回旋刀刃移動對敵人造成多段斬擊傷害，并且把一路上命中的敵      人聚集在同一X軸上面 
+    劍術系技能使用時可以無視釋放動作使用`
+
+[basic explain]
+	`    惡鬼羅剎揮劍后怨鬼出現在前方進行連續的回旋刀刃移動對敵人造成多段斬擊傷害，并且把一路上命中的敵      人聚集在同一X軸上面 
+    劍術系技能使用時可以無視釋放動作使用`
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[consume MP]
+	568	4402
+
+[cool time]
+	40000	40000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	638
+	`Character/Swordman/Effect/SkillIcon.img`	639
+
+[static data]
+	120	120	140	3	100	100	200	40	5000
+[/static data]
+
+[level info]
+	1	11631	12811	13991	15171	16351	17531	18711	19891	21071	22251	23432	24612	25792	26972	28152	29332	30512	31692	32872	34052	35232	36412	37592	38772	39952	41132	42312	43492	44672	45852	47032	48212	49392	50572	51752	52932	54112	55292	56472	57652	58832	60012	61192	62372	63552	64733	65913	67093	68273	69453	70633	71813	72993	74173	75353	76533	77713	78893	80073	81253	82433	83613	84793	85973	87153	88333	89513	90693	91873	93053
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`怨鬼斬擊傷害 : <int>%%
+`	-1	0	1.0
+[/level property]

@@ -1,0 +1,53 @@
+#PVF_File
+
+[name]
+	`人偶操縱者`
+
+[explain]
+	`    學習后， 將擁有人偶術士的資質， 可以使用人偶技能。 同時， 小魔女對詛咒免疫， 攻擊屬性變為暗屬性。
+    小魔女的智力歲技能Lv增加而增加。
+    [來， 跟我可愛的孩子們打個招呼吧！ 這是‘壞壞兔’和‘瘋瘋熊’。]`
+
+[basic explain]
+	`    學習后， 將擁有人偶術士的資質， 可以使用人偶技能。 同時， 小魔女對詛咒免疫， 攻擊屬性變為暗屬性。
+    小魔女的智力歲技能Lv增加而增加。
+    [來， 跟我可愛的孩子們打個招呼吧！ 這是‘壞壞兔’和‘瘋瘋熊’。]`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	2
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	698
+	`Character/Mage/Effect/SkillIcon.img`	699
+
+[level info]
+	1	69	73	77	81	85	90	95	100	106	112	118	124	130	137	144	152	160	168	176	184	193	202	212	221	231	241	252	262	273	284	296	308	320	332	344	358	371	384	398	412	426	440	456	470	486	502	518	534	550	567	581	597	613	629	645	660	676	692	708	724	739	755	771	787	803	818	834	850	866	882
+[/level info]
+
+[level property]
+	1	99
+	`智力增加量:<int>`	-1	0	1.0
+[/level property]

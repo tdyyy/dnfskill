@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`三連斬`
+
+[basic explain]
+	`    用劍揮出相連的三角形狀的劍氣攻擊敵人， 命中的敵人會進入僵直狀態。
+    形成三角形劍氣時， 再按一次技能鍵， 劍氣可以向前發射一定距離， 并使命中的敵人倒地。`
+
+[explain]
+	`    用劍揮出相連的三角形狀的劍氣攻擊敵人， 命中的敵人會進入僵直狀態。`
+
+[executable states]
+	0	14	108
+[/executable states]
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	0	0	1	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	176
+	`Character/Swordman/Effect/ATSkillIcon.img`	177
+
+[shake screen]
+	2	10000
+
+[durability decrease rate]
+	35
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←↓→ + Space`
+
+[skill command advantage]
+	10	20
+
+[cool time]
+	2000	2000
+
+[casting time]
+	300	300
+
+[weapon effect type]
+	`[physical]`
+
+[dungeon]
+	[consume MP]
+		40	330
+	[cool time]
+		5000	5000
+	[static data]
+		100	500	800	100
+	[/static data]
+	[level info]
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[consume MP]
+		40	330
+	[cool time]
+		6000	6000
+	[static data]
+		100	500	0	100
+	[/static data]
+	[level info]
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]

@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`血翼蔽空`
+
+[explain]
+	`    生成血翼， 原地旋轉的同時大幅揮動血翼， 擊飛前方的敵人。
+    角色後方的敵人被擊時， 被擊退至向角色前方壹定距離。`
+
+[basic explain]
+	`    生成血翼， 原地旋轉的同時大幅揮動血翼， 擊飛前方的敵人。`
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	95
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	40
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[consume item]
+	3037	7	7
+[/consume item]
+
+[consume MP]
+	0	0
+
+[cool time]
+	60000	60000
+
+[durability decrease rate]
+	420
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	448
+	`Character/Mage/Effect/ATSkillIcon.img`	449
+
+[command]
+[/command]
+
+[command key explain]
+	`操作指令 : ←↓→ + Z`
+
+[skill command advantage]
+	50	50
+
+[dungeon]
+	[static data]
+		30	100	70	70	200	300	200	1	10	700
+	[/static data]
+	[level info]
+		1	142750	157232	171713	186195	200677	215159	229641	244123	258605	273087	287569	302051	316533	331014	345496	359978	374460	388942	403424	417906	432388	446870	461352	475834	490315	504797	519279	533761	548243	562725	577207	591689	606171	620653	635135	649617	664098	678580	693062	707544	722026	736508	750990	765472	779954	794436	808918	823399	837881	852363	866845	881327	895809	910291	924773	939255	953737	968219	982700	997182	1011664	1026146	1040628	1055110	1069592	1084074	1098556	1113038	1127520	1142001
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		20000	20000
+	[cool time]
+		20000	20000
+	[consume item]
+	[/consume item]
+	[static data]
+		1000	100	-50	0	30	100	0	200
+	[/static data]
+	[level info]
+		1	36	40	43	47	50	54	58	61	65	69	73	76	80	83	88	90	94	98	102	105	109	112	116	119	123	127	131	134	138	142	145	150	152	156	160	164	167	171	174	179	181	185	189	193	196	200	203	207	211	214	218	222	226	229	233	236	241	243	247	251	255	258	262	265	269	272	276	280	284	287
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`血氣消耗率 : <int>%%
+血翼斬擊攻擊力 : <int>%%`	3	3	1.0	-1	0	1.0
+[/level property]

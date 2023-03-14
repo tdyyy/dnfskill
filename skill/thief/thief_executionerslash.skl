@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`暴君極刑斬`
+
+[basic explain]
+	`    暴君巴拉克揮舞他沉重的兵器將敵人劈成兩半！
+    [天罰之劍！]`
+
+[explain]
+	`    巴拉克召喚出具象化的天罰之劍， 橫掃前方敵人。
+    只能在巴拉克降臨的狀態下施放， 并且被[暴君極刑斬]命中的敵人有一定幾率陷入[屠戮之懼]。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[purchase cost]
+	90
+[/purchase cost]
+
+[required level]
+	80
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	0	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[durability decrease rate]
+	315
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	361
+	`Character/Thief/Effect/SkillIcon.img`	362
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓→→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	800	6000
+
+[cool time]
+	45000	45000
+
+[dungeon]
+	[level info]
+		2	47856	1000	52264	1000	56671	1000	61079	1000	65487	1000	69895	1000	74303	1000	78710	1000	83118	1000	87526	1000	91934	1000	96342	1000	100750	1000	105157	1000	109565	1000	113973	1000	118381	1000	122789	1000	127196	1000	131604	1000	136012	1000	140420	1000	144828	1000	149236	1000	153643	1000	158051	1000	162459	1000	166867	1000	171275	1000	175682	1000	180090	1000	184498	1000	188906	1000	193314	1000	197722	1000	202129	1000	206537	1000	210945	1000	215353	1000
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		2	434	1000	478	1000	522	1000	566	1000	610	1000	654	1000	698	1000	743	1000	787	1000	831	1000	875	1000	919	1000	963	1000	1007	1000	1051	1000	1095	1000	1139	1000	1183	1000	1227	1000	1271	1000	1316	1000	1360	1000	1404	1000	1448	1000	1492	1000	1536	1000	1580	1000	1624	1000	1668	1000	1712	1000	1756	1000	1800	1000	1844	1000	1889	1000	1933	1000	1977	1000	2021	1000	2065	1000	2109	1000	2153	1000
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`天罰之劍魔法攻擊力 : <int>%%
+[屠戮之懼]觸發幾率 : <int>%%`	-1	0	1.0	-1	1	0.1
+[/level property]

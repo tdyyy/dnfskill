@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`人偶籃子`
+
+[name2]
+	`Tundra Soul`
+
+[explain]
+	`    可以學習并使用詛咒人偶系列技能。 可以通過[薔薇藤鞭]、 [苦痛庭院]補充詛咒人偶數量。
+    每消耗1個詛咒人偶， [禁忌詛咒]和[小魔女的偏愛]Buff持續時間增加10秒。
+ 
+- [詛咒人偶系列技能] -
+[火熱的愛意]、 [死命召喚]、 [林中小屋]、 [人偶戲法]、 [永恒的占據]
+    詛咒人偶系列技能的“適用于敵人的效果”可以在[人偶籃子]技能中通過On/Off開啟或關閉。`
+
+[basic explain]
+	`    可以學習并使用詛咒人偶系列技能。 可以通過[薔薇藤鞭]、 [苦痛庭院]補充詛咒人偶數量。
+    每消耗1個詛咒人偶， [禁忌詛咒]和[小魔女的偏愛]Buff持續時間增加10秒。
+ 
+- [詛咒人偶系列技能] -
+[火熱的愛意]、 [死命召喚]、 [林中小屋]、 [人偶戲法]、 [永恒的占據]
+    詛咒人偶系列技能的“適用于敵人的效果”可以在[人偶籃子]技能中通過On/Off開啟或關閉。`
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[required level]
+	25
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	711
+	`Character/Mage/Effect/SkillIcon.img`	712
+
+[static data]
+	8
+[/static data]
+
+[seal enable]
+	1
+
+[level info]
+	0
+[/level info]
+
+[level property]
+	1	99
+	``
+[/level property]

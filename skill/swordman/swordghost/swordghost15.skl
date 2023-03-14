@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`魂魄斬`
+
+[explain]
+	`    聚集靈魂的力量往前方下劈造成巨大傷害`
+
+[basic explain]
+	`    聚集靈魂的力量往前方下劈造成巨大傷害`
+
+[purchase cost]
+	40
+[/purchase cost]
+
+[required level]
+	35
+
+[required level range]
+	2
+
+[pre required skill]
+	136	5
+[/pre required skill]
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[consume MP]
+	129	1083
+
+[cool time]
+	12000	12000
+
+[durability decrease rate]
+	16
+
+[executable states]
+	0	14	8	105	111	115	112
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	598
+	`Character/Swordman/Effect/SkillIcon.img`	599
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[static data]
+	130
+[/static data]
+
+[level info]
+	1	5614	6183	6753	7322	7892	8461	9031	9600	10170	10740	11309	11879	12448	13018	13587	14157	14726	15296	15865	16435	17005	17574	18144	18713	19283	19852	20422	20991	21561	22130	22700	23270	23839	24409	24978	25548	26117	26687	27256	27826	28395	28965	29535	30104	30674	31243	31813	32382	32952	33521	34091	34661	35230	35800	36369	36939	37508	38078	38647	39217	39786	40356	40926	41495	42065	42634	43204	43773	44343	44912
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`魂魄斬物理傷害 : <int> %%
+魂魄斬大小比率 : <int> %%
+`	-1	0	1.0	0	0	1.0
+[/level property]

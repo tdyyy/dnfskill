@@ -1,0 +1,41 @@
+#PVF_File
+
+[name]
+	`煌龍亂舞`
+
+[explain]
+	`    學習該技能后， [煌龍偃月]變為揮舞煌龍之槍， 連續攻擊大范圍內敵人的[煌龍亂舞]。
+    施放[煌龍亂舞]時， 按后方向鍵， 可以斬擊敵人并減少前近距離。`
+
+[basic explain]
+	`    學習該技能后， [煌龍偃月]變為揮舞煌龍之槍， 連續攻擊大范圍內敵人的[煌龍亂舞]。`
+
+[pre required skill]
+	69	1
+[/pre required skill]
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	45
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	1	0	0
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	568
+	`Character/Mage/Effect/SkillIcon.img`	569

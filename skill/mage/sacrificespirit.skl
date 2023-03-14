@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`精靈獻祭`
+
+[name2]
+	`Sacrifice Spirit`
+
+[explain]
+	`在前方生成一個魔法陣， 獻祭魔法陣內自己召喚出的精靈(只限於亞德炎、 冰奈斯、 瑟冥特克、 雷沃斯); 獻祭後可以降低魔法陣內敵軍的相應屬性抗性。`
+
+[basic explain]
+	`在前方生成一個魔法陣， 獻祭魔法陣內自己召喚出的精靈(只限於亞德炎、 冰奈斯、 瑟冥特克、 雷沃斯); 獻祭後可以降低魔法陣內敵軍的相應屬性抗性。`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[pre required skill]
+	21	1	22	1	23	1	24	1
+[/pre required skill]
+
+[required level]
+	40
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	0	20	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[consume MP]
+	200	700
+
+[durability decrease rate]
+	100
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	100
+	`Character/Mage/Effect/SkillIcon.img`	101
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[casting time]
+	800	800
+
+[cool time]
+	15000	15000
+
+[static data]
+	200	2	700
+[/static data]
+
+[level info]
+	6	400	20000	2	2	2	2	422	21000	6	6	6	6	445	22000	10	10	10	10	469	23000	14	14	14	14	495	24000	18	18	18	18	522	25000	22	22	22	22	551	26000	26	26	26	26	581	27000	30	30	30	30	613	28000	34	34	34	34	647	29000	38	38	38	38	683	30000	42	42	42	42	721	31000	46	46	46	46	761	32000	50	50	50	50	803	33000	54	54	54	54	847	34000	58	58	58	58	894	35000	62	62	62	62	943	36000	66	66	66	66	995	37000	70	70	70	70	1050	38000	74	74	74	74	1100	39000	78	78	78	78	1150	40000	82	82	82	82	1200	41000	86	86	86	86	1250	42000	90	90	90	90	1300	43000	94	94	94	94	1350	44000	98	98	98	98	1400	45000	102	102	102	102	1450	46000	106	106	106	106	1500	47000	110	110	110	110	1550	48000	114	114	114	114	1600	49000	118	118	118	118
+[/level info]
+
+[command key explain]
+	`操作指令 : ←↓→ + Z`
+
+[pvp]
+	[start cool time]
+		20000	20000
+[/pvp]
+
+[level property]
+	1	99
+	`魔法陣范圍 : <int>px
+重疊上限 : <int>次
+持續時間 : <float1>秒
+亞德炎 : 減少<int>點火屬性抗性
+冰奈斯 : 減少<int>點冰屬性抗性
+瑟冥特克 : 減少<int>點暗屬性抗性
+雷沃斯 : 減少<int>點光屬性抗性`	-1	0	1.0	1	1	1.0	-1	1	0.001	-1	2	1.0	-1	3	1.0	-1	4	1.0	-1	5	1.0
+[/level property]
+
+[skill preloading image]
+	`Character/Mage/Effect/SacrificeSpirit/kill-dodge.img`
+	`Character/Mage/Effect/SacrificeSpirit/kill-normal.img`
+[/skill preloading image]

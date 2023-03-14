@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`抹殺`
+
+[basic explain]
+	`    強力上鏟地面， 向前方飛出巖石碎片， 然后在碎片之間發射子彈。
+    發射的子彈在巖石之間彈射， 對范圍內的敵人造成多次傷害。`
+
+[explain]
+	`    強力上鏟地面， 向前方飛出巖石碎片， 然后在碎片之間發射子彈。
+    發射的子彈在巖石之間彈射， 對范圍內的敵人造成多次傷害。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[purchase cost]
+	90
+[/purchase cost]
+
+[required level]
+	80
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	30	0	0	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[consume MP]
+	800	8000
+
+[cool time]
+	45000	45000
+
+[durability decrease rate]
+	315
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	564
+	`Character/Gunner/Effect/SkillIcon.img`	565
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓→→ + Z`
+
+[skill command advantage]
+	20	40
+
+[dungeon]
+	[level info]
+		2	7380	7	8129	7	8877	7	9626	7	10374	7	11123	7	11872	7	12620	7	13369	7	14118	7	14866	7	15615	7	16363	7	17112	7	17861	7	18609	7	19358	7	20108	7	20856	7	21605	7	22354	7	23102	7	23851	7	24599	7	25348	7	26097	7	26845	7	27594	7	28343	7	29091	7	29840	7	30589	7	31337	7	32086	7	32834	7	33584	7	34333	7	35081	7	35830	7	36579	7	37328	7	38077	7	38826	7	39575	7	40324	7	41073	7	41822	7	42571	7	43320	7	44069	7	44818	7	45567	7	46316	7	47065	7	47814	7	48563	7	49312	7	50061	7	50810	7	51559	7	52308	7	53057	7	53806	7	54555	7	55304	7	56053	7	56802	7	57551	7	58300	7	59049	7
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		2	369	3	406	3	443	3	481	3	518	3	556	3	593	3	631	3	668	3	705	3	743	3	780	3	818	3	855	3	893	3	930	3	967	3	1005	3	1042	3	1080	3	1117	3	1155	3	1192	3	1229	3	1267	3	1304	3	1342	3	1379	3	1417	3	1454	3	1492	3	1529	3	1566	3	1604	3	1641	3	1679	3	1716	3	1754	3	1791	3	1828	3	1866	3	1903	3	1941	3	1978	3	2016	3	2053	3	2091	3	2128	3	2166	3	2203	3	2240	3	2278	3	2315	3	2353	3	2390	3	2428	3	2465	3	2503	3	2540	3	2577	3	2615	3	2652	3	2690	3	2727	3	2765	3	2802	3	2840	3	2877	3	2915	3	2952	3
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`攻擊力 : <int>%% X <int>`	-1	0	1.0	-1	1	1.0
+[/level property]

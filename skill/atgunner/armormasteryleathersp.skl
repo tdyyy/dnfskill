@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`魔彈射手皮甲專精`
+
+[name2]
+	`SpitFire's Leather Armor Mastery`
+
+[explain]
+	`裝備皮甲系防具時， 可以增加攻擊速度、 施放速度、 物理暴擊率、 力量、 智力、 體力、 精神、 MP最大值、 HP最大值和MP恢復速度。 
+    效果隨裝備的皮甲數量增加而增大。`
+
+[basic explain]
+	`裝備皮甲系防具時， 可以增加攻擊速度、 施放速度、 物理暴擊率、 力量、 智力、 體力、 精神、 MP最大值、 HP最大值和MP恢復速度。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	0	1	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	154
+	`Character/Gunner/Effect/SkillIcon.img`	155
+
+[static data]
+	0	0	4	10	0	0	4	10	0	100	100	100	0	20	200	100	0	0	24	12	24	12	50
+[/static data]
+
+[pvp]
+	[static data]
+		0	0	4	10	0	0	4	10	0	200	100	100	0	20	200	100	0	0	24	12	24	12	50
+	[/static data]
+[/pvp]

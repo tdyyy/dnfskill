@@ -1,0 +1,41 @@
+#PVF_File
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	1	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	84
+	`Character/Fighter/Effect/SkillIcon.img`	85
+
+[static data]
+	50	30
+[/static data]
+
+[name]
+	`念氣感知`
+
+[explain]
+	`通過念氣， 感知敵人的具體方位并增加自身的失明抗性和念氣波的感電機率。`
+
+[basic explain]
+	`通過念氣感知敵人的具體方位， 并增加自身的失明抗性。`
+
+[name2]
+	`念感`

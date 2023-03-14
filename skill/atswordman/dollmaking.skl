@@ -1,0 +1,42 @@
+#PVF_File
+
+[name]
+	`制作召喚人偶`
+
+[name2]
+	`Doll Making`
+
+[basic explain]
+	`    可以制作召喚人偶。 召喚人偶只能在地下城中使用， 且召喚人偶的存在時間為15分鐘。`
+
+[explain]
+	`    可以制作召喚人偶。 召喚人偶只能在地下城中使用， 且召喚人偶的存在時間為15分鐘。
+    壹個隊伍只能召喚壹個人偶， 召喚人偶屬於消耗品。
+    隨著制作召喚人偶的熟練度提升， 可以制作出更高能力的召喚人偶。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	20
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	10	10	10	10	10	10
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Common/SkillIcon.img`	54
+	`Character/Common/SkillIcon.img`	55

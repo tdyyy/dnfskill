@@ -1,0 +1,46 @@
+#PVF_File
+
+[name]
+	`強制 - 爆頭一擊`
+
+[name2]
+	`Cancel - Head Shot`
+
+[basic explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[爆頭一擊]或[回頭一擊]。`
+
+[explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[爆頭一擊]或[回頭一擊]。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	30
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	1	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	70
+	`Character/Gunner/Effect/SkillIcon.img`	71
+
+[command]
+[/command]
+
+[static data]
+[/static data]

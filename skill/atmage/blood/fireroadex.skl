@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`強化 - 血腥狩獵`
+
+[explain ex]
+	`    增加[血腥狩獵]的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`    增加[血腥狩獵]的攻擊力。`
+
+[explain]
+	`    在前方生成血池， 從中射出針刺攻擊敵人。
+    默認情況下針刺會正面攻擊敵人， 但施放時若按向下或向后方向鍵時， 則針刺就會從背后攻擊敵人。`
+
+[basic explain]
+	`    在前方生成血池， 從中射出針刺攻擊敵人。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	118	10
+[/pre required skill]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[skill class]
+	0
+
+[maximum level]
+	5
+
+[growtype maximum level]
+	0	0	0	5	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	326
+	`Character/Mage/Effect/ATSkillIcon.img`	327
+
+[static data]
+	5	300	100	0	200	2	0	100
+[/static data]
+
+[level info]
+	1	886	976	1066	1156	1246	1336	1426	1516	1606	1696	1786	1876	1966	2056	2146	2236	2326	2416	2506	2596	2686	2776	2866	2956	3046	3136	3226	3316	3406	3496	3586	3676	3766	3856	3946	4036	4126	4216	4306	4396	4486	4576	4666	4756	4846	4936	5026	5116	5206	5296	5386	5476	5566	5656	5746	5836	5926	6016	6106	6196	6286	6376	6466	6556	6646	6736	6826	6916	7006	7096
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10
+[/special level up]
+
+[pvp]
+	[cool time]
+		10000	10000
+	[static data]
+		3	300	100	0	200	2	0	75
+	[/static data]
+	[level info]
+		1	24	27	30	32	34	37	40	42	45	47	50	52	55	57	60	62	65	67	70	72	75	78	80	82	85	88	90	93	95	98	100	103	105	108	110	113	115	118	120	123	126	128	130	133	136	138	141	143	146	148	151	153	156	158	161	163	166	168	171	173	176	179	181	184	186	189	191	194	196	199
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`血氣消耗:<float1>%%
+針刺物理攻擊力 : <int>%%`	4	4	0.1	-1	0	1.0
+[/level property]

@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`強化 - 血蝠之舞`
+
+[explain ex]
+	`    增加[血蝠之舞]的持續時間和攻擊次數上限。
+技能每增加Lv1時， 持續時間增加率 : 10%%
+技能每增加Lv1時， 攻擊次數上限增加率 : 10%%`
+
+[basic explain ex]
+	`    增加[血蝠之舞]的持續時間和攻擊次數上限。`
+
+[explain]
+	`    召喚蝙蝠群， 使范圍內的敵人受到多段傷害并吸取血氣。`
+
+[basic explain]
+	`    召喚蝙蝠群攻擊敵人。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	115	10
+[/pre required skill]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[skill class]
+	0
+
+[maximum level]
+	5
+
+[growtype maximum level]
+	0	0	0	5	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	322
+	`Character/Mage/Effect/ATSkillIcon.img`	323
+
+[static data]
+	40	4000	300	100
+[/static data]
+
+[level info]
+	1	122	135	147	159	172	185	196	209	222	234	246	259	271	284	296	308	321	334	345	358	371	383	395	408	420	433	445	457	470	483	495	507	520	532	545	557	569	582	595	606	619	632	644	656	669	681	694	706	718	731	744	755	768	781	793	805	818	830	843	855	867	880	893	905	917	930	942	955	967	979
+[/level info]
+
+[special level up]
+	0	0
+	`%`	10	-1	0
+	`%`	10
+[/special level up]
+
+[pvp]
+	[start cool time]
+		10000	10000
+	[cool time]
+		10000	10000
+	[static data]
+		20	2000	300	50
+	[/static data]
+	[level info]
+		1	6	7	7	8	8	9	10	10	11	11	12	13	13	14	14	15	16	16	17	17	18	19	19	20	20	21	22	22	23	23	24	25	25	26	26	27	28	28	29	29	30	31	31	32	32	33	34	34	35	35	36	37	37	38	38	39	40	40	41	41	42	43	43	44	44	45	46	46	47	47
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`血氣吸收率:<float1>%%
+每次攻擊造成的傷害：<int> %%
+每個敵人最多的攻擊次數：<int> 次`	2	2	0.1	-1	0	1.0	0	0	1.0
+[/level property]

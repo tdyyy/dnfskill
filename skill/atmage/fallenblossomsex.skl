@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`強化 - 寒冰連槍`
+
+[name2]
+	`Fallen Blossoms Upgrade`
+
+[explain]
+	`用寒冰凝結成長槍， 并在前沖的同時連續刺擊敵人。 隨著技能Lv的提高， 冰槍的多段攻擊次數也會增加。`
+
+[basic explain]
+	`用寒冰凝結成長槍， 并在前沖的同時連續刺擊敵人。`
+
+[explain ex]
+	`增加寒冰連槍的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`增加寒冰連槍的攻擊力。`
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	21	10
+[/pre required skill]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[skill class]
+	1
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	5	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	144
+	`Character/Mage/Effect/ATSkillIcon.img`	145
+
+[static data]
+	250
+[/static data]
+
+[level info]
+	2	380	4	420	4	458	4	498	4	536	4	578	5	618	5	656	5	694	5	732	5	772	5	810	5	850	5	890	5	928	5	971	6	1009	6	1049	6	1089	6	1127	6	1167	6	1205	6	1243	6	1281	6	1321	6	1363	7	1401	7	1441	7	1479	7	1519	7	1559	7	1597	7	1637	7	1675	7	1718	8	1758	8	1796	8	1834	8	1872	8	1912	8	1950	8	1990	8	2030	8	2068	8	2110	9	2148	9	2188	9	2228	9	2266	9	2306	9	2344	9	2384	9	2422	9	2462	10	2502	10	2540	10	2581	10	2619	10	2659	10	2699	10	2737	10	2777	10	2817	10	2855	11	2895	11	2933	11	2973	11	3013	11	3051	11	3091	11
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10
+[/special level up]
+
+[pvp]
+	[static data]
+		250
+	[/static data]
+	[level info]
+		2	50	4	55	4	60	4	66	4	71	4	76	5	81	5	86	5	91	5	97	5	102	5	107	5	112	5	117	5	122	5	128	6	133	6	138	6	143	6	148	6	153	6	159	6	164	6	169	6	174	6	179	7	184	7	190	7	195	7	200	7	205	7	210	7	216	7	221	7	226	8	231	8	236	8	241	8	247	8	252	8	257	8	262	8	267	8	272	8	278	9	283	9	288	9	293	9	298	9	303	9	309	9	314	9	319	9	324	10	329	10	334	10	340	10	345	10	350	10	355	10	360	10	365	10	371	10	376	11	381	11	386	11	391	11	396	11	402	11	407	11
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`冰槍攻擊力 : <int>%%
+多段攻擊次數 : <int>次
+前沖距離 : <int>px`	-1	0	1.0	-1	1	1.0	0	0	1.0
+[/level property]

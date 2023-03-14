@@ -1,0 +1,124 @@
+#PVF_File
+
+[name]
+	`冰淩破`
+
+[name2]
+	`Ice Orb`
+
+[explain]
+	`向前平拋出帶有冰淩的冰球。 冰球在移動一定距離后進行擴張并生成大量冰淩攻擊敵人， 同時對目標產生吸附效果， 最后引發爆炸。 可以使用方向鍵控制冰球的平拋方向。`
+
+[basic explain]
+	`向前平拋出帶有冰淩的冰球。 冰球在移動一定距離后進行擴張并生成大量冰淩攻擊敵人， 同時對目標產生吸附效果， 最后引發爆炸。 可以使用方向鍵控制冰球的平拋方向。`
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	2
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	0	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[consume MP]
+	400	1120
+
+[cool time]
+	30000	30000
+
+[durability decrease rate]
+	10
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	166
+	`Character/Mage/Effect/ATSkillIcon.img`	167
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↓→ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	100	250	450	1400	40
+[/static data]
+
+[level info]
+	3	372	1205	25	435	1416	25	500	1625	25	564	1834	25	629	2045	25	694	2254	25	759	2463	25	823	2674	25	886	2883	25	951	3093	25	1016	3302	25	1081	3513	25	1145	3722	25	1210	3931	25	1275	4142	25	1338	4351	25	1403	4560	25	1467	4771	25	1532	4980	25	1597	5189	25	1662	5400	25	1726	5609	25	1791	5818	25	1854	6029	25	1919	6238	25	1984	6447	25	2048	6658	25	2113	6867	25	2178	7077	25	2243	7286	25	2306	7497	25	2370	7706	25	2435	7915	25	2500	8126	25	2565	8335	25	2629	8544	25	2694	8755	25	2759	8964	25	2822	9173	25	2887	9384	25	2951	9593	25	3016	9802	25	3081	10013	25	3146	10222	25	3210	10431	25	3274	10642	25	3338	10851	25	3403	11061	25	3468	11270	25
+[/level info]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[cool time]
+		20000	20000
+	[static data]
+		250	450	100	1400	40
+	[/static data]
+	[level info]
+		3	37	120	25	45	145	25	52	171	25	60	196	25	68	221	25	76	246	25	84	272	25	91	297	25	99	322	25	107	347	25	115	373	25	122	398	25	130	423	25	138	448	25	146	474	25	154	499	25	161	524	25	169	549	25	177	575	25	185	600	25	192	625	25	200	651	25	208	676	25	216	701	25	223	726	25	231	752	25	239	777	25	247	802	25	255	827	25	262	853	25	270	878	25	278	903	25	286	928	25	293	954	25	301	979	25	309	1004	25	317	1029	25	325	1055	25	332	1080	25	340	1105	25	348	1131	25	356	1156	25	363	1181	25	371	1206	25	379	1232	25	387	1257	25	394	1282	25	402	1307	25	410	1333	25	418	1358	25
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`正常狀態下冰球移動距離 : <int>px
+正方向時冰球移動距離 : <int>px
+反方向時冰球移動距離 : <int>px
+冰淩攻擊力 : <int>%%
+冰淩數量 : <int>個
+爆炸攻擊力 : <int>%%`	0	0	1.0	1	1	1.0	2	2	1.0	-1	0	1.0	-1	2	1.0	-1	1	1.0
+[/level property]

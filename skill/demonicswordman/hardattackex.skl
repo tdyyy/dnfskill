@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+	`強化 - 暗影斬`
+
+[explain]
+	`    凝聚力量并對前方敵人發出強力的暗屬性斬擊。`
+
+[basic explain]
+	`    凝聚力量并對前方敵人發出強力的暗屬性斬擊。`
+
+[explain ex]
+	`    增加[暗影斬]的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`    增加[暗影斬]的攻擊力。`
+
+[special purchase cost]
+	1
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	7
+
+[growtype maximum level]
+	5	5	5	5	5	5
+
+[skill fitness growtype]
+	1	2	3	4
+[/skill fitness growtype]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[pre required skill]
+	5	1
+[/pre required skill]
+
+[feature skill type]
+	1
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	488
+	`Character/Swordman/Effect/SkillIcon.img`	489
+
+[dungeon]
+	[static data]
+		100
+	[/static data]
+	[level info]
+		2	182	46	204	51	227	57	249	62	271	68	293	74	316	79	338	85	361	90	383	96	405	102	427	107	449	113	472	118	494	123	517	129	538	134	561	140	583	146	606	151	628	157	650	162	672	168	694	174	717	179	739	185	762	190	784	196	806	202	828	207	851	213	873	218	895	224	918	230	939	235	962	241	984	246	1007	251	1029	257	1051	263	1073	268	1096	274	1118	279	1140	285	1163	291	1185	296	1207	302	1229	307	1252	313	1274	319	1296	324	1319	330	1341	335	1363	341	1385	347	1408	352	1430	358	1453	363	1475	369	1497	375	1519	380	1541	386	1564	391	1586	396	1609	402	1630	407	1653	413	1675	419	1698	424	1720	430
+	[/level info]
+	[special level up]
+		-1	0
+		`%`	8	-1	1
+		`%`	8
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[level info]
+		2	108	9	126	10	145	11	164	13	182	14	201	16	219	17	238	19	256	20	275	22	294	23	312	25	331	26	349	28	368	29	387	31	405	32	424	34	442	35	461	36	480	38	498	39	517	41	535	42	554	44	572	45	591	47	610	48	628	50	647	51	665	53	684	54	703	56	721	57	740	58	758	60	777	61	795	63	814	64	833	66	851	67	870	69	888	70	907	72	926	73	944	75	963	76	981	78	1000	79	1019	81	1037	82	1056	84	1074	85	1093	86	1111	88	1130	89	1149	91	1167	92	1186	94	1204	95	1223	97	1242	98	1260	100	1279	101	1297	103	1316	104	1335	106	1353	107	1372	109	1390	110
+	[/level info]
+	[special level up]
+		-1	0
+		`%`	0	-1	1
+		`%`	0
+	[/special level up]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`魔法攻擊力 : <int>%% + <int>`	-1	0	1.0	-2	1	1.0
+[/level property]

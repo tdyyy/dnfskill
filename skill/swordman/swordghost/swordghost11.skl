@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`鬼連牙`
+
+[explain]
+	`    靈魂之力聚集到劍身之后，發出強力的刺擊 
+    被擊中的敵人以陷入巨大硬直的狀態被拉扯到劍鬼面前 
+    霸體狀態下的敵人也會被拉扯，倒地、浮空的敵人會被強制站立拉扯到劍鬼面前`
+
+[basic explain]
+	`    靈魂之力聚集到劍身之后，發出強力的刺擊 
+    被擊中的敵人以陷入巨大硬直的狀態被拉扯到劍鬼面前 
+    霸體狀態下的敵人也會被拉扯，倒地、浮空的敵人會被強制站立拉扯到劍鬼面前`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	25
+
+[required level range]
+	2
+
+[pre required skill]
+	127	3
+[/pre required skill]
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	46	483
+
+[cool time]
+	8000	8000
+
+[executable states]
+	0	14	8	111	105
+[/executable states]
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	588
+	`Character/Swordman/Effect/SkillIcon.img`	589
+
+[dungeon]
+	[static data]
+		1
+	[/static data]
+	[level info]
+		1	3558	3919	4280	4641	5002	5362	5723	6084	6445	6806	7167	7528	7889	8250	8611	8972	9333	9694	10055	10416	10777	11138	11499	11860	12221	12582	12943	13304	13665	14026	14387	14748	15109	15470	15831	16192	16553	16913	17274	17635	17996	18357	18718	19079	19440	19801	20162	20523	20884	21245	21606	21967	22328	22689	23050	23411	23772	24133	24494	24855	25216	25577	25938	26299	26660	27021	27382	27743	28104	28465
+	[/level info]
+[/dungeon]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`連牙刺擊物理傷害 : <int> %%
+     
+[劍鬼-靈魂權能特殊效果]
+怨鬼協助物理傷害 : <int> %%
+`	-1	0	1.0	-1	0	1.5
+[/level property]

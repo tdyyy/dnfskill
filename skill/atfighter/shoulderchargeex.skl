@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`強化 - 鐵山靠`
+
+[name2]
+	`Mountain lean Upgrade`
+
+[basic explain]
+	`此技能是失傳已久的羅漢拳中的一式， 可以用肩部對敵人進行猛力的攻擊。`
+
+[explain]
+	`此技能是失傳已久的羅漢拳中的一式， 可以用肩部對敵人進行猛力的攻擊。
+    施放后， 自身會進入霸體狀態并向前滑行著攻擊敵人； 距離敵人越近攻擊力越高。`
+
+[basic explain ex]
+	`增加鐵山靠的攻擊力。`
+
+[explain ex]
+	`增加鐵山靠的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[executable states]
+	8
+[/executable states]
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[pre required skill]
+	1	10
+[/pre required skill]
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	5	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	218
+	`Character/Fighter/Effect/ATSkillIcon.img`	219
+
+[dungeon]
+	[static data]
+		50	10	800	-3000
+	[/static data]
+	[level info]
+		1	1109	1223	1338	1453	1569	1683	1798	1912	2027	2141	2256	2370	2487	2601	2716	2830	2945	3059	3174	3288	3403	3519	3634	3748	3863	3977	4092	4206	4321	4437	4552	4666	4781	4895	5010	5124	5239	5354	5470	5584	5699	5813	5928	6042	6157	6271	6388	6502	6617	6731	6846	6960	7075	7189	7304	7420	7535	7649	7764	7878	7993	8107	8222	8338	8453	8567	8682	8796	8911	9025
+	[/level info]
+	[special level up]
+		-1	0
+		`%`	10
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[level info]
+		1	123	136	149	161	174	187	199	212	225	238	250	263	276	289	301	314	327	340	352	365	378	390	403	416	429	441	454	467	480	492	505	518	531	543	556	569	581	594	607	620	632	645	658	671	683	696	709	721	734	747	760	772	785	798	811	823	836	849	862	874	887	900	912	925	938	951	963	976	989	1002
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`物理攻擊力 : <float1>%%`	-1	0	1.0
+[/level property]
+
+[feature skill index]
+	146

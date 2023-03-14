@@ -1,0 +1,85 @@
+#PVF_File
+
+[name]
+	`強化 - 游離之風`
+
+[explain]
+	`    生成向前方移動的旋風攻擊敵人。 旋風能將敵人旋轉起來， 給敵人造成傷害後消失。`
+
+[basic explain]
+	`    生成向前方移動的旋風攻擊敵人。
+    [起風了。]`
+
+[explain ex]
+	`    增加[游離之風]的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`    增加[游離之風]的攻擊力。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	139	10
+[/pre required skill]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[skill class]
+	0
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	0	0	5	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	226
+	`Character/Mage/Effect/ATSkillIcon.img`	227
+
+[static data]
+	600	200	4000
+[/static data]
+
+[level info]
+	1	1278	1303	1327	1352	1376	1401	1425	1450	1474	1499	1523	1548	1572	1597	1621	1646	1670	1695	1719	1744	1768	1793	1817	1842	1866	1891	1915	1940	1964	1989	2013	2038	2062	2087	2111	2136	2160	2185	2209	2234	2258	2283	2307	2332	2356	2381	2405	2430	2454	2479
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10
+[/special level up]
+
+[pvp]
+	[level info]
+		0
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`旋風多段攻擊力:<int>%%`	-1	0	1.0
+[/level property]

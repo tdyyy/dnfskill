@@ -1,0 +1,69 @@
+#PVF_File
+
+[name]
+	`屬性保護`
+
+[name2]
+	`Elemental Shield`
+
+[explain]
+	`施放[屬性變換]后， 增加相應屬性的抗性。`
+
+[basic explain]
+	`施放[屬性變換]后， 增加相應屬性的抗性。`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	1	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	12
+	`Character/Mage/Effect/ATSkillIcon.img`	13
+
+[static data]
+	10
+[/static data]
+
+[level info]
+	1	100
+[/level info]
+
+[pvp]
+	[level info]
+		1	0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`相應屬性抗性增加量 : <int>
+基本攻擊力和技能攻擊力增加 : <float1>%%`	0	0	1.0	-1	0	0.1
+[/level property]

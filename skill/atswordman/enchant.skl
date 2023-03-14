@@ -1,0 +1,41 @@
+#PVF_File
+
+[name]
+	`附魔`
+
+[name2]
+	`Enchant`
+
+[basic explain]
+	`    給裝備附加魔法力量， 使裝備產生新的屬性。`
+
+[explain]
+	`    給裝備附加魔法力量， 使裝備產生新的屬性。 附魔的效果永久生效， 但若再次附魔， 則原有的附魔效果會消失并附加新的附魔屬性。
+    附魔的熟練度可以提升附魔Lv， 附魔Lv越高， 附魔成功率越高， 而且還可以增加附魔的種類。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	20
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	10	10	10	10	10	10
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Common/SkillIcon.img`	52
+	`Character/Common/SkillIcon.img`	53

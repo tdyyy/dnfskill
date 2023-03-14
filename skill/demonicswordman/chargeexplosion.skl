@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`斬龍破`
+
+[basic explain]
+	`前進一段距離后， 揮劍挑飛敵人。挑起敵人后， 轉身用劍刺向敵人， 並移動一段距離。把刺中的敵人聚集在一起后， 使黑暗氣息爆炸， 對敵人造成傷害。`
+
+[explain]
+	`前進一段距離后， 揮劍挑飛敵人。挑起敵人后， 轉身用劍刺向敵人， 並移動一段距離。把刺中的敵人聚集在一起后， 使黑暗氣息爆炸， 對敵人造成傷害。`
+
+[pre required skill]
+	73	1
+[/pre required skill]
+
+[purchase cost]
+	35
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	30	30	30	30	30	30
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[consume MP]
+	580	4500
+
+[cool time]
+	45000	45000
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	502
+	`Character/Swordman/Effect/SkillIcon.img`	503
+
+[command]
+[/command]
+
+[command key explain]
+	``
+
+[dungeon]
+	[static data]
+		810
+	[/static data]
+	[level info]
+		3	3108	3108	5701	3420	3420	6470	3732	3732	7239	4044	4044	8009	4356	4356	8778	4668	4668	9547	4980	4980	10317	5292	5292	11086	5604	5604	11856	5916	5916	12625	6228	6228	13394	6540	6540	14164	6852	6852	14933	7164	7164	15702	7476	7476	16472	7788	7788	17241	8100	8100	18010	8412	8412	18779	8724	8724	19549	9036	9036	20318	9348	9348	21087	9660	9660	21857	9972	9972	22626	10284	10284	23395	10596	10596	24165	10908	10908	24934	11220	11220	25703	11532	11532	26472	11844	11844	27242	12156	12156	28011	12468	12468	28780	12780	12780	29550	13092	13092	30319	13404	13404	31088	13716	13716	31858	14028	14028	32627
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`斬擊物理攻擊力 : <int>%%
+刺擊物理攻擊力 : <int>%%
+爆炸物理攻擊力 : <int>%%`	-1	0	1.0	-1	1	1.0	-1	2	1.0
+[/level property]

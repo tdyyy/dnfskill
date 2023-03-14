@@ -1,0 +1,87 @@
+#PVF_File
+
+[name]
+	`強化 - 風暴之眼`
+
+[explain]
+	`    在自身周圍生成小型風暴吸附敵人， 然後爆發出風暴的力量， 給敵人造成傷害並浮空。`
+
+[basic explain]
+	`    在自身周圍生成小型風暴吸附敵人， 然後爆發出風暴的力量， 給敵人造成傷害並浮空。`
+
+[explain ex]
+	`    增加[風暴之眼]的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`    增加[風暴之眼]的攻擊力。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	101	10
+[/pre required skill]
+
+[required level]
+	65
+
+[required level range]
+	5
+
+[skill class]
+	0
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	0	0	5	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	234
+	`Character/Mage/Effect/ATSkillIcon.img`	235
+
+[static data]
+	6	2
+[/static data]
+
+[level info]
+	1	10660	11742	12823	13905	14986	16068	17150	18231	19313	20394	21476	22558	23639	24721	25802	26884	27966	29047	30129	31210	32292	33374	34455	35537	36618	37700	38782	39863	40945	42026	43108	44190	45271	46353	47434	48516	49598	50679	51761	52842	53924	55006	56087	57169	58250	59332	60414	61495	62577	63658
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10
+[/special level up]
+
+[pvp]
+	[level info]
+		0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`風暴物理攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

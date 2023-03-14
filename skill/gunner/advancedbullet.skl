@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`彈藥主宰`
+
+[name2]
+	`Dual Flicker`
+
+[explain]
+	`增加普通射擊時的子彈速度和射程， 并有一定機率多發射1發子彈。
+使用手炮系列武器攻擊敵人時， 無法增加子彈速度和射程， 但可以多發射1發子彈。
+    增加基本攻擊力和技能攻擊力。`
+
+[basic explain]
+	`增加普通射擊時的子彈速度和射程， 并有一定機率多發射1發子彈。
+    增加基本攻擊力和技能攻擊力。`
+
+[purchase cost]
+	45
+[/purchase cost]
+
+[required level]
+	48
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	2
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	168
+	`Character/Gunner/Effect/SkillIcon.img`	169
+
+[static data]
+	70	50	70	100	60
+[/static data]
+
+[level info]
+	3	20	30	100	29	49	110	38	68	120	47	87	130	56	106	140	64	124	150	73	143	160	82	162	170	91	181	180	100	200	190	109	219	200	118	238	210	127	257	220	136	276	230	144	294	240	153	313	250	162	332	260	171	351	270	180	370	280	189	389	290	198	408	300	207	427	310	215	445	320	224	464	330	233	483	340	242	502	350	251	521	360	260	540	370	269	559	380	278	578	390	286	596	400	295	615	410	304	634	420
+[/level info]
+
+[level property]
+	1	99
+	`增加子彈速度和射程 : <int>%%
+增加發射機率 : <float1>%%
+基本攻擊力和技能攻擊力增加 : <float1>%%`	-1	0	0.1	-1	1	0.1	-1	2	0.1
+[/level property]

@@ -1,0 +1,46 @@
+#PVF_File
+
+[name]
+	`隨機應變`
+
+[explain]
+	`    精通抓取技的風暴女皇可以根據敵人的狀態控制自己的技能。
+    學習該技能后， 部分抓取技能變更為攻擊技能。
+    即使變更為攻擊技能， 轉職和覺醒被動效果依然生效。
+變更的技能 : [裂石破天]、 [死亡搖籃]、 [末日搖籃]、 [蒼宇彗星落]`
+
+[basic explain]
+	`    學習[隨機應變]后， 部分抓取技能變更為攻擊技能。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	1	1	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	368
+	`Character/Fighter/Effect/SkillIcon.img`	369

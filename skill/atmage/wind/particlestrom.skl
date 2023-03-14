@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`強化 - 真空旋風破`
+
+[explain]
+	`    生成龍卷風制壓敵人。 施放後先將敵人吸附到龍卷風中心， 然後引發爆炸並給敵人造成傷害。`
+
+[basic explain]
+	`    生成龍卷風制壓敵人。
+[是時候把你們送上天了。]`
+
+[explain ex]
+	`    增加[真空旋風破]的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`    增加[真空旋風破]的攻擊力。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	136	10
+[/pre required skill]
+
+[required level]
+	65
+
+[required level range]
+	5
+
+[skill class]
+	0
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	0	0	5	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	232
+	`Character/Mage/Effect/ATSkillIcon.img`	233
+
+[static data]
+	2000	150	75	200
+[/static data]
+
+[level info]
+	3	6696	2286	18963	7392	2478	20631	8088	2670	22299	8784	2862	23967	9480	3054	25635	10176	3246	27303	10872	3438	28971	11568	3630	30639	12264	3822	32307	12960	4014	33975	13656	4206	35643	14352	4398	37311	15048	4590	38979	15744	4782	40647	16440	4974	42315	17136	5166	43983	17832	5358	45651	18528	5550	47319	19224	5742	48987	19920	5934	50655	20616	6126	52323	21312	6318	53991	22008	6510	55659	22704	6702	57327	23400	6894	58995	24096	7086	60663	24792	7278	62331	25488	7470	63999	26184	7662	65667	26880	7854	67335	27576	8046	69003	28272	8238	70671	28968	8430	72339	29664	8622	74007	30360	8814	75675	31056	9006	77343	31752	9198	79011	32448	9390	80679	33144	9582	82347	33840	9774	84015	34536	9966	85683	35232	10158	87351	35928	10350	89019	36624	10542	90687	37320	10734	92355	38016	10926	94023	38712	11118	95691	39408	11310	97359	40104	11502	99027	40800	11694	100695
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10	-1	1
+	`%`	10	-1	2
+	`%`	10
+[/special level up]
+
+[pvp]
+	[level info]
+		0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`抓取敵人傷害:<int>%%
+多段攻擊傷害:<int>%%
+最後一擊傷害:<int>%%`	-1	0	1.0	-1	1	1.0	-1	2	1.0
+[/level property]

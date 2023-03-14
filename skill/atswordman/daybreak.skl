@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`黑曜真刃·破曉`
+
+[basic explain]
+	`[收刀術系列]
+    周圍一定范圍內存在敵人時， 可以施放該技能。
+    增幅鬼縛珠的魔力， 將其注入黑曜。 鬼縛珠因魔力增幅而開始發紅光， 隨後， 夜皇移動到最強敵人的後方， 拔出黑曜發動斬擊。 拔刀的瞬間， 噴湧出耀眼的閃光， 展開蘊含必殺威力的3次劍擊。
+    光芒逐漸減弱後， 夜皇收刀的瞬間， 對范圍內的敵人造成多段傷害。`
+
+[explain]
+	`[收刀術系列]
+    周圍一定范圍內存在敵人時， 可以施放該技能。
+    增幅鬼縛珠的魔力， 將其注入黑曜。 鬼縛珠因魔力增幅而開始發紅光， 隨後， 夜皇移動到最強敵人的後方， 拔出黑曜發動斬擊。 拔刀的瞬間， 噴湧出耀眼的閃光， 展開蘊含必殺威力的3次劍擊。
+    光芒逐漸減弱後， 夜皇收刀的瞬間， 對范圍內的敵人造成多段傷害。`
+
+[executable states]
+	0	14	108
+[/executable states]
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[purchase cost]
+	200	100
+[/purchase cost]
+
+[required level]
+	85
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	30	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	471
+	`Character/Swordman/Effect/ATSkillIcon.img`	472
+
+[durability decrease rate]
+	1260
+
+[consume item]
+	3037	10	10
+[/consume item]
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓↑→→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	2500	5000
+
+[cool time]
+	180000	180000
+
+[dungeon]
+	[static data]
+		600	100	50	3	50
+	[/static data]
+	[level info]
+		1	58618	72210	85803	99395	112988	126580	140173	153766	167358	180951	194543	208136	221729	235321	248914	262506	276099	289692	303284	316877	330469	344062	357654	371247	384840	398432	412025	425617	439210	452803	466395	479988	493580	507173	520765	534358	547951	561543	575136	588728	602321	615914	629506	643099	656691	670284	683877	697469	711062	724654	738247	751839	765432	779025	792617	806210	819802	833395	846988	860580	874173	887765	901358	914951	928543	942136	955728	969321	982913	996506
+	[/level info]
+[/dungeon]
+
+[pvp]
+[/pvp]
+
+[level property]
+	1	99
+	`鎖定敵人范圍 (半徑) : <int>px
+黑曜拔刀攻擊次數上限 : <int>次
+黑曜每段攻擊力 : <int>`	0	0	1.0	3	3	1.0	-2	0	1.0
+[/level property]

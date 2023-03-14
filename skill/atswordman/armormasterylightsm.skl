@@ -1,0 +1,48 @@
+#PVF_File
+
+[name]
+	`馭劍士輕甲專精`
+
+[basic explain]
+	`    裝備輕甲系防具時， 可以增加力量、 體力、 精神、 MP恢復速度、 MP最大值、 HP最大值、 物理暴擊率和硬直。`
+
+[explain]
+	`    裝備輕甲系防具時， 可以增加力量、 體力、 精神、 MP恢復速度、 MP最大值、 HP最大值、 物理暴擊率和硬直。
+    效果會隨裝備的輕甲數量增加而增強， 且增加的力量比[輕甲精通]更高。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	78
+	`Character/Swordman/Effect/ATSkillIcon.img`	79
+
+[static data]
+	0	0	4	10	0	0	4	10	0	50	100	150	0	20	20	25	100	0	0	100
+[/static data]
+
+[pvp]
+	[static data]
+		0	0	6	12	0	0	4	10	0	110	100	150	0	20	36	18	100	0	0
+	[/static data]
+[/pvp]

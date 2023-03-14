@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`炫紋強壓`
+
+[name2]
+	`Chaser Press`
+
+[explain]
+	`把生成的所有炫紋集中到武器上攻擊前方地面并引發爆炸， 可以使周圍敵人受到極大傷害。`
+
+[basic explain]
+	`把生成的所有炫紋集中到武器上攻擊前方地面并引發爆炸， 可以使周圍敵人受到極大傷害。`
+
+[feature skill index]
+	221
+
+[purchase cost]
+	40
+[/purchase cost]
+
+[pre required skill]
+	123	1
+[/pre required skill]
+
+[required level]
+	35
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	2
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	50	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[consume MP]
+	300	1260
+
+[durability decrease rate]
+	150
+
+[casting time]
+	1000	1000
+
+[cool time]
+	25000	25000
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	190
+	`Character/Mage/Effect/SkillIcon.img`	191
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↓ + Z`
+
+[skill command advantage]
+	10	20
+
+[shake screen]
+	3	300
+
+[static data]
+	110	3
+[/static data]
+
+[level info]
+	1	75	81	86	92	97	103	109	114	120	125	131	136	142	148	153	159	164	170	176	181	187	193	199	205	211	217	223	229	235	241	247	253	259	265	271	277	283	289	295	301	307	313	319	325	331	337	343	349	355	361	367	371	377	383	389	395	401
+[/level info]
+
+[pvp]
+	[static data]
+		60	5
+	[/static data]
+	[level info]
+		1	40	42	44	46	48	50	52	54	56	58	60	62	64	66	68	70	72	75	81	86	92	97	103	109	114	120	125	131	136	142	148	153	159	164	170	176	181
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`魔法攻擊力 : 所有炫紋攻擊力之和的<int>%%
+基本爆炸范圍 : <int>%%`	-1	0	1.0	0	0	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

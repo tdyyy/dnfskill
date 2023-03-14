@@ -1,0 +1,45 @@
+#PVF_File
+
+[name2]
+	`Cancel Shining Cut`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	18
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	92
+	`Character/Thief/Effect/SkillIcon.img`	93
+
+[static data]
+[/static data]
+
+[name]
+	`強制 - 弧光閃`
+
+[explain]
+	`    強制中斷當前進行的普通攻擊動作， 并立即施放[弧光閃]。
+    若刺客職業在普通攻擊中強制施放[弧光閃]， 則可以獲得1個連擊點數。`
+
+[basic explain]
+	`    強制中斷當前進行的普通攻擊動作， 并立即施放[弧光閃]。
+    若刺客職業在普通攻擊中強制施放[弧光閃]， 則可以獲得1個連擊點數。`

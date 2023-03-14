@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`斬鋼閃`
+
+[name2]
+	`疾風劍豪-斬鋼閃`
+
+[explain]
+	`   學習該技能后，在[上挑]、[鬼連斬]、[連牙]、
+   [魂魄斬]、[惡鬼斬首]、[合擊：月靈斬]、
+   [合擊：移魂一閃]、[惡鬼連舞]狀態下
+   使用'空格鍵'將柔化當前攻擊動作施放怨魂刃;
+`
+
+[basic explain]
+	`   學習該技能后，在[上挑]、[鬼連斬]、[連牙]、
+   [魂魄斬]、[惡鬼斬首]、[合擊：月靈斬]、
+   [合擊：移魂一閃]、[惡鬼連舞]狀態下
+   使用'空格鍵'將柔化當前攻擊動作施放怨魂刃;
+`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[required level]
+	25
+
+[required level range]
+	3
+
+[durability decrease rate]
+	10
+
+[auto cooltime apply]
+	1
+
+[icon]
+	`character/swordman/effect/skillicon_new.img`	2
+	`character/swordman/effect/skillicon_new.img`	3
+
+[weapon effect type]
+	`[physical]`
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : Z`
+
+[dungeon]
+	[consume MP]
+		600	600
+	[cool time]
+		1	1
+	[executable states]
+		0	14	8	105
+	[/executable states]
+	[static data]
+		100	-250	100	-50
+	[/static data]
+	[level info]
+		1	1385	1550	1715	1880	2045	2210	2375	2540	2705	2870	3035	3200	3365	3530	3695	3860	4025	4190	4355	4520	4685	4850	5015	5180	5345	5510	5675	5840	6005	6170	6335	6500	6665	6830	6995	7160	7325	7490	7655	7820	7985	8150	8315	8480	8645	8810	8975	9140	9305	9470
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[level info]
+		0	1	1	1	1
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`怨魂刃物理傷害 : <int> %%
+`	-1	1	1.0
+[/level property]

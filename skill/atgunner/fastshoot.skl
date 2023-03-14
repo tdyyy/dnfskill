@@ -1,0 +1,82 @@
+#PVF_File
+
+[name]
+	`快速拔槍`
+
+[name2]
+	`Fastest Gun`
+
+[explain]
+	`快速拔槍攻擊敵人， 發動時需要消耗一定量的MP， 發動後可以和普通攻擊一樣連續射擊。`
+
+[basic explain]
+	`快速拔槍攻擊敵人， 發動時需要消耗一定量的MP， 發動後可以和普通攻擊一樣連續射擊。`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[steel learning skill]
+	1	50	200	4
+
+[required level]
+	25
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	10	10	10	10	10	10
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	42
+	`Character/Gunner/Effect/SkillIcon.img`	43
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(ATTACK)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑ + X`
+
+[dungeon]
+	[consume MP]
+		10	42
+	[cool time]
+		2000	2000
+	[level info]
+		1	100	200	300	400	500	600	700	800	900	1000	1100	1200	1300	1400	1500	1600	1700	1800	1900	2000
+	[/level info]
+[/dungeon]
+
+[pvp]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`拔槍速度增加率 : <float1>%%`	-1	0	0.1
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`秘術·曜夜斬`
+
+[basic explain]
+	`[收刀術系列]
+    將黑曜收刀后蓄氣， 然后向前方拔刀。 劍氣劃過地面時產生沖擊波， 對范圍內的敵人造成巨大傷害。
+    按向前方向鍵可向前突進， 對路徑上的所有敵人造成傷害。`
+
+[explain]
+	`[收刀術系列]
+    將黑曜收刀后蓄氣， 然后向前方拔刀。 劍氣劃過地面時產生沖擊波， 對范圍內的敵人造成巨大傷害。
+    按向前方向鍵可向前突進， 對路徑上的所有敵人造成傷害。`
+
+[executable states]
+	0	14	108
+[/executable states]
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	30	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	489
+	`Character/Swordman/Effect/ATSkillIcon.img`	490
+
+[durability decrease rate]
+	280
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	580	4500
+
+[cool time]
+	40000	40000
+
+[dungeon]
+	[static data]
+		500	-4000	600	150	130	180	200	0	0	0	80	3000	7000	0	125
+	[/static data]
+	[level info]
+		1	61301	67520	73740	79959	86178	92397	98616	104835	111054	117273	123492	129711	135930	142149	148368	154587	160806	167025	173244	179463	185682	191901	198120	204339	210558	216777	222997	229216	235435	241654	247873	254092	260311	266530	272749	278968	285187	291406	297625	303844	310063	316282	322501	328720	334939	341158	347377	353596	359815	366034	372253	378472	384692	390911	397130	403349	409568	415787	422006	428225	434444	440663	446882	453101	459320	465539	471758	477977	484196	490415
+	[/level info]
+[/dungeon]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`拔刀攻擊力 : <int>`	-2	0	1.0
+[/level property]

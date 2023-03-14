@@ -1,0 +1,48 @@
+#PVF_File
+
+[name]
+	`契魔者重甲專精`
+
+[basic explain]
+	`    裝備重甲系防具時， 可以增加力量、 精神、 HP/MP上限、 MP恢復速度、 物防和物理暴擊率。`
+
+[explain]
+	`    裝備重甲系防具時， 可以增加力量、 精神、 HP/MP上限、 MP恢復速度、 物防和物理暴擊率； 且MP恢復速度、 施放速度和攻擊速度的懲罰效果會消失。
+    效果會隨裝備的重甲數量增加而增強。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	80
+	`Character/Swordman/Effect/ATSkillIcon.img`	81
+
+[static data]
+	20	25	0	0	0	0	6	15	0	50	100	150	0	20	200	0	0	100
+[/static data]
+
+[pvp]
+	[static data]
+		20	10	4	3	0	0	6	15	0	100	100	150	0	20	200	0	0
+	[/static data]
+[/pvp]

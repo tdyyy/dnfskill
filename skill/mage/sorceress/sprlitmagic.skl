@@ -1,0 +1,84 @@
+#PVF_File
+
+[name]
+	`人偶戲法`
+
+[explain]
+	`    施放時， 在前方生成詛咒人偶， 同時將附近的敵人變成人偶。 小魔女將釘子釘入詛咒人偶的身體中， 變成人偶的敵人體內也會被釘入釘子。 釘釘子期間敵人進入強制控制狀態。
+    連續按<X>鍵可以加快釘釘子的速度。`
+
+[basic explain]
+	`    施放時， 在前方生成詛咒人偶， 同時將附近的敵人變成人偶。 小魔女將釘子釘入詛咒人偶的身體中， 變成人偶的敵人體內也會被釘入釘子。 釘釘子期間敵人進入強制控制狀態。
+    連續按<X>鍵可以加快釘釘子的速度。`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[pre required skill]
+	148	1
+[/pre required skill]
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[consume MP]
+	20	222
+
+[cool time]
+	20000	20000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	791
+	`Character/Mage/Effect/SkillIcon.img`	792
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[command key explain]
+	`操作指令 : ↑↑ + Z`
+
+[static data]
+[/static data]
+
+[level info]
+	3	1921	5	5623	2103	5	6290	2285	5	6957	2467	5	7624	2649	5	8291	2831	5	8958	3013	5	9625	3195	5	10292	3377	5	10959	3559	5	11626	3741	5	12293	3923	5	12960	4105	5	13627	4287	5	14294	4469	5	14961	4651	5	15628	4833	5	16295	5015	5	16962	5197	5	17629	5379	5	18296	5561	5	18963	5743	5	19630	5925	5	20297	6107	5	20964	6289	5	21631	6471	5	22298	6653	5	22965	6835	5	23632	7017	5	24299	7199	5	24966	7381	5	25633	7563	5	26300	7745	5	26967	7927	5	27634	8109	5	28301	8291	5	28968	8473	5	29635	8655	5	30302	8837	5	30969	9019	5	31636	9201	5	32303	9383	5	32970	9565	5	33637	9747	5	34304	9929	5	34971	10111	5	35638	10293	5	36305	10475	5	36972	10657	5	37639	10839	5	38306
+[/level info]
+
+[level property]
+	1	99
+	`多段攻擊:<int>%%
+打擊次數:<int>次
+最后遺跡:<int>%%`	-1	0	1.0	-1	1	1.0	-1	2	1.0
+[/level property]

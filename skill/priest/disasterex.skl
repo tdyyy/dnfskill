@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`末日浩劫`
+
+[name2]
+	`Disaster`
+
+[explain]
+	`高高躍起， 并在下方形成魔法陣吸附敵人， 然后從高空正對魔法陣中心直沖而下， 產生沖擊波， 可對敵人造成大量傷害。 在[魔化 : 末日審判者]狀態下， 技能攻擊力會大幅提升。`
+
+[basic explain]
+	`高高躍起， 并在下方形成魔法陣吸附敵人， 然后從高空正對魔法陣中心直沖而下， 給予敵人毀滅性的破壞。 在[魔化 : 末日審判者]狀態下也可以使用。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[purchase cost]
+	70
+[/purchase cost]
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[consume MP]
+	800	1680
+
+[cool time]
+	50000	50000
+
+[durability decrease rate]
+	70
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	334
+	`Character/Priest/Effect/SkillIcon.img`	335
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	50	50
+
+[static data]
+	100	3000	1000	450	225	450	91
+[/static data]
+
+[level info]
+	2	3810	5715	4611	6917	5413	8121	6215	9324	7018	10526	7820	11730	8622	12933	9424	14137	10226	15340	11029	16542	11829	17745	12633	18947	13434	20151	14236	21354	15038	22558	15840	23761	16643	24963	17445	26167	18247	27370	19049	28574	19850	29775	20652	30979	21454	32182	22257	33384	23059	34588	23861	35791	24663	36995	25464	38198	26268	39400	27068	40604	27871	41805	28673	43009	29475	44212	30277	45416	31079	46619	31882	47821	32684	49025	33486	50228	34287	51432	35089	52634	35891	53837	36693	55041	37496	56242	38298	57446	39100	58649	39901	59853	40703	61056	41507	62258	42307	63462	43110	64664
+[/level info]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		2	120	180	145	217	170	254	195	291	220	328	245	365	270	402	295	439	320	476	345	513	370	550	395	587	420	624	445	661	470	698	495	735	520	772	545	809	570	846	595	883	620	920	645	957	670	994	695	1031	720	1068	745	1105	770	1142	795	1179	820	1216	845	1253	870	1290	895	1327	920	1364	945	1401	970	1438	995	1475	1020	1512	1045	1549	1070	1586	1095	1623	1120	1660	1145	1697	1170	1734	1195	1771	1220	1808	1245	1845	1270	1882	1295	1919	1320	1956	1345	1993
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`沖撞魔法攻擊力 : <int>%%
+沖擊波魔法攻擊力 : <int>%%
+[魔化 : 末日審判者]狀態下， 攻擊力增加率 : <int>%%`	-1	0	1.0	-1	1	1.0	0	0	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

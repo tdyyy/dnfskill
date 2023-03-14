@@ -1,0 +1,74 @@
+#PVF_File
+
+[name2]
+	`Back Step`
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[active]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[consume MP]
+	1	1
+
+[icon]
+	`Character/Common/SkillIcon.img`	0
+	`Character/Common/SkillIcon.img`	1
+
+[command]
+	{6=`(DOWN)`}
+	{8=`&`}
+	{6=`(JUMP)`}
+[/command]
+
+[command customizing]
+	0
+
+[static data]
+	200	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+[/static data]
+
+[level info]
+	2	1	-600
+[/level info]
+
+[pvp]
+	[level info]
+		2	1	1
+	[/level info]
+[/pvp]
+
+[name]
+	`后跳`
+
+[explain]
+	`使自身向后方小跳并避開敵人的攻擊。`
+
+[basic explain]
+	`使自身向后方小跳并避開敵人的攻擊。`
+
+[command key explain]
+	`操作指令 : ↓(按住狀態下)+C`
+
+[level property]
+	1	99
+	``
+[/level property]

@@ -1,0 +1,74 @@
+#PVF_File
+
+[name]
+	`G-X主宰者`
+
+[explain]
+	`    改裝成功G1、G2、G3后， 觸發“機械之心”專屬buff， 減少G系列其余技能冷卻時間并增加自身智力， 效果持續一段時間（可持續刷新）。
+    支持技能：G1柯洛納、G-0戰爭領主、G4雷行者
+    增加基本攻擊力和技能攻擊力。`
+
+[basic explain]
+	`    改裝成功G1、G2、G3后， 觸發“機械之心”專屬buff， 減少G系列其余技能冷卻時間并增加自身智力， 效果持續一段時間（可持續刷新）。
+    支持技能：G1柯洛納、G-0戰爭領主、G4雷行者
+    增加基本攻擊力和技能攻擊力。`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	500
+	`Character/Gunner/Effect/SkillIcon.img`	501
+
+[static data]
+[/static data]
+
+[level info]
+	4	100	20	60000	140	120	22	60000	160	140	24	60000	180	160	26	60000	200	180	28	60000	220	200	30	60000	240	220	32	60000	260	240	34	60000	280	260	36	60000	300	280	38	60000	320	300	40	60000	340	320	42	60000	360	340	44	60000	380	360	46	60000	400	380	48	60000	420	400	50	60000	440	420	52	60000	460	440	54	60000	480	460	56	60000	500	480	58	60000	520	500	60	60000	540	520	62	60000	560	540	64	60000	580	560	66	60000	600	580	68	60000	620	600	70	60000	640
+[/level info]
+
+[pvp]
+	[level info]
+		3	1	1	1
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`智力增加 : <int>
+冷卻時間減少比率 : <int>%%
+效果持續時間 : <float2>秒
+基本攻擊力和技能攻擊力增加 : <float1>%%`	-1	0	1.0	-1	1	1.0	-1	2	0.001	-1	3	0.1
+[/level property]

@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	`索魂刺`
+
+[basic explain]
+	`    召喚魔人抓住前方敵人； 成功后， 會對目標進行強力刺擊。`
+
+[explain]
+	`    召喚魔人抓住前方敵人。
+    若抓住敵人， 則會向目標施放強力刺擊。`
+
+[executable states]
+	0	108	14	86	143	94	88	91	132	147	145	128	131	169	133	174	135	136	137	138	139	140	126
+[/executable states]
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[required level]
+	10
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0	1	2	3	4	5
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	28
+	`Character/Swordman/Effect/ATSkillIcon.img`	29
+
+[shake screen]
+	2	10000
+
+[durability decrease rate]
+	42
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →↑ + Z`
+
+[skill command advantage]
+	10	20
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[weapon effect type]
+	`[magical]`
+
+[consume MP]
+	20	310
+
+[casting time]
+	400	400
+
+[cool time]
+	6000	6000
+
+[dungeon]
+	[consume MP]
+		20	310
+	[casting time]
+		400	400
+	[cool time]
+		6000	6000
+	[static data]
+		60	0	50	1	1	2	3	120	200	150
+	[/static data]
+	[level info]
+		2	1863	0	2052	0	2242	0	2431	0	2619	0	2808	0	2997	0	3187	0	3376	0	3565	0	3754	0	3942	0	4132	0	4321	0	4510	0	4699	0	4889	0	5078	0	5266	0	5455	0	5644	0	5834	0	6023	0	6212	0	6401	0	6589	0	6779	0	6968	0	7157	0	7346	0	7536	0	7725	0	7913	0	8102	0	8292	0	8481	0	8670	0	8859	0	9049	0	9237	0	9426	0	9615	0	9804	0	9994	0	10183	0	10372	0	10560	0	10749	0	10939	0	11128	0	11317	0	11506	0	11694	0	11884	0	12073	0	12262	0	12451	0	12641	0	12830	0	13018	0	13207	0	13396	0	13586	0	13775	0	13964	0	14153	0	14341	0	14531	0	14720	0	14909	0
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[cool time]
+		8000	8000
+	[static data]
+		50	0	50	0	2	2	2	120	220	150
+	[/static data]
+	[level info]
+		2	79	0	88	0	97	0	107	0	117	0	127	0	136	0	145	0	155	0	165	0	175	0	183	0	193	0	203	0	213	0	223	0	232	0	241	0	251	0	261	0	270	0	280	0	289	0	299	0	308	0	318	0	328	0	338	0	347	0	356	0	366	0	376	0	386	0	394	0	404	0	414	0	424	0	434	0	443	0	452	0	462	0	472	0	481	0	491	0	500	0	510	0	520	0	529	0	539	0	549	0	558	0	568	0	577	0	587	0	597	0	606	0	615	0	625	0	635	0	645	0	653	0	663	0	673	0	683	0	693	0	702	0	711	0	721	0	731	0	740	0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`魔法攻擊力 : <int>%%`	-1	0	1.0	-2	1	1.0
+[/level property]

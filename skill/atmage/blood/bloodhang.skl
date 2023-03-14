@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`死亡之握`
+
+[explain]
+	`    利用血氣旋風吸附敵人， 然后向敵人身上插入血氣之刺使其進入眩暈狀態， 然后將刺和精氣一起拔出。`
+
+[basic explain]
+	`    抓取敵人， 吸取精氣。`
+
+[executable states]
+	0	8	14	129
+[/executable states]
+
+[purchase cost]
+	85
+[/purchase cost]
+
+[required level]
+	80
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[consume MP]
+	0	0
+
+[cool time]
+	50000	50000
+
+[weapon effect type]
+	`[magical]`
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	386
+	`Character/Mage/Effect/ATSkillIcon.img`	387
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓↑→ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	600	1500	0	2000	150	50	250
+[/static data]
+
+[level info]
+	1	66409	73147	79884	86621	93358	100096	106833	113570	120307	127044	133782	140519	147256	153993	160731	167468	174205	180942	187680	194417	201154	207891	214628	221366	228103	234840	241577	248315	255052	261789	268526	275264	282001	288738	295475	302212	308950	315687	322424	329161
+[/level info]
+
+[level property]
+	1	99
+	`消耗血氣：<float1>%%
+拔出精氣時攻擊力 : <int>%%`	0	0	0.1	-1	0	1.0
+[/level property]

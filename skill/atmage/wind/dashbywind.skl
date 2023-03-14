@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`狂風沖刺`
+
+[name2]
+	`sonicmove`
+
+[basic explain]
+	`    利用風的力量， 瞬間沖刺一段距離。 可強制中斷當前施放中的技能， 并立即施放[狂風沖刺]。
+    [沒有風的時候該如何起風？ 飛速向前奔跑！]`
+
+[explain]
+	`    利用風的力量， 瞬間沖刺一段距離。 沖刺過程中， 將對碰到的敵人給予傷害和僵直效果， 在技能釋放過程中按下技能1鍵， 可再進行沖刺。 可強制中斷當前施放中的技能， 并立即施放[狂風沖刺]。`
+
+[executable states]
+	0	8	14	102
+[/executable states]
+
+[feature skill index]
+	44
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[steel learning skill]
+	1	50	200	4
+
+[required level]
+	20
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	50	50	50	50	50
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[consume MP]
+	60	246
+
+[cool time]
+	20000	20000
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	202
+	`Character/Mage/Effect/ATSkillIcon.img`	203
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↓ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	200	200	280
+[/static data]
+
+[level info]
+	1	2323	2368	2413	2458	2503	2548	2593	2638	2683	2728	2773	2818	2863	2908	2953	2998	3043	3088	3133	3178	3223	3268	3313	3358	3403	3448	3493	3538	3583	3628	3673	3718	3763	3808	3853	3898	3943	3988	4033	4078	4123	4168	4213	4258	4303	4348	4393	4438	4483	4528
+[/level info]
+
+[pvp]
+	[level info]
+		0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`沖刺物理攻擊力 : <int>%%
+攻擊次數 : 3 次
+一階段沖刺距離 : <int>px
+二階段沖刺距離 : <int>px
+三階段沖刺距離 : <int>px`	-1	0	1.0	0	0	1.0	1	1	1.0	2	2	1.0
+[/level property]

@@ -1,0 +1,43 @@
+#PVF_File
+
+[name]
+	`拳氣`
+
+[name2]
+	`NULL`
+
+[explain]
+	`向外散發出拳氣， 使[普通攻擊的上鉤拳]、[勾拳追擊]、[前沖攻擊]可以向更低位置的敵人發動。`
+
+[basic explain]
+	`向外散發出拳氣， 使[普通攻擊的上鉤拳]、[勾拳追擊]、[前沖攻擊]可以向更低位置的敵人發動。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	15
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	1	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[pre required skill]
+[/pre required skill]
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	78
+	`Character/Priest/Effect/SkillIcon.img`	79

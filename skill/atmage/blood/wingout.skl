@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`血翼綻放`
+
+[explain]
+	`    跳向前方， 然後向周圍散發血氣之翼攻擊敵人。
+    跳躍後落地時生成的沖擊波可以使敵人匯聚到角色身邊。
+    跳躍後， 可以利用方向鍵指定降落地點。`
+
+[basic explain]
+	`    跳向前方， 然後向周圍散發血氣之翼攻擊敵人。`
+
+[executable states]
+	0	8	14	129
+[/executable states]
+
+[purchase cost]
+	75
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[consume MP]
+	0	0
+
+[cool time]
+	50000	50000
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	382
+	`Character/Mage/Effect/ATSkillIcon.img`	383
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	400	125	50	200	1	100	300	-50	50	125	50	400
+[/static data]
+
+[level info]
+	2	12932	19398	14244	21366	15556	23333	16867	25301	18179	27270	19491	29238	20803	31205	22116	33173	23428	35142	24739	37109	26051	39077	27363	41045	28675	43013	29987	44981	31300	46949	32612	48918	33923	50885	35235	52853	36547	54820	37859	56789	39171	58757	40483	60725	41794	62692	43107	64661	44419	66629	45731	68596	47043	70564	48355	72533	49666	74500	50978	76468	52290	78436	53603	80405	54915	82372	56227	84340	57538	86307	58850	88276	60162	90244	61474	92212	62787	94179	64099	96148
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`血氣消耗 : <float1>%%
+落地時沖擊波攻擊力 : <int>%%
+血氣之翼物理攻擊力 : <int>%%`	0	0	0.1	-1	0	1.0	-1	1	1.0
+[/level property]

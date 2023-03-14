@@ -1,0 +1,80 @@
+#PVF_File
+
+[name]
+	`薔薇藤鞭`
+
+[explain]
+	`    召喚魔力凝聚而成的荊棘藤攻擊敵人， 然后把敵人拉到身前。
+    荊棘藤擊中敵人時， 可以吸收敵人的魔力收獲詛咒人偶。
+    不論擊中多少敵人， 都只能收獲1個詛咒人偶。`
+
+[basic explain]
+	`    召喚魔力凝聚而成的荊棘藤攻擊敵人， 然后把敵人拉到身前。
+    荊棘藤擊中敵人時， 可以吸收敵人的魔力收獲詛咒人偶。
+    不論擊中多少敵人， 都只能收獲1個詛咒人偶。`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	25
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[consume MP]
+	102	542
+
+[cool time]
+	10000	10000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	799
+	`Character/Mage/Effect/SkillIcon.img`	800
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←→→ + Z`
+
+[static data]
+	1	100	50	80
+[/static data]
+
+[level info]
+	2	1023	1562	1122	1710	1221	1858	1320	2006	1419	2154	1518	2302	1617	2450	1716	2598	1815	2746	1914	2894	2013	3042	2112	3190	2211	3338	2310	3486	2409	3634	2508	3782	2607	3930	2706	4078	2805	4226	2904	4374	3003	4522	3102	4670	3201	4818	3300	4966	3399	5114	3498	5262	3597	5410	3696	5558	3795	5706	3894	5854	3993	6002	4092	6150	4191	6298	4290	6446	4389	6594	4488	6742	4587	6890	4686	7038	4785	7186	4884	7334	4983	7482	5082	7630	5181	7778	5280	7926	5379	8074	5478	8222	5577	8370	5676	8518	5775	8666	5874	8814
+[/level info]
+
+[level property]
+	1	99
+	`上拉魔法攻擊力:<int>%%
+下壓魔法攻擊力:<int>%%`	-1	0	1.0	-1	1	1.0
+[/level property]

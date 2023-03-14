@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`疾風瞬影閃`
+
+[basic explain]
+	`    生成風之劍， 向前突進並瘋狂砍傷敵人。 按向前方向鍵時， 可以增加突進距離。
+[我像疾風一樣吹向他們身邊， 奪取他們的性命！]`
+
+[explain]
+	`    生成風之劍， 向前突進並瘋狂砍傷敵人。 被風刃割傷的敵人， 會追加受到疾風的傷害。 按向前方向鍵時， 可以增加突進距離。`
+
+[executable states]
+	0	8	14	102	143
+[/executable states]
+
+[purchase cost]
+	75
+[/purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	30	0	0
+
+[consume MP]
+	60	546
+
+[cool time]
+	20000	20000
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	218
+	`Character/Mage/Effect/ATSkillIcon.img`	219
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓→ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	40	50	50	50	40	80	100	100	100	40	200
+[/static data]
+
+[level info]
+	2	7328	7534	7465	7591	7602	7647	7739	7703	7876	7759	8014	7815	8151	7871	8288	7927	8425	7983	8562	8039	8700	8095	8837	8152	8974	8208	9111	8264	9248	8320	9386	8376	9523	8432	9660	8488	9797	8544	9934	8600	10072	8656	10209	8713	10346	8769	10483	8825	10620	8881	10758	8937	10895	8993	11032	9049	11169	9105	11306	9161	11444	9217	11581	9274	11718	9330	11855	9386	11992	9442	12130	9498	12267	9554	12404	9610	12541	9666	12678	9722	12816	9778	12953	9835	13090	9891	13227	9947	13364	10003	13502	10059	13639	10115	13776	10171	13913	10227	14050	10283
+[/level info]
+
+[level property]
+	1	99
+	`風之劍物理攻擊力 : <int>%%
+疾風追加物理攻擊力 : <int>%%`	-1	0	1.0	-1	1	1.0
+[/level property]

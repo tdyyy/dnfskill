@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`強化 - 閃電之舞`
+
+[name2]
+	`LightningDance Upgrade`
+
+[explain]
+	`向前方敵人發出強威力的踢腳， 并利用反作用力閃電般地在一定范圍內的多個敵人間移動且對這些敵人造成傷害。
+ 周圍沒有敵人或移動攻擊達到一定次數后就會停止移動。
+ 無法攻擊處於透明、 無敵、 偽裝狀態或一定高度以上的敵人。`
+
+[basic explain]
+	`向前方敵人發出強威力的踢腳， 并利用反作用力閃電般地在一定范圍內的多個敵人間移動且對這些敵人造成傷害。
+ 周圍沒有敵人或移動攻擊達到一定次數后就會停止移動。
+ 無法攻擊處於透明、 無敵、 偽裝狀態或一定高度以上的敵人。`
+
+[explain ex]
+	`增加閃電之舞的攻擊力和移動距離上限和移動攻擊次數上限。
+技能每增加Lv1時， 移動距離增加 : 50px
+技能每增加Lv1時， 移動攻擊次數增加 : 1次
+技能每增加Lv1時， 攻擊力增加 : 10%%`
+
+[basic explain ex]
+	`增加閃電之舞的移動距離上限和移動攻擊次數上限。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[pre required skill]
+	68	10
+[/pre required skill]
+
+[required level]
+	65
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	5	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[consume item]
+[/consume item]
+
+[durability decrease rate]
+	60
+
+[weapon effect type]
+	`[physical]`
+
+[shake screen]
+	2	200
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	250
+	`Character/Fighter/Effect/SkillIcon.img`	251
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[dungeon]
+	[static data]
+		350	130	400
+	[/static data]
+	[level info]
+		2	10	1012	10	1119	10	1223	10	1328	10	1432	10	1536	10	1643	10	1747	10	1851	10	1956	10	2062	10	2166	10	2271	10	2375	10	2480	10	2586	10	2690	10	2795	10	2899	10	3004	10	3110	10	3214	10	3319	10	3423	10	3529	10	3634	10	3738	10	3843	10	3947	10	4053	10	4158	10	4262	10	4367	10	4471	10	4577	10	4682	10	4786	10	4891	10	4997	10	5101	10	5206	10	5310	10	5414	10	5521	10	5625	10	5729	10	5834	10	5938	10	6045	10	6149	10	6253	10	6358	10	6464	10	6568	10	6673	10	6777	10	6882	10	6988	10	7092	10	7197	10	7301	10	7406	10	7512	10	7616	10	7721	10	7825	10	7931	10	8036	10	8140	10	8245
+	[/level info]
+[/dungeon]
+
+[special level up]
+	-1	0
+	`+`	1	0	0
+	`+`	50	-1	1
+	`%`	10
+[/special level up]
+
+[pvp]
+	[static data]
+		350	120	0
+	[/static data]
+	[level info]
+		2	10	36	10	40	10	43	10	47	10	51	10	55	10	58	10	62	10	66	10	70	10	73	10	77	10	81	10	84	10	88	10	92	10	96	10	99	10	103	10	107	10	110	10	114	10	118	10	122	10	125	10	129	10	133	10	137	10	140	10	144	10	148	10	151	10	155	10	159	10	163	10	166	10	170	10	174	10	178	10	181	10	185	10	189	10	192	10	196	10	200	10	204	10	207	10	211	10	215	10	218	10	222	10	226	10	230	10	233	10	237	10	241	10	245	10	248	10	252	10	256	10	259	10	263	10	267	10	271	10	274	10	278	10	282	10	285	10	289	10	293
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`移動攻擊次數上限 : <int>次
+每次移動時的攻擊力 : <int>%%武器物攻`	-1	0	1.0	-1	1	1.0
+[/level property]
+
+[skill preloading image]
+	`Character/Fighter/Effect/LightningDance/70.img`
+	`Character/Fighter/Effect/LightningDance/150.img`
+	`Character/Fighter/Effect/LightningDance/230.img`
+	`Character/Fighter/Effect/LightningDance/310.img`
+	`Character/Fighter/Effect/LightningDance/shock.img`
+[/skill preloading image]

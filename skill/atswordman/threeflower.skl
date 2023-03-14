@@ -1,0 +1,67 @@
+#PVF_File
+
+[name]
+	`返本歸元`
+
+[basic explain]
+	`    流浪武士達到返本歸元境界， 基本攻擊、 劍術與掌法變得更強， 并增加物理暴擊率。`
+
+[explain]
+	`    流浪武士達到返本歸元境界， 基本攻擊、 劍術與掌法變得更強， 并增加物理暴擊率。`
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	20
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	11
+
+[growtype maximum level]
+	0	0	1	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	363
+	`Character/Swordman/Effect/ATSkillIcon.img`	364
+
+[level info]
+	2	200	50	240	50	280	50	320	50	360	50	400	50	440	50	480	50	520	50	560	50	600	50	640	50	680	50	720	50	760	50	800	50	840	50	880	50	920	50	960	50	1000	50	1040	50	1080	50	1120	50	1160	50	1200	50	1240	50	1280	50	1320	50	1360	50	1400	50	1440	50	1480	50	1520	50	1560	50	1600	50	1640	50	1680	50	1720	50	1760	50	1800	50	1840	50
+[/level info]
+
+[dungeon]
+	[static data]
+	[/static data]
+	[level info]
+		2	200	100	240	100	280	100	320	100	360	100	400	100	440	100	480	100	520	100	560	100	600	100	640	100	680	100	720	100	760	100	800	100	840	100	880	100	920	100	960	100	1000	100	1040	100	1080	100	1120	100	1160	100	1200	100	1240	100	1280	100	1320	100	1360	100	1400	100	1440	100	1480	100	1520	100	1560	100	1600	100	1640	100	1680	100	1720	100	1760	100	1800	100	1840	100
+	[/level info]
+[/dungeon]
+
+[pvp]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`基本攻擊、 劍術、 掌法技能攻擊力增加量 : <int>%%
+物理暴擊率增加量 : <int>%%`	-1	0	0.1	-1	1	0.1
+[/level property]

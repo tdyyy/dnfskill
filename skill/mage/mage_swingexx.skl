@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`閃擊碎霸`
+
+[basic explain]
+	`    快速旋轉一周后， 揮動武器， 強力攻擊大范圍內的敵人。`
+
+[explain]
+	`    大幅揮動武器， 對大范圍內敵人造成巨大物理傷害。
+    技能命中敵人時， 可以強制中斷并使用其他轉職技能； 其他轉職技能命中敵人時， 也可以強制中斷并使用[閃擊碎霸]。
+ 
+- [可強制中斷的技能] -
+[雙重錘擊]、 [碎霸]、 [流星閃影擊]、 [炫紋強壓]、 [強襲流星打]、 [煌龍偃月]、 [流星雷連擊]`
+
+[executable states]
+	8	0	14	51	24	27	28	25	29	47
+[/executable states]
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	2
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	290
+	`Character/Mage/Effect/SkillIcon.img`	291
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↓→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	400	1120
+
+[cool time]
+	30000	30000
+
+[durability decrease rate]
+	210
+
+[level info]
+	1	15636	17221	18807	20393	21981	23570	25152	26740	28325	29912	31497	33084	34671	36258	37842	39430	41019	42603	44189	45775	47362	48949	50531	52120	53709	55290	56876	58466	60052	61635	63222	64810	66395	67980	69566	71156	72741	74325	75913	77502	79086	80672	82257	83844	85433	87015	88603	90191	91773	93361	94950	96536	98121	99704	101291	102882	104462	106051	107637	109226	110809	112397	113982	115571	117156	118741	120328	121916	123500	125084
+[/level info]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		1	156	172	188	203	219	235	251	267	283	299	314	330	346	362	378	394	410	426	441	457	473	489	505	521	537	552	568	584	600	616	632	648	663	679	695	711	727	743	759	775	790	806	822	838	854	870	886	901	917	933	949	965	981	997	1012	1028	1044	1060	1076	1092	1108	1123	1139	1155	1171	1187	1203	1219	1235	1250
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`物理武器攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

@@ -1,0 +1,124 @@
+#PVF_File
+
+[name]
+	`鬼影閃`
+
+[name2]
+	`Shadow dodge`
+
+[explain]
+	`以極快的速度向前移動一段距離並斬擊敵人， 但只能在[鬼影步]的前沖並進入無敵狀態時使用。
+ 被斬擊的敵人在一定時間內會進入禁錮狀態， 狀態結束時會附加敵人暗屬性傷害。`
+
+[basic explain]
+	`以極快的速度向前移動一段距離並斬擊敵人， 但只能在[鬼影步]的前沖並進入無敵狀態時使用。
+ 被斬擊的敵人在一定時間內會進入禁錮狀態， 狀態結束時會附加敵人暗屬性傷害。`
+
+[feature skill index]
+	226
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[pre required skill]
+	112	1
+[/pre required skill]
+
+[required level]
+	40
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	30	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[consume MP]
+	200	1680
+
+[casting time]
+	500	500
+
+[cool time]
+	20000	20000
+
+[durability decrease rate]
+	100
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	138
+	`Character/Swordman/Effect/SkillIcon.img`	139
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[weapon effect type]
+	`[magical]`
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←→→ + Z`
+
+[skill command advantage]
+	20	40
+
+[dungeon]
+	[static data]
+		300
+	[/static data]
+	[level info]
+		1	5692	6280	6866	7460	8048	8634	9223	9812	10402	10991	11579	12169	12757	13347	13933	14525	15111	15701	16289	16879	17468	18056	18646	19236	19824	20410	20998	21592	22178	22766	23355	23941	24534	25123	25709	26297	26887	27477	28065	28654	29243	29832	30422	31008	31600	32186	32776	33364	33954	34542	35131	35720	36307	36899	37485	38077	38663	39253	39841	40429	41019	41608	42197	42784	43376	43962	44552	45140	45730	46318
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		30000	30000
+	[cool time]
+		20000	20000
+	[level info]
+		1	205	226	248	269	290	311	333	354	375	396	417	439	460	481	502	524	545	566	587	609	630	651	672	693	715	736	757	778	800	821	842	863	884	906	927	948	969	991	1012	1033	1054	1076	1097	1118	1139	1160	1182	1203	1224	1245	1267	1288	1309	1330	1351	1373	1394	1415	1436	1458	1479	1500	1521	1543	1564	1585	1606	1627	1649	1670
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`魔法攻擊力 : <int>%%
+移動距離 : <int>px`	-1	0	1.0	0	0	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]
+
+[feature skill index]
+	226

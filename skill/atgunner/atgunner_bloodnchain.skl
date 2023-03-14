@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`血舞祭`
+
+[basic explain]
+	`    向周圍投擲多把槍刃向前突進， 同時將大范圍的敵人聚集到一起給予毀滅性的強力射擊。`
+
+[explain]
+	`    向周圍投擲多把槍刃向前突進， 同時將大范圍的敵人聚集到一起給予毀滅性的強力射擊。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[purchase cost]
+	200
+[/purchase cost]
+
+[required level]
+	85
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	30	0	0	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	490
+	`Character/Gunner/Effect/SkillIcon.img`	491
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓↑→→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume item]
+	3037	10	10
+[/consume item]
+
+[consume MP]
+	2500	8000
+
+[cool time]
+	180000	180000
+
+[durability decrease rate]
+	1260
+
+[dungeon]
+	[level info]
+		1	107402	132308	157212	182118	207023	231927	256833	281738	306643	331548	356454	381358	406264	431168	456073	480979	505883	530789	555694	580599	605504	630408	655314	680219	705124	730029	754935	779839	804745	829649	854554	879460	904364	929270	954175	979080	1003985	1028891	1053795	1078700
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		1	1074	1323	1572	1821	2070	2319	2568	2817	3066	3315	3564	3813	4062	4311	4560	4809	5058	5307	5556	5805	6055	6304	6553	6802	7051	7300	7549	7798	8047	8296	8545	8794	9043	9292	9541	9790	10039	10288	10537	10787
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`射擊攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

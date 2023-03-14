@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`烈火強拳`
+
+[explain]
+	`    用強力的突進拳擊攻擊并擊飛敵人。
+    可以通過按住技能鍵蓄力調整突進的時機， 同時在施放準備姿態下， 可以通過輸入方向鍵調整突進距離。
+    輸入向前方向鍵時， 突進距離會調整到前方。 輸入向后方向鍵時， 突進距離會調整到原地。`
+
+[basic explain]
+	`    用強力的突進拳擊攻擊并擊飛敵人。
+    可以通過按住技能鍵蓄力調整突進的時機， 同時在施放準備姿態下， 可以通過輸入方向鍵調整突進距離。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[purchase cost]
+	90
+[/purchase cost]
+
+[required level]
+	80
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	2
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	30	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[consume item]
+	3037	4	4
+[/consume item]
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	270
+	`Character/Fighter/Effect/ATSkillIcon.img`	271
+
+[durability decrease rate]
+	385
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	50	50
+
+[dungeon]
+	[consume MP]
+		450	1260
+	[cool time]
+		55000	55000
+	[level info]
+		1	59995	65054	70114	75174	80235	85294	90354	95414	100473	105533	110593	115652	120712	125773	130833	135892	140952	146012	151071	156131	161192	166251	171311	176371	181431	186490	191550	196610	201669	206730	211790	216849	221909	226969	232029	237088	242148	247209	252268	257328	262388	267447	272507	277567	282628	287687	292747	297807	302866	307926	312986	318045	323105	328166	333226	338285	343345	348405	353464	358524	363584	368644	373704	378764	383824	388883	393943	399003
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		1	249	274	299	325	350	375	401	426	451	477	502	527	552	578	603	628	654	679	704	730	755	780	805	831	856	881	907	932	957	983	1008	1033	1058	1084	1109	1134	1160	1185	1210	1236	1261	1286	1311	1337	1362	1387	1413	1438	1463	1489	1514	1539	1564	1590	1615	1640	1666	1691	1716	1742	1767	1792	1817	1843	1868	1893	1919	1944	1969	1995
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`突進拳擊攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

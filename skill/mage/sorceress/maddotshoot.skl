@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+	`瘋熊火箭拳`
+
+[explain]
+	`   瘋瘋熊發射用傀儡線連接的拳套。 拳套命中敵人時， 會產生沖擊波。`
+
+[basic explain]
+	`   瘋瘋熊發射用傀儡線連接的拳套。 拳套命中敵人時， 會產生沖擊波。`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[pre required skill]
+	142	1
+[/pre required skill]
+
+[required level]
+	20
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[consume MP]
+	60	546
+
+[cool time]
+	8000	8000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	706
+	`Character/Mage/Effect/SkillIcon.img`	707
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓←→ + Z`
+
+[static data]
+[/static data]
+
+[level info]
+	1	2282	2469	2656	2843	3030	3217	3404	3591	3778	3965	4152	4339	4526	4713	4900	5087	5274	5461	5648	5835	6022	6209	6396	6583	6770	6957	7144	7331	7518	7705	7892	8079	8266	8453	8640	8827	9014	9201	9388	9575	9762	9949	10136	10323	10510	10697	10884	11071	11258	11445
+[/level info]
+
+[level property]
+	1	99
+	`飛拳魔法攻擊力:<int>%%`	-1	0	1.0
+[/level property]

@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`強化 - 蛇腹劍 : 破`
+
+[basic explain]
+	`    將蛇腹劍刺向地面， 使其向前延展並破地而出， 可對敵人造成多段攻擊傷害。`
+
+[explain]
+	`    將蛇腹劍刺向地面， 使其向前延展並破地而出， 可對敵人造成多段攻擊傷害。`
+
+[basic explain ex]
+	`    增加破開地面的次數， 同時減少劍與劍之間的距離。`
+
+[explain ex]
+	`    增加破開地面的次數， 同時減少劍與劍之間的距離。r
+技能每增加Lv1時， 破開地面的次數增加量 : 2次r
+技能每增加Lv1時， 劍與劍之間的距離減少量 : 20px`
+
+[pre required skill]
+	149	1
+[/pre required skill]
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	4
+[/special purchase cost]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	2
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	1	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	60
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	98
+	`Character/Swordman/Effect/ATSkillIcon.img`	99
+
+[dungeon]
+	[static data]
+		3	60	3	120	150	0	100	10	0	100	260	40
+	[/static data]
+	[level info]
+		1	660	727	794	861	928	995	1062	1129	1196	1263	1330	1397	1464	1531	1598	1665	1732	1799	1866	1933	2000	2067	2134	2201	2268	2335	2402	2469	2536	2603	2670	2737	2804	2870	2937	3004	3071	3138	3205	3272	3339	3406	3473	3540	3607	3674	3741	3808	3875	3942	4009	4076	4143	4210	4277	4344	4411	4478	4545	4612	4679	4746	4813	4880	4947	5014	5081	5148	5215	5282
+	[/level info]
+	[special level up]
+		0	0
+		`+`	2	1	1
+		`-`	20
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[cool time]
+		10000	10000
+	[static data]
+		3	60	3	120	200	0	100	10	1	100	260
+	[/static data]
+	[level info]
+		1	40	44	49	54	59	64	68	73	78	83	87	92	97	102	107	111	116	121	126	131	135	140	145	149	154	159	164	169	173	178	183	188	193	197	202	207	212	216	221	226	231	236	240	245	250	255	260	264	269	274	279	283	288	293	298	302	307	312	317	322	326	331	336	341	346	350	355	360	365	369
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`蛇腹劍物理攻擊力 : <int>%%
+破開地面的物理攻擊力 : <int>%%
+多段攻擊次數 : <int>次`	-1	0	1.0	-1	0	1.0	0	0	1.0
+[/level property]

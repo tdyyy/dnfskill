@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`強化 - 魔法護盾`
+
+[name2]
+	`Aura Shield Upgrade`
+
+[explain]
+	`受到敵人攻擊時， 可以用MP的削減來代替一定比率的HP消減。
+ 若再次施放技能， 則會取消護盾效果; 在決斗場中， 將采用未適用天平系統時的HP比率計算MP。`
+
+[basic explain]
+	`受到敵人攻擊時， 可以用MP的削減來代替一定比率的HP消減。
+ 若再次施放技能， 則會取消護盾效果; 在決斗場中， 將采用未適用天平系統時的HP比率計算MP。`
+
+[explain ex]
+	`增加魔法護盾的傷害吸收率， 但會減少HP與MP的變換比率。
+技能每增加Lv1時， HP與MP變換比率減少量 : 2%%
+技能每增加Lv1時， 吸收傷害增加量 : 2%%`
+
+[basic explain ex]
+	`增加魔法護盾的傷害吸收率， 但會減少HP與MP的變換比率。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	1
+[/special purchase cost]
+
+[pre required skill]
+	37	10
+[/pre required skill]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	2
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	5	5	5	5	5	5
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[durability decrease rate]
+	30
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	326
+	`Character/Mage/Effect/SkillIcon.img`	327
+
+[level info]
+	2	10	250	12	214	13	188	15	167	17	150	18	136	20	125	22	115	23	107	25	100	27	94	28	88	30	83	32	79	33	75	35	71	37	68	38	65	40	63	42	60
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	2	-1	1
+	`%`	-2
+[/special level up]
+
+[pvp]
+	[level info]
+		2	10	250	12	214	13	188	15	167	17	150	18	136	20	125	22	115	23	107	25	100	27	94	28	88	30	83	32	79	33	75	35	71	37	68	38	65	40	63	42	60
+	[/level info]
+	[special level up]
+		-1	0
+		`%`	0	-1	1
+		`-`	0
+	[/special level up]
+[/pvp]
+
+[level property]
+	1	99
+	`吸收傷害 : <int>%%
+每1點HP與MP變換比率 : <float2>`	-1	0	1.0	-1	1	0.01
+[/level property]
+
+[skill preloading image]
+	`Character/Mage/Effect/AuraShield/Auraf_d_down.img`
+	`Character/Mage/Effect/AuraShield/Auraf_d_up.img`
+	`Character/Mage/Effect/AuraShield/Aurar_d_down.img`
+	`Character/Mage/Effect/AuraShield/Aurar_d_up.img`
+[/skill preloading image]
+
+[feature skill index]
+	140

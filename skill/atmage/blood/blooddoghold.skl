@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`地獄冥犬`
+
+[explain]
+	`    利用血氣和蝙蝠群生成巨大的犬形怪撕咬敵人。
+    若使用向前方向鍵， 則會撕咬更遠處的敵人。`
+
+[basic explain]
+	`    利用血氣和蝙蝠群生成巨大的犬形怪撕咬敵人。`
+
+[executable states]
+	0	8	14	129
+[/executable states]
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	99
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[consume MP]
+	1066	2133
+
+[cool time]
+	30000	30000
+
+[weapon effect type]
+	`[magical]`
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	358
+	`Character/Mage/Effect/ATSkillIcon.img`	359
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↑ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	20	150	0	25	600	150	225
+[/static data]
+
+[level info]
+	2	971	19423	1125	22519	1281	25615	1435	28713	1589	31809	1745	34906	1900	38003	2054	41099	2210	44196	2364	47292	2519	50387	2674	53484	2829	56581	2982	59678	3138	62774	3293	65871	3447	68968	3603	72064	3756	75162	3913	78258	4067	81353	4222	84450	4377	87546	4532	90642	4686	93740	4842	96836	4996	99932	5151	103030	5307	106126	5460	109223	5615	112320	5770	115415	5925	118511	6079	121608	6235	124704	6389	127801	6544	130898	6700	133995	6854	137091	7008	140188
+[/level info]
+
+[level property]
+	1	99
+	`血氣吸收率 : <float2>%%
+撕咬次數 : <int>次
+撕咬攻擊力 : <int>%%
+沖向地面攻擊力 : <int>%%`	4	4	0.1	0	0	1.0	-1	0	1.0	-1	1	1.0
+[/level property]

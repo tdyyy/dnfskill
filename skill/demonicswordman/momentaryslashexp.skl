@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`強化 - 破魂斬`
+
+[basic explain]
+	`    拔刀并快速向周圍敵人發出強威力的無屬性斬擊， 可以攻擊大范圍的敵人， 但準備動作時間稍長。`
+
+[explain]
+	`    拔刀并快速向周圍敵人發出強威力的無屬性斬擊， 可以攻擊大范圍的敵人， 但準備動作時間稍長。`
+
+[explain ex]
+	`    增加[破魂斬]的攻擊力和減少准備時間。
+技能每增加Lv1時， 攻擊力增加率 : 12%%
+技能每增加Lv1時， 准備時間減少率 : 1%%`
+
+[basic explain ex]
+	`    增加[破滅斬]的攻擊力和減少准備時間。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[required level]
+	65
+
+[required level range]
+	1
+
+[pre required skill]
+	9	1
+[/pre required skill]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	0	0	0	50
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[consume item]
+[/consume item]
+
+[durability decrease rate]
+	70
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	458
+	`Character/Swordman/Effect/SkillIcon.img`	459
+
+[weapon effect type]
+	`[physical]`
+
+[dungeon]
+	[static data]
+		200
+	[/static data]
+	[level info]
+		1	1226	1303	1382	1460	1538	1616	1694	1772	1851	1929	2008	2086	2164	2242	2320	2398	2477	2554	2633	2712	2790	2868	2946	3024	3102	3180	3259	3336	3415	3494	3571	3650	3728	3806	3884	3962	4040	4119	4197	4276	4354	4432	4510	4588	4666	4745	4823	4901	4979	5058	5136	5214	5292	5370	5449	5527	5605	5683	5761	5839	5918	5996	6074	6152
+	[/level info]
+	[special level up]
+		0	0
+		`+`	-2	-1	0
+		`%`	12
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[level info]
+		1	180	198	217	235	254	272	291	310	328	347	365	384	402	421	440	458	477	495	514	532	551	570	588	607	625	644	662	681	700	718	737	755	774	792	811	830	848	867	885	904	923	941	960	978	997	1015	1034	1053	1071	1090	1108	1127	1145	1164	1183	1201	1220	1238	1257	1275	1294	1313	1331	1350	1368	1387	1405	1424	1443	1461
+	[/level info]
+	[special level up]
+		0	0
+		`+`	0	-1	0
+		`%`	0
+	[/special level up]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`物理武器攻擊力 : <int>%%`	-1	0	1.0
+[/level property]
+
+[skill preloading image]
+	`Character/Swordman/Effect/MomentarySlashBlade.img`
+[/skill preloading image]

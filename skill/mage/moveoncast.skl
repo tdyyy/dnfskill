@@ -1,0 +1,59 @@
+#PVF_File
+
+[name2]
+	`Move Casting`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	0	10	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	148
+	`Character/Mage/Effect/SkillIcon.img`	149
+
+[level info]
+	2	200	600	267	561	333	522	400	483	467	444	533	406	600	367	667	328	733	289	800	250	820	230	840	204	860	179	880	153	900	128	920	102	940	77	960	51	980	26	1000	0
+[/level info]
+
+[name]
+	`移動施法`
+
+[explain]
+	`對蓄氣型技能， 在蓄氣時間內可進行移動和前沖。
+ 蓄氣狀態下， 松開指令鍵則可以發動技能， 被敵人攻擊則會中斷技能且受到的傷害增加。`
+
+[basic explain]
+	`對蓄氣型技能， 在蓄氣時間內可進行移動和前沖。`
+
+[level property]
+	1	99
+	`移動速度比率 : <float1>%%
+受傷增加比率 : <float1>%%`	-1	0	0.1	-1	1	0.1
+[/level property]
+
+[skill preloading image]
+	`Character/Mage/Effect/MagicOnCharge.img`
+	`Character/Mage/Effect/MagicFullCharge.img`
+[/skill preloading image]

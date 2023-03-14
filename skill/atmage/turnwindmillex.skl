@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`強化 - 冰魄旋槍`
+
+[name2]
+	`Turn Windmill Upgrade`
+
+[explain]
+	`連續拋出寒冰凝結成的長槍， 使其像風車一樣快速旋轉。 冰槍旋轉時， 可以對周圍的敵人進行多段攻擊。`
+
+[basic explain]
+	`連續拋出寒冰凝結成的長槍， 使其像風車一樣快速旋轉并攻擊敵人。`
+
+[explain ex]
+	`增加冰魄旋槍的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`增加冰魄旋槍的攻擊力。`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	23	10
+[/pre required skill]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[skill class]
+	1
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	5	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	142
+	`Character/Mage/Effect/ATSkillIcon.img`	143
+
+[static data]
+	100	300	2	0	15
+[/static data]
+
+[level info]
+	1	219	241	268	289	308	335	359	380	403	426	449	473	492	517	542	563	582	608	631	654	673	701	722	745	770	791	812	838	861	880	905	926	952	973	996	1017	1042	1063	1087	1108	1135	1154	1175	1203	1226	1245	1268	1293	1315	1340	1361	1384	1407	1428	1452	1475	1498	1521	1542	1566	1589	1612	1635	1656	1680	1703	1726	1749	1770	1794
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10
+[/special level up]
+
+[pvp]
+	[level info]
+		1	24	27	30	32	34	37	40	42	45	47	50	52	55	57	60	62	65	67	70	72	75	78	80	82	85	88	90	93	95	98	100	103	105	108	110	113	115	118	120	123	126	128	130	133	136	138	141	143	146	148	151	153	156	158	161	163	166	168	171	173	176	179	181	184	186	189	191	194	196	199
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

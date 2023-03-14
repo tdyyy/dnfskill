@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`連環斬`
+
+[basic explain]
+	`    滑動的同時向前方敵人發出多次連斬攻擊。`
+
+[explain]
+	`    滑動的同時向前方敵人發出多次連斬攻擊。
+    可通過追加操作， 指定攻擊次數和攻擊方向 (左右)。`
+
+[executable states]
+	0	108	14	86	143	94	88	91	134	147	145	128	131	169	133	174	135	136	137	138	139	140	126
+[/executable states]
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0	1	2	3	4	5
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	22
+	`Character/Swordman/Effect/ATSkillIcon.img`	23
+
+[shake screen]
+	2	10000
+
+[durability decrease rate]
+	63
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →(按住狀態下) + Z`
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[weapon effect type]
+	`[physical]`
+
+[consume MP]
+	12	500
+
+[cool time]
+	9000	9000
+
+[dungeon]
+	[consume MP]
+		12	500
+	[cool time]
+		9000	9000
+	[static data]
+		800	-1400	0
+	[/static data]
+	[level info]
+		3	1114	0	3	1227	0	3	1340	0	3	1454	0	3	1567	0	3	1679	0	3	1792	0	3	1906	0	3	2019	0	3	2132	0	3	2244	0	3	2359	0	3	1854	0	4	1938	0	4	2024	0	4	2108	0	4	2193	0	4	2277	0	4	2363	0	4	2448	0	4	2532	0	4	2617	0	4	2702	0	4	2787	0	4	2297	0	5	2365	0	5	2433	0	5	2501	0	5	2569	0	5	2636	0	5	2705	0	5	2772	0	5	2840	0	5	2908	0	5	2976	0	5	3044	0	5	3111	0	5	3179	0	5	3248	0	5	3315	0	5	3383	0	5	3450	0	5	3519	0	5	3587	0	5	3654	0	5	3723	0	5	3790	0	5	3858	0	5	3926	0	5	3994	0	5	4062	0	5	4130	0	5	4197	0	5	4266	0	5	4333	0	5	4401	0	5	4469	0	5	4537	0	5	4605	0	5	4672	0	5	4740	0	5	4809	0	5	4876	0	5	4944	0	5	5011	0	5	5080	0	5	5148	0	5	5215	0	5	5283	0	5	5351	0	5
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[cool time]
+		8000	8000
+	[static data]
+		600	-1400	0
+	[/static data]
+	[level info]
+		3	50	0	3	56	0	3	62	0	3	68	0	3	74	0	3	80	0	3	86	0	3	92	0	3	98	0	3	104	0	3	110	0	3	116	0	3	122	0	3	128	0	3	134	0	3	140	0	3	146	0	3	152	0	3	158	0	3	164	0	3	170	0	3	178	0	3	184	0	3	190	0	3	196	0	3	202	0	3	208	0	3	214	0	3	220	0	3	226	0	3	232	0	3	238	0	3	244	0	3	250	0	3	256	0	3	262	0	3	268	0	3	274	0	3	280	0	3	286	0	3	292	0	3	298	0	3	304	0	3	310	0	3	316	0	3	322	0	3	328	0	3	334	0	3	340	0	3	346	0	3	352	0	3	360	0	3	366	0	3	372	0	3	378	0	3	384	0	3	390	0	3	396	0	3	402	0	3	408	0	3	414	0	3	420	0	3	426	0	3	432	0	3	438	0	3	444	0	3	450	0	3	456	0	3	462	0	3	468	0	3
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`物理攻擊力 : <int>%%
+斬擊次數 : <int>次`	-1	0	1.0	-1	2	1.0
+[/level property]
+
+[feature skill index]
+	58

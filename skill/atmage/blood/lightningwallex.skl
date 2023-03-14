@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+	`強化 - 噬魂囚籠`
+
+[explain ex]
+	`    增加[噬魂囚籠]的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`    增加[噬魂囚籠]的攻擊力。`
+
+[explain]
+	`    在地面生成巨大的血池， 從外圍開始往中心噴射向上的血氣。
+    向上噴射的血氣將敵人擊退至血池中心， 并吸取血氣。`
+
+[basic explain]
+	`    將血氣從地面往上噴射攻擊敵人。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	128	5
+[/pre required skill]
+
+[required level]
+	65
+
+[required level range]
+	5
+
+[skill class]
+	0
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	0	5	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	348
+	`Character/Mage/Effect/ATSkillIcon.img`	349
+
+[static data]
+	6000	200	100	100	0	0	400
+[/static data]
+
+[level info]
+	1	428	472	515	559	602	646	689	733	776	820	863	907	950	994	1037	1081	1124	1168	1211	1255	1298	1342	1385	1429	1472	1516	1559	1603	1646	1690	1733	1777	1820	1864	1907	1951	1994	2038	2081	2125	2168	2212	2255	2299	2342	2386	2429	2473	2516	2560	2603	2647	2690	2734	2777	2821	2864	2908	2951	2995	3038	3082	3125	3169	3212	3256	3299	3343	3386	3430
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10
+[/special level up]
+
+[pvp]
+	[start cool time]
+		30000	30000
+	[cool time]
+		30000	30000
+	[static data]
+		2000	200	50	50	0	0	400
+	[/static data]
+	[level info]
+		1	23	26	28	30	32	34	37	39	41	44	47	48	51	53	55	58	60	62	64	66	70	72	74	77	78	81	83	85	88	89	93	95	97	99	102	104	106	108	111	113	115	118	121	122	125	128	129	132	133	136	139	141	144	146	148	150	152	155	157	159	162	163	167	169	172	173	176	178	180	183
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`血氣吸收率:<float1>%%
+持續時間:<float1>秒
+多段攻擊間隔:<float1>秒
+多段物理攻擊力:<int>%%`	6	6	0.1	0	0	0.001	1	1	0.001	-1	0	1.0
+[/level property]

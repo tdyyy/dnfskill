@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`月輝念氣破`
+
+[basic explain]
+	`    運用月光般強大的念氣攻擊敵人。`
+
+[explain]
+	`    運用月光般強大的念氣攻擊敵人。
+    被念氣擊中的敵人的能量會被吸收到體內， 轉化為風雷能量。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[purchase cost]
+	90
+[/purchase cost]
+
+[required level]
+	80
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	30	0	0	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[durability decrease rate]
+	315
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	264
+	`Character/Fighter/Effect/ATSkillIcon.img`	265
+
+[weapon effect type]
+	`[magical]`
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	450	1260
+
+[cool time]
+	45000	45000
+
+[dungeon]
+	[level info]
+		3	1000	10	2482	1000	10	2733	1000	10	2986	1000	10	3237	1000	10	3489	1000	10	3741	1000	10	3992	1000	10	4244	1000	10	4496	1000	10	4748	1000	10	5000	1000	10	5251	1000	10	5503	1000	10	5755	1000	10	6007	1000	10	6259	1000	10	6510	1000	10	6762	1000	10	7014	1000	10	7266	1000	10	7517	1000	10	7769	1000	10	8021	1000	10	8273	1000	10	8524	1000	10	8777	1000	10	9029	1000	10	9280	1000	10	9532	1000	10	9783	1000	10	10035	1000	10	10287	1000	10	10539	1000	10	10791	1000	10	11042	1000	10	11294	1000	10	11546	1000	10	11798	1000	10	12049	1000	10	12301
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		3	1000	5	56	1000	5	62	1000	5	68	1000	5	74	1000	5	79	1000	5	85	1000	5	91	1000	5	97	1000	5	102	1000	5	108	1000	5	114	1000	5	120	1000	5	125	1000	5	131	1000	5	137	1000	5	143	1000	5	149	1000	5	154	1000	5	160	1000	5	166	1000	5	172	1000	5	177	1000	5	183	1000	5	189	1000	5	195	1000	5	200	1000	5	206	1000	5	212	1000	5	218	1000	5	223	1000	5	229	1000	5	235	1000	5	241	1000	5	247	1000	5	252	1000	5	258	1000	5	264	1000	5	270	1000	5	275	1000	5	281
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`月光能量持續時間 : <float2>秒
+月光能量多段攻擊次數 : <int>
+多段攻擊攻擊力 : <int>%%`	-1	0	0.001	-1	1	1.0	-1	2	1.0
+[/level property]

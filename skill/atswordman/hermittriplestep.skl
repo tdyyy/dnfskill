@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`櫻花劫`
+
+[basic explain]
+	`    沖向前方極速斬擊敵人后回到原位， 敵人將進入被挑釁的狀態， 無法動彈。
+    劍帝將劍收進劍鞘的瞬間， 敵人將受到巨大的傷害并倒地。
+    前方斬擊時若按向前方向鍵， 則劍帝不會回到原位， 而是出現在前方并收劍入鞘。
+    可以取消部分轉職技能的施放后僵直并立即施放該技能； 收劍入鞘的瞬間可以連接除Buff技能之外的所有主動技能。`
+
+[explain]
+	`    沖向前方極速斬擊敵人后回到原位， 敵人將進入被挑釁的狀態， 無法動彈。
+    劍帝將劍收進劍鞘的瞬間， 敵人將受到巨大的傷害并倒地。
+    前方斬擊時若按向前方向鍵， 則劍帝不會回到原位， 而是出現在前方并收劍入鞘。
+    可以取消部分轉職技能的施放后僵直并立即施放該技能； 收劍入鞘的瞬間可以連接除Buff技能之外的所有主動技能。`
+
+[executable states]
+	0	14	108
+[/executable states]
+
+[purchase cost]
+	90
+[/purchase cost]
+
+[required level]
+	80
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	30	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	349
+	`Character/Swordman/Effect/ATSkillIcon.img`	350
+
+[shake screen]
+	2	10000
+
+[durability decrease rate]
+	315
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←↓→ + Space`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	0	0
+
+[cool time]
+	30000	30000
+
+[casting time]
+	0	0
+
+[weapon effect type]
+	`[physical]`
+
+[dungeon]
+	[consume MP]
+		580	4500
+	[cool time]
+		45000	45000
+	[static data]
+		0	1000	640	1	100
+	[/static data]
+	[level info]
+		1	64519	71064	77606	84153	90698	97245	103790	110336	116880	123428	129972	136519	143063	149607	156153	162700	169244	175792	182334	188881	195427	201972	208519	215064	221607	228153	234698	241246	247789	254336	260880	267428	273972	280519	287062	293608	300152	306699	313244	319789	326335	332881	339427	345973	352516	359064	365608	372150	378697	385242	391788	398335	404880	411424	417972	424516	431063	437607	444152	450696	457244	463788	470334	476878	483425	489971	496516	503062	509608	516153
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[consume MP]
+		580	4500
+	[cool time]
+		45000	45000
+	[static data]
+	[/static data]
+	[level info]
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`[櫻花劫]攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

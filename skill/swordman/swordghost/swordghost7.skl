@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+	`鬼神步`
+
+[explain]
+	`    使用后進入準備狀態中，輸入方向鍵鍵時會以難以置信的速度向前方突進 
+    劍鬼將一直線上的所有敵人賦予多段物理傷害 
+    準備姿勢時一定時間內不輸入技能鍵會自動攻擊，輸入C鍵的時候會取消準備姿勢`
+
+[basic explain]
+	`    使用后進入準備狀態中，輸入方向鍵鍵時會以難以置信的速度向前方突進 
+    劍鬼將一直線上的所有敵人賦予多段物理傷害 
+    準備姿勢時一定時間內不輸入技能鍵會自動攻擊，輸入C鍵的時候會取消準備姿勢`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	20	210
+
+[cool time]
+	1000	1000
+
+[executable states]
+	0	14	8	105
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	578
+	`Character/Swordman/Effect/SkillIcon.img`	579
+
+[static data]
+	3
+[/static data]
+
+[level info]
+	3	813	558	3	910	619	3	1007	680	3	1104	741	3	1201	802	3	1298	863	3	1395	924	3	1492	985	3	1589	1046	3	1686	1107	3	1783	1168	3	1880	1229	3	1977	1290	3	2074	1351	3	2171	1412	3	2268	1473	3	2365	1534	3	2462	1595	3	2559	1656	3	2656	1717	3	2753	1778	3	2850	1839	3	2947	1900	3	3044	1961	3	3141	2022	3	3238	2083	3	3335	2144	3	3432	2205	3	3529	2266	3	3626	2327	3	3723	2388	3	3820	2449	3	3917	2510	3	4014	2571	3	4111	2632	3	4208	2693	3	4305	2754	3	4402	2815	3	4499	2876	3	4596	2937	3	4693	2998	3	4790	3059	3	4887	3120	3	4984	3181	3	5081	3242	3	5178	3303	3	5275	3364	3	5372	3425	3	5469	3486	3	5566	3547	3
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`沖刺與斬擊物理傷害 : <int> %%
+斬擊物理攻擊次數 : <int> 次
+`	-1	1	1.0	0	0	1.0
+[/level property]

@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`光劍掌握`
+
+[basic explain]
+	`    可以使用光劍系武器攻擊敵人， 裝備光劍時可以減少所有技能的冷卻時間。`
+
+[explain]
+	`    可以使用光劍系武器攻擊敵人， 裝備光劍時可以減少所有技能的冷卻時間。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	15
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	1	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	68
+	`Character/Swordman/Effect/SkillIcon.img`	69
+
+[static data]
+	0	0
+[/static data]
+
+[dungeon]
+	[static data]
+		10	0
+	[/static data]
+[/dungeon]
+
+[pvp]
+	[static data]
+		0	0
+	[/static data]
+[/pvp]
+
+[level property]
+	1	99
+	`技能冷卻時間減少率 : <int>%%`	0	0	1.0	1	1	0.001
+[/level property]

@@ -1,0 +1,101 @@
+#PVF_File
+
+[name]
+	`怨魂刃`
+
+[name2]
+	`怨魂刃`
+
+[explain]
+	`   學習該技能后，在[上挑]、[鬼連斬]、[連牙]、[后跳斬]、
+   [魂魄斬]、[惡鬼斬首]、[合擊：月靈斬]、
+   [合擊：移魂一閃]、[惡鬼連舞]狀態下
+   使用'空格鍵'將柔化當前攻擊動作施放怨魂刃;
+`
+
+[basic explain]
+	`   學習該技能后，在[上挑]、[鬼連斬]、[連牙]、[后跳斬]、
+   [魂魄斬]、[惡鬼斬首]、[合擊：月靈斬]、
+   [合擊：移魂一閃]、[惡鬼連舞]狀態下
+   使用'空格鍵'將柔化當前攻擊動作施放怨魂刃;
+`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[required level]
+	25
+
+[required level range]
+	3
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[durability decrease rate]
+	10
+
+[auto cooltime apply]
+	1
+
+[icon]
+	`character/swordman/effect/skillicon_new.img`	0
+	`character/swordman/effect/skillicon_new.img`	1
+
+[weapon effect type]
+	`[physical]`
+
+[command key explain]
+	`操作指令 : Z`
+
+[dungeon]
+	[consume MP]
+		600	600
+	[cool time]
+		1	1
+	[executable states]
+		0	14	8	105
+	[/executable states]
+	[static data]
+		100	-250	100	-50
+	[/static data]
+	[level info]
+		1	3601	4030	4459	4888	5317	5746	6175	6604	7033	7462	7891	8320	8749	9178	9607	10036	10465	10894	11323	11752	12181	12610	13039	13468	13897	14326	14755	15184	15613	16042	16471	16900	17329	17758	18187	18616	19045	19474	19903	20332	20761	21190	21619	22048	22477	22906	23335	23764	24193	24622
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[level info]
+		0	1	1	1	1
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`怨魂刃物理傷害 : <int> %%
+`	-1	0	1.0
+[/level property]

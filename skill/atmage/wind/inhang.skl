@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`朔風牽引`
+
+[basic explain]
+	`    在前方產生逆風， 將敵人吸附到角色周圍。`
+
+[explain]
+	`    在前方產生逆風， 將敵人吸附到角色周圍， 甚至可以將倒地狀態的敵人吸附過來。 逆風效果只對地面上的敵人有效。 可以強制中斷逆風並立即施放其他技能， 或反之也可以。
+    在決斗場中， 無法拉起倒地狀態的敵人。
+- [可強制中斷的技能] -
+[狂風沖刺]、 [回風斬]、 [游離之風]、 [風鳴沖擊]、 [雙翼風刃]、 [風暴之眼]、 [真空旋風破]、 [風暴之拳]、 [疾風瞬影閃]、 [風卷殘雲]`
+
+[executable states]
+	0	8	14	143
+[/executable states]
+
+[feature skill index]
+	38
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	20
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	50	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[consume MP]
+	60	246
+
+[cool time]
+	20000	20000
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	364
+	`Character/Mage/Effect/ATSkillIcon.img`	365
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	100	1000	3	1
+[/static data]
+
+[level info]
+	1	910	945	982	1020	1060	1101	1144	1189	1235	1283	1333	1385	1439	1495	1554	1614	1677	1742	1810	1880	1954	2030	2109	2191	2277	2366	2458	2554	2654	2757	2865	2976	3092	3213	3338	3468	3604	3744	3890	4042	4199	4363	4533	4710	4893	5084	5282	5488	5702	5925
+[/level info]
+
+[pvp]
+	[level info]
+		0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`風暴物理攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

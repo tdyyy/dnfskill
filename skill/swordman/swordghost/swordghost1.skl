@@ -1,0 +1,76 @@
+#PVF_File
+
+[name]
+	`終結攻擊`
+
+[name2]
+	`劍鬼技:終結攻擊`
+
+[explain]
+	` `
+
+[basic explain]
+	` `
+
+[purchase cost]
+	1
+[/purchase cost]
+
+[required level]
+	1
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	10	10	10	10	10	10
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	1	1
+
+[cool time]
+	100	100
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	648
+	`Character/Swordman/Effect/SkillIcon.img`	649
+
+[static data]
+	150	150	150	150
+[/static data]
+
+[level info]
+	1	100	100	100
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`攻擊力 : <int>%%
+`	-1	0	1.0
+[/level property]

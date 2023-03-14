@@ -1,0 +1,118 @@
+#PVF_File
+
+[name]
+	`強化 - 爆炎波動劍`
+
+[name2]
+	`波動劍 暴炎 Upgrade`
+
+[basic explain]
+	`火焰的波浪向前方的敵人侵襲造成損傷， 然后推向一定的距離。`
+
+[explain]
+	`向前方敵人發射烈焰波并使其受到火屬性傷害。
+被命中的敵人會被擊退一定距離； 當烈焰波接觸地面時， 還會出現爆炸。`
+
+[basic explain ex]
+	`爆炎波動劍的攻擊力增加。`
+
+[explain ex]
+	`爆炎 · 波動劍的攻擊力增加。
+技能每增加Lv1時， 攻擊力增加量 : 10%%`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[required level]
+	65
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	0	0	5	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[pre required skill]
+	22	10
+[/pre required skill]
+
+[durability decrease rate]
+	50
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[consume item]
+[/consume item]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	310
+	`Character/Swordman/Effect/SkillIcon.img`	311
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[dungeon]
+	[static data]
+		350
+	[/static data]
+	[level info]
+		2	787	1464	870	1614	949	1767	1034	1917	1114	2071	1195	2220	1276	2375	1359	2524	1442	2678	1522	2827	1603	2979	1685	3131	1769	3282	1848	3433	1928	3586	2012	3737	2093	3889	2173	4041	2255	4190	2339	4343	2420	4494	2499	4644	2581	4798	2664	4948	2745	5102	2826	5252	2908	5406	2992	5554	3072	5707	3153	5858	3235	6008	3314	6160	3396	6312	3480	6464	3560	6612	3641	6767	3723	6916	3805	7070	3887	7220	3966	7374	4050	7524	4131	7675	4211	7828	4292	7978	4377	8129	4458	8281	4538	8433	4619	8585	4704	8736	4785	8888	4864	9039	4946	9192	5028	9341	5110	9492	5191	9645	5273	9796	5354	9948	5434	10100	5518	10251	5599	10403	5681	10555	5761	10705	5844	10856	5924	11009	6008	11160	6088	11311	6169	11464	6251	11615	6332	11766	6414	11917
+	[/level info]
+	[special level up]
+		-1	0
+		`%`	10	-1	1
+		`%`	10
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[static data]
+		450
+	[/static data]
+	[level info]
+		2	75	151	83	166	91	182	99	197	107	212	114	229	122	244	130	260	138	275	145	290	153	306	161	321	168	338	176	353	184	369	193	384	200	399	208	415	216	431	223	447	231	462	239	477	246	493	254	508	262	524	270	540	277	556	285	571	294	586	301	602	309	617	317	634	325	649	332	664	340	680	348	695	355	711	363	726	371	743	378	758	386	773	395	789	403	804	410	820	418	835	426	851	433	867	441	882	449	898	457	913	465	929	472	944	480	960	488	976	496	991	503	1007	511	1022	519	1038	527	1053	535	1069	542	1085	550	1100	558	1116	566	1131	573	1147	581	1162	589	1178	597	1194	605	1209	612	1225
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`魔法攻擊力 : <int>
+爆炸的攻擊力 : <int>`	-2	0	1.0	-2	1	1.0
+[/level property]
+
+[skill preloading image]
+	`Character/Swordman/Effect/FireWaveFloor.img`
+	`Common/CommonEffect/Fire.img`
+	`Common/CommonEffect/FireLight.img`
+[/skill preloading image]

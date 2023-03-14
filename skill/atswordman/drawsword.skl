@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`馭劍術`
+
+[basic explain]
+	`    加強自我控制力； 可強制中斷當前進行的技能攻擊動作， 并立即施放其它技能。
+[學習劍心 : 魔劍喚醒后]
+    增加可以強制中斷的次數。`
+
+[explain]
+	`    加強自我控制力； 可強制中斷當前進行的技能攻擊動作， 并立即施放其它技能。
+    強制中斷效果有次數限制， 達到上限后， 需要經過一定時間才能恢復使用。
+[學習劍心 : 魔劍喚醒后]
+    增加可以強制中斷的次數。`
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	0	10	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	66
+	`Character/Swordman/Effect/ATSkillIcon.img`	67
+
+[shake screen]
+	2	10000
+
+[durability decrease rate]
+	60
+
+[dungeon]
+	[static data]
+		10	6	11	21	14	99
+	[/static data]
+	[level info]
+		2	2	11111	2	10556	2	10000	3	9444	3	8889	3	8333	4	7778	4	7222	4	6667	5	6111	5	5556	5	5000	6	4444	6	3889	6	3333	7	2778	7	2222	7	1667	8	1111	8	556	8	0	9	3000	9	3000	9	3000	10	3000	10	3000	10	3000	11	3000	11	3000	11	3000
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		10000	10000
+	[static data]
+		10	6	11	21	14	7	99
+	[/static data]
+	[level info]
+		2	1	38000	1	36889	1	35778	1	34667	1	33556	1	32444	1	31333	1	30222	1	29111	1	28000	1	26889	1	25778	1	24667	1	23556	1	22444	1	21333	1	20222	1	19111	1	18000	1	16889	1	15778	1	14667	1	13556	1	12444	1	11333	1	10222	1	9111	1	8000	1	6889	1	5778
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`強制中斷次數 : <int>次
+恢復時間 : <float1>秒`	-1	0	1.0	-1	1	0.0
+[/level property]

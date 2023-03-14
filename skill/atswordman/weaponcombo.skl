@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`帝國劍術`
+
+[basic explain]
+	`    只傳授給帝國劍士的秘密劍術。
+    根據佩戴的武器不同基本攻擊的招式會發生變化。`
+
+[explain]
+	`    只傳授給帝國劍士的秘密劍術。
+    根據佩戴的武器不同基本攻擊的招式會發生變化。
+    可以結合基本攻擊使用， 但施放最后一擊后無法銜接基本攻擊或[帝國劍術]。
+    根據佩戴的武器不同， 會施放不同的帝國劍術。
+    可使用[馭劍術]強制中斷[帝國劍術]并施放其他技能。`
+
+[executable states]
+	0	108	14
+[/executable states]
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	15
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	1	0	0	0	1
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	312
+	`Character/Swordman/Effect/ATSkillIcon.img`	313
+
+[shake screen]
+	2	10000
+
+[durability decrease rate]
+	60
+
+[command]
+[/command]
+
+[command customizing]
+	0
+
+[dungeon]
+	[consume MP]
+		6	140
+	[cool time]
+		0	0
+	[auto cooltime apply]
+		0
+
+	[dungeon]
+		[static data]
+			1	0	60	45	38	90	38	25	25	60	60	60	45	0	0	0	0	75	53	75	45	30	45	15	30	0	0	30	25	60	25	0	0	30	30	0	20	0	0	0	0	50	35	0	0	20	30	10	20	170	150	25
+		[/static data]
+		[level info]
+		[/level info]
+	[/dungeon]
+
+[pvp]
+	[cool time]
+		2000	2000
+	[static data]
+		1	0	60	45	38	90	38	53	53	60	60	60	45	0	0	0	0	75	53	75	45	30	45	15	30	0	0	30	25	60	25	0	0	30	30	0	20	0	0	0	0	35	20	0	0	20	30	10	20	100	0	0
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	``	-1	0	1.0
+[/level property]

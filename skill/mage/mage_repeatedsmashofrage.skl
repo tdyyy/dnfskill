@@ -1,0 +1,103 @@
+#PVF_File
+
+[name]
+	`咒令 : 憤怒咆哮`
+
+[explain]
+	`    引爆牛頭王庫魯塔的憤怒。
+    施放技能時， 庫魯塔移動到召喚師前方， 大聲咆哮， 使敵人進入僵直狀態。
+    然后用斧頭快速下劈4次， 造成魔法傷害， 最后強力下劈， 發動猛烈一擊。
+    未召喚牛頭王庫魯塔的狀態下無法施放。`
+
+[basic explain]
+	`    引爆牛頭王庫魯塔的憤怒。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[pre required skill]
+	136	1
+[/pre required skill]
+
+[purchase cost]
+	70
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	30	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	603
+	`Character/Mage/Effect/SkillIcon.img`	604
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↓↓→ + Z`
+
+[consume MP]
+	800	1680
+
+[cool time]
+	50000	50000
+
+[casting time]
+	1000	1000
+
+[durability decrease rate]
+	350
+
+[level info]
+	2	5727	15274	6173	16462	6618	17650	7064	18838	7509	20026	7955	21214	8400	22402	8846	23590	9291	24778	9737	25966	10182	27154	10628	28342	11073	29530	11519	30718	11964	31906	12410	33094	12855	34282	13301	35470	13746	36658	14192	37846	14637	39034	15083	40222	15528	41410	15974	42598	16419	43786	16865	44974	17310	46162	17756	47350	18202	48538	18647	49726	19093	50914	19538	52102	19984	53290	20429	54478	20875	55666	21320	56854	21766	58042	22211	59230	22657	60418	23102	61606	23548	62794	23993	63982	24439	65170	24884	66358	25330	67546	25775	68734	26221	69922	26666	71110	27112	72298	27557	73486	28003	74674	28448	75862	28894	77050	29339	78238	29785	79426	30230	80614	30676	81802	31121	82990	31567	84178	32012	85366	32458	86554	32903	87742	33349	88930	33794	90119	34240	91307	34685	92495	35131	93683
+[/level info]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[level property]
+	1	99
+	`下劈攻擊力 : <int>%%
+最后一擊攻擊力 : <int>%%`	-1	0	1.0	-1	1	1.0
+[/level property]

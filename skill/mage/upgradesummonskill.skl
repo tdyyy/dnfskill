@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`靈魂支配`
+
+[name2]
+	`Spirit Bond`
+
+[explain]
+	`    提升自身的召喚能力和對召喚獸的支配能力， 并延長召喚獸存在的時間; 使用召喚魔法時， 還可以減少施放時間。
+    增加基本攻擊力和技能攻擊力。`
+
+[basic explain]
+	`    提升自身的召喚能力和對召喚獸的支配能力， 并延長召喚獸存在的時間; 使用召喚魔法時， 還可以減少施放時間。
+    增加基本攻擊力和技能攻擊力。`
+
+[purchase cost]
+	45
+[/purchase cost]
+
+[required level]
+	48
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	0	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	44
+	`Character/Mage/Effect/SkillIcon.img`	45
+
+[static data]
+[/static data]
+
+[level info]
+	3	8	4	100	11	6	110	15	8	120	19	10	130	23	12	140	26	14	150	30	16	160	34	18	170	38	20	180	41	22	190	45	24	200	49	26	210	53	28	220	56	30	230	60	32	240	64	34	250	68	36	260	71	38	270	75	40	280	79	42	290	83	44	300	86	46	310	90	48	320	94	50	330	98	52	340	102	54	350	105	56	360	109	58	370	113	60	380	117	62	390	120	64	400	124	66	410	128	68	420	132	70	430	135	72	440	139	74	450	143	76	460	147	78	470	150	80	480
+[/level info]
+
+[pvp]
+	[level info]
+		2	4	2	6	3	8	4	10	5	12	6	14	7	16	8	18	9	20	10	22	11	24	12	26	13	28	14	30	15	32	16	34	17	36	18	38	19	40	20	42	21	44	22	46	23	48	24	50	25	52	26	54	27	56	28	58	29	60	30	62	31	64	32	66	33	68	34	70	35	72	36	74	37	76	38	78	39	80	40	82	41	84	42	86	43	88	44	90	45	92	46	94	47	96	48	98	49	100	50	102	51	104	52	106	53	108	54	110	55	112	56	114	57	116	58	118	59	120	60	122	61	124	62	126	63	128	64	130	65	132	66	134	67	136	68	138	69	140	70	142	71
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`召喚魔法的施放時間減少率 : <int>%%
+召喚獸的存在時間延長率 : <int>%%
+基本攻擊力和技能攻擊力增加量 : <float1>%%`	-1	0	1.0	-1	1	1.0	-1	2	0.1
+[/level property]

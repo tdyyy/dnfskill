@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+	`烏希爾的詛咒`
+
+[basic explain]
+	`    學習后， 在地下城時， 可以使怪物進入[烏希爾的詛咒]狀態。 增加自身的技能攻擊力。`
+
+[explain]
+	`    學習后， 在地下城時， 可以使怪物進入[烏希爾的詛咒]狀態。 增加自身的技能攻擊力。
+    受詛咒的怪物所受傷害增加。`
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	0	0	1	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	226
+	`Character/Swordman/Effect/ATSkillIcon.img`	227
+
+[dungeon]
+	[static data]
+	[/static data]
+	[level info]
+		4	0	0	340	120	0	0	340	140	0	0	340	160	0	0	340	180	0	0	340	200	0	0	340	220	0	0	340	240	0	0	340	260	0	0	340	280	0	0	340	300	0	0	340	320	0	0	340	340	0	0	340	360
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[static data]
+	[/static data]
+	[level info]
+		4	0	0	75	0	0	0	75	0	0	0	75	0	0	0	75	0	0	0	75	0	0	0	75	0	0	0	75	0	0	0	75	0	0	0	75	0	0	0	75	0	0	0	75	0	0	0	75	0
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`    轉職后技能攻擊力增加率 : <int>%%
+[隊伍加成效果]
+敵人所受傷害增加率 : <int>%%(隊伍加成效果僅適用數值最高的1種， 對除自身之外的所有隊友生效)`	-1	3	0.1	-1	2	0.1
+[/level property]

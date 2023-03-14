@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`夜之風`
+
+[basic explain]
+	`    向後翻滾的同時從劍鞘中拔出黑曜， 然後用力下劈， 釋放劍風。 劍風對命中的敵人造成多段傷害。`
+
+[explain]
+	`    向後翻滾的同時從劍鞘中拔出黑曜， 然後用力下劈， 釋放劍風。 劍風對命中的敵人造成多段傷害。`
+
+[executable states]
+	0	14	108	6
+[/executable states]
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	40
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	50	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	463
+	`Character/Swordman/Effect/ATSkillIcon.img`	464
+
+[durability decrease rate]
+	140
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑→→ + Z`
+
+[skill command advantage]
+	20	40
+
+[consume MP]
+	235	1974
+
+[cool time]
+	20000	20000
+
+[dungeon]
+	[static data]
+		1000	-4000	450	0	500	-5000	500	10	90	500	300	0	100	3	80	300	75	1	0	100
+	[/static data]
+	[level info]
+		1	4172	4596	5019	5442	5866	6289	6712	7135	7559	7982	8405	8829	9252	9675	10099	10522	10945	11369	11792	12215	12639	13062	13485	13909	14332	14755	15179	15602	16025	16449	16872	17295	17718	18142	18565	18988	19412	19835	20258	20682	21105	21528	21952	22375	22798	23222	23645	24068	24492	24915	25338	25762	26185	26608	27032	27455	27878	28301	28725	29148	29571	29995	30418	30841	31265	31688	32111	32535	32958	33381
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[consume item]
+	[/consume item]
+	[start cool time]
+		25000	25000
+	[static data]
+		1000	-4000	450	0	500	-5000	500	10	90	500	300	0	100	3	80	300	75	1	0	100
+	[/static data]
+	[level info]
+		1	80	88	96	104	112	120	128	136	144	152	161	169	177	185	193	201	209	217	225	233	241	249	257	265	273	281	289	297	305	313	321	330	338	346	354	362	370	378	386	394	402	411	419	427	435	443	451	459	467	475	483	491	499	507	515	523	531	539	547	555	563	572	580	588	596	604	612	620	628	636
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`黑曜劍風多段攻擊次數上限 : <int>次
+黑曜劍風每段攻擊力 : <int>`	13	13	1.0	-2	0	1.0
+[/level property]

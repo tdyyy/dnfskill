@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+	`疾影手`
+
+[name2]
+	`The Quick Exchange of Weapon`
+
+[basic explain]
+	`劍魂特有技能， 可以迅速切換武器， 並且在切換其它系列武器時， 可以增加武器的攻擊力和暴擊率， 效果持續一定時間。`
+
+[explain]
+	`劍魂特有技能， 可以迅速切換武器， 並且在切換其它系列武器時， 可以增加武器的攻擊力和暴擊率， 效果持續一定時間。
+    切換同系列武器時， 只減少切換武器的冷卻時間。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	0	0	0	1
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	30
+	`Character/Swordman/Effect/SkillIcon.img`	31
+
+[static data]
+	100	100	5000
+[/static data]
+
+[level info]
+	1	50
+[/level info]
+
+[level property]
+	1	99
+	`冷卻時間減少量 : <int>%%
+物理暴擊率增加量 : <int>%%
+物理攻擊力增加率 : <int>%%
+Buff持續時間 : <int>秒`	-1	0	1.0	0	0	0.1	1	1	0.1	2	2	0.001
+[/level property]

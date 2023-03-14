@@ -1,0 +1,87 @@
+#PVF_File
+
+[name]
+	`暗炎冥魂波`
+
+[basic explain]
+	`把蘊含黑暗之力的劍插向前方， 引起強烈的爆炸。 `
+
+[explain]
+	`把蘊含黑暗之力的劍插向前方， 引起強烈的爆炸。 `
+
+[pre required skill]
+	60	1
+[/pre required skill]
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	30	30	30	30	30	30
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[dungeon]
+	[consume MP]
+		400	1120
+	[cool time]
+		30000	30000
+	[executable states]
+		0	14	8
+	[/executable states]
+	[durability decrease rate]
+		25
+	[weapon effect type]
+		`[physical]`
+	[icon]
+		`Character/Swordman/Effect/SkillIcon.img`	508
+		`Character/Swordman/Effect/SkillIcon.img`	509
+	[command]
+		{6=`(RIGHT)`}
+		{8=`,`}
+		{6=`(LEFT)`}
+		{8=`,`}
+		{6=`(UP)`}
+		{8=`,`}
+		{6=`(RIGHT)`}
+		{8=`,`}
+		{6=`(SKILL)`}
+	[/command]
+	[command key explain]
+		``
+
+	[dungeon]
+		[static data]
+			10
+		[/static data]
+		[level info]
+			1	4063	4462	4862	5261	5660	6060	6459	6859	7258	7657	8057	8456	8855	9255	9654	10053	10453	10852	11252	11651	12050	12450	12849	13248	13648	14047	14446	14846	15245	15644	16044	16443	16843	17242	17641	18041	18440	18839	19239	19638	20037	20437	20836	21236
+		[/level info]
+	[/dungeon]
+
+[level property]
+	1	99
+	`爆炸魔法攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

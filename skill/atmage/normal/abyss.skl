@@ -1,0 +1,48 @@
+#PVF_File
+
+[name]
+	`黑暗之眼`
+
+[explain]
+	`    增加魔法師的MP上限； 若MP值低于一定比率時， 還可增加MP恢復速度。`
+
+[basic explain]
+	`    增加魔法師的MP上限； 若MP值低于一定比率時， 還可增加MP恢復速度。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[required level]
+	1
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	172
+	`Character/Mage/Effect/ATSkillIcon.img`	173
+
+[static data]
+	10	40	10
+[/static data]
+
+[level property]
+	1	99
+	`MP上限增加率 : <int>%%
+可觸發恢復效果時的MP值比率 : <int>%%
+MP恢復速度增加率 : <int>倍`	0	0	1.0	1	1	1.0	2	2	1.0
+[/level property]

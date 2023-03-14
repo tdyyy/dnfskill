@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`神影手`
+
+[basic explain]
+	`    掌握疾影手的奧義， 切換武器時， 可在前方發動沖擊波， 并獲得[疾影手]Buff效果。
+    無法在被擊時使用[神影手]， 若不符合[神影手]的施放條件時， 則會發動[疾影手]。`
+
+[explain]
+	`    掌握疾影手的奧義， 切換武器時， 可在前方發動沖擊波， 并獲得[疾影手]Buff效果。
+    無法在被擊時使用[神影手]， 若不符合[神影手]的施放條件時， 則會發動[疾影手]。`
+
+[purchase cost]
+	10
+[/purchase cost]
+
+[required level]
+	75
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	1	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	494
+	`Character/Swordman/Effect/SkillIcon.img`	495
+
+[dungeon]
+	[static data]
+		20000
+	[/static data]
+	[level info]
+		3	3650	150	150
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`切換武器時沖擊波攻擊力 : <int>%%
+攻擊速度增加量 : <int>%%
+移動速度增加量 : <int>%%
+[神影手]Buff持續時間 : <float1>秒`	-1	0	1.0	-1	1	0.1	-1	2	0.1	0	0	0.001
+[/level property]

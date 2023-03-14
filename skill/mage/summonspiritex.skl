@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`強化 - 下級精靈`
+
+[name2]
+	`Summon Spirit Upgrade`
+
+[explain]
+	`增加同一張地圖內下級精靈的召喚數量上限。
+技能每增加Lv1時， 召喚數量上限增加量 : 1個`
+
+[basic explain]
+	`增加同一張地圖內下級精靈的召喚數量上限。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	3
+[/special purchase cost]
+
+[pre required skill]
+[/pre required skill]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	5
+
+[growtype maximum level]
+	0	0	3	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	328
+	`Character/Mage/Effect/SkillIcon.img`	329
+
+[command]
+[/command]
+
+[level info]
+	1	8	9	10	11	12	12	12	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10	10
+[/level info]
+
+[pvp]
+	[level info]
+		1	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7	7
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[level property]
+	1	99
+	`同一張地圖的精靈數量上限 : <int>`	-1	0	1.0
+[/level property]

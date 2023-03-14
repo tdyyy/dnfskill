@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`乖離 : 迷霧`
+
+[name2]
+	`crowlingmystcrowlingmyst`
+
+[explain]
+	`    消耗自身HP， 將虛無變換為迷霧之怪向前方發射。
+    迷霧之怪碰到敵人或障礙物時， 會附身到周圍等級最高的敵人身上， 基本攻擊和次元系列技能對迷霧附身的敵人具有更高的傷害增幅效果。(此時周圍其他敵人的增幅效果會消失)
+    若按下技能鍵， 可以召回附身的迷霧之怪。
+    在決斗場內， 附身時間有上限。`
+
+[basic explain]
+	`    消耗自身HP， 將虛無變換為迷霧之怪向前方發射。
+    迷霧之怪碰到敵人或障礙物時， 會附身到周圍等級最高的敵人身上， 基本攻擊和次元系列技能對迷霧附身的敵人具有更高的傷害增幅效果。(此時周圍其他敵人的增幅效果會消失)
+    [用起來還不錯， 但是對健康不太好……尤其是裝備信條裝置的情況下。]`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[pre required skill]
+	125	1
+[/pre required skill]
+
+[required level]
+	30
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	0	0
+
+[cool time]
+	1000	1000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	254
+	`Character/Mage/Effect/ATSkillIcon.img`	255
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	1000
+[/static data]
+
+[level info]
+	0
+[/level info]
+
+[level property]
+	1	99
+	`在決斗場內， 迷霧附身時間上限 : 5秒
+尋敵范圍 : <int>px`	0	0	1.0
+[/level property]

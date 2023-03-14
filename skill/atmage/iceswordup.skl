@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+	`水晶劍`
+
+[explain]
+	`    移除[冰魄劍]第3擊， 第1和第2擊強化成[水晶劍]進行攻擊。 可以把散落在上下方的敵人聚到冰結師面前， 第2擊還能讓敵人進入減速狀態。
+    [水晶劍]的攻擊力與[冰魄劍]的第1/2擊的攻擊力成比例， 減速效果與[冰魄劍]第3擊的減速效果相同。
+    命中敵人時， 可以強制中斷技能并施放轉職技能。`
+
+[basic explain]
+	`    把[冰魄劍]強化成[水晶劍]進行兩次攻擊。 被擊中的敵人會聚集到冰結師前， 并且命中時可以強制中斷技能并施放轉職技能。`
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[required level]
+	15
+
+[required level range]
+	3
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	178
+	`Character/Mage/Effect/ATSkillIcon.img`	179
+
+[static data]
+[/static data]
+
+[executable states]
+[/executable states]
+
+[level info]
+	1	100	102	104	106	108	110	112	114	116	118	120
+[/level info]
+
+[level property]
+	1	99
+	`[冰魄劍]第1和第2擊攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

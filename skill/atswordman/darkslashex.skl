@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`強化 - 暗黑斬`
+
+[basic explain]
+	`    借助魔人的力量， 向前方敵人發出強威力的斬擊。`
+
+[explain]
+	`    借助魔人的力量， 向前方敵人發出強威力的斬擊。`
+
+[basic explain ex]
+	`    增加[暗黑斬]的攻擊力。`
+
+[explain ex]
+	`    增加[暗黑斬]的攻擊力。r
+技能每增加Lv1時， 攻擊力增加率 : 8%%`
+
+[pre required skill]
+	143	1
+[/pre required skill]
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	1
+[/special purchase cost]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	7
+
+[growtype maximum level]
+	5	5	5	5	5	5
+
+[skill fitness growtype]
+	0	1	2	3	4	5
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[durability decrease rate]
+	60
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	86
+	`Character/Swordman/Effect/ATSkillIcon.img`	87
+
+[dungeon]
+	[consume MP]
+		20	250
+	[cool time]
+		6000	6000
+	[static data]
+	[/static data]
+	[level info]
+		2	617	0	679	0	742	0	805	0	866	0	930	0	993	0	1054	0	1118	0	1181	0	1242	0	1306	0	1367	0	1430	0	1494	0	1555	0	1618	0	1681	0	1743	0	1806	0	1868	0	1931	0	1994	0	2056	0	2119	0	2182	0	2244	0	2307	0	2370	0	2432	0	2495	0	2557	0	2620	0	2683	0	2745	0	2808	0	2871	0	2933	0	2996	0	3058	0	3121	0	3184	0	3246	0	3309	0	3372	0	3434	0	3497	0	3560	0	3622	0	3685	0	3747	0	3810	0	3873	0	3935	0	3998	0	4061	0	4123	0	4186	0	4247	0	4311	0	4374	0	4435	0	4499	0	4562	0	4623	0	4687	0	4750	0	4811	0	4874	0	4936	0
+	[/level info]
+	[special level up]
+		-1	0
+		`%`	8	-1	1
+		`%`	8
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[level info]
+		2	74	0	83	0	92	0	101	0	110	0	119	0	129	0	138	0	146	0	155	0	164	0	173	0	182	0	191	0	200	0	210	0	219	0	227	0	236	0	246	0	255	0	264	0	272	0	281	0	291	0	300	0	309	0	317	0	327	0	336	0	345	0	354	0	364	0	372	0	381	0	390	0	398	0	408	0	417	0	426	0	435	0	445	0	454	0	462	0	471	0	481	0	489	0	498	0	507	0	517	0	526	0	535	0	543	0	552	0	562	0	571	0	580	0	589	0	598	0	607	0	616	0	624	0	634	0	643	0	652	0	661	0	671	0	680	0	688	0	697	0
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`魔法攻擊力 : <int>%%`	-1	0	1.0	-2	1	1.0
+[/level property]

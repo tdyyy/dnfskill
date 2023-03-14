@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`重甲精通`
+
+[name2]
+	`Heavy Armor Mastery`
+
+[basic explain]
+	`    裝備重甲系防具時， 可以增加力量、 精神、 物理防御力、 MP恢復速度、 HP最大值和MP最大值。`
+
+[explain]
+	`    裝備重甲系防具時， 可以增加力量、 精神、 物理防御力、 MP恢復速度、 HP最大值和MP最大值。
+    效果隨裝備的重甲數量增加而增大。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[icon]
+	`Character/Common/SkillIcon.img`	14
+	`Character/Common/SkillIcon.img`	15
+
+[static data]
+	10	5	0	0	0	0	0	0	0	0	100	100	0	20	0	0	0	0
+[/static data]
+
+[pvp]
+	[static data]
+		10	5	0	0	0	0	0	0	0	0	100	100	0	20	0	-40	-400	-400
+	[/static data]
+[/pvp]

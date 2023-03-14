@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`林中小屋`
+
+[explain]
+	`    將注入魔力的詛咒人偶獻祭， 召喚任何人都無法入侵的荊棘屋。 該詛咒對范圍內的隊友和敵人分別發揮不同效果。
+ 
+- [適用于隊友的效果] -
+進入荊棘屋后不受外部傷害， 但荊棘屋晃動時會受到HP最大值5%%的傷害。 在荊棘屋入口處跳躍即可進入荊棘屋， 再次按跳躍鍵可以跳出荊棘屋。 偏愛的對象不會減少HP。
+ 
+- [適用于敵人的效果] -
+敵人靠近荊棘屋時會被小屋外的尖刺刺傷， 并被擊退。`
+
+[basic explain]
+	`    將注入魔力的詛咒人偶獻祭， 召喚任何人都無法入侵的荊棘屋。 該詛咒對范圍內的隊友和敵人分別發揮不同效果。
+ 
+- [適用于隊友的效果] -
+進入荊棘屋后不受外部傷害， 但荊棘屋晃動時會受到HP最大值5%%的傷害。 在荊棘屋入口處跳躍即可進入荊棘屋， 再次按跳躍鍵可以跳出荊棘屋。 偏愛的對象不會減少HP。
+ 
+- [適用于敵人的效果] -
+敵人靠近荊棘屋時會被小屋外的尖刺刺傷， 并被擊退。`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[pre required skill]
+	149	1
+[/pre required skill]
+
+[required level]
+	45
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[consume MP]
+	502	1542
+
+[cool time]
+	15000	15000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	787
+	`Character/Mage/Effect/SkillIcon.img`	788
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[command key explain]
+	`操作指令 : ↑↑ + Z`
+
+[static data]
+	150	3000
+[/static data]
+
+[level info]
+	2	325	4	354	4	383	4	412	4	441	4	470	4	499	4	528	4	557	4	586	4	615	4	644	4	673	4	702	4	731	4	760	4	789	4	818	4	847	4	876	4	905	4	934	4	963	4	992	4	1021	4	1050	5	1079	5	1108	5	1137	5	1166	5	1195	5	1224	5	1253	5	1282	5	1311	5	1340	5	1369	5	1398	5	1427	5	1456	5	1485	5	1514	5	1543	5	1572	5	1601	5	1630	5	1659	5	1688	5	1717	5	1746	5
+[/level info]
+
+[level property]
+	1	99
+	`持續時間:<float1>秒
+荊棘多段攻擊力:<int>%%
+荊棘多段攻擊次數:<int>次`	0	0	1.0	-1	0	1.0	-1	1	1.0
+[/level property]

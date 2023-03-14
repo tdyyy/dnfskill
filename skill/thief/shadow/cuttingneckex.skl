@@ -1,0 +1,81 @@
+#PVF_File
+
+[name]
+	`強化 - 割喉`
+
+[basic explain]
+	`    使用武器向下攻擊敵人。 如果命中敵人背部， 將會進行追加攻擊。 此技能可在空中使用， 在空中使用時， 會垂直下落並向下攻擊敵人。`
+
+[explain]
+	`    使用武器向下攻擊敵人。 如果命中敵人背部， 將會進行追加攻擊。 此技能可在空中使用， 在空中使用時， 會垂直下落並向下攻擊敵人。 技能命中敵人後， 使用[奪魂]可以與其他技能形成連招。`
+
+[basic explain ex]
+	`    增加[割喉]的攻擊力。
+    技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[explain ex]
+	`    增加[割喉]的攻擊力。
+    技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	1
+[/special purchase cost]
+
+[pre required skill]
+	231	1
+[/pre required skill]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	5	5	5	5	5	5
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	317
+	`Character/Thief/Effect/SkillIcon.img`	387
+
+[consume MP]
+	30	252
+
+[cool time]
+	6000	6000
+
+[static data]
+[/static data]
+
+[level info]
+	2	1166	583	1285	642	1403	702	1522	762	1641	821	1758	880	1878	938	1994	998	2114	1058	2234	1116	2350	1175	2469	1235	2588	1294	2706	1353	2824	1412	2942	1472	3062	1530	3181	1590	3298	1650	3416	1707	3535	1766	3653	1827	3772	1886	3891	1945	4009	2004	4127	2063	4245	2122	4365	2182	4484	2242	4600	2300	4719	2359	4838	2419	4956	2478	5075	2538	5192	2597	5310	2656	5430	2715	5548	2774	5667	2834	5784	2892	5903	2953	6022	3010	6142	3070	6259	3130	6377	3188	6495	3247	6614	3306	6733	3366	6851	3426	6970	3484	7087	3544	7206	3603	7326	3662	7445	3722	7561	3781	7680	3840	7798	3900	7917	3959	8034	4017	8154	4078	8272	4136	8390	4195	8510	4254	8627	4314	8745	4373	8864	4433	8983	4491	9102	4550	9219	4610	9337	4669
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10	-1	1
+	`%`	10
+[/special level up]
+
+[level property]
+	1	99
+	`攻擊力 : <int>%%
+追加斬擊攻擊力 : <int>%%
+`	-1	0	1.0	-1	1	1.0
+[/level property]

@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`戰靈潛能`
+
+[explain]
+	`   激發體內的戰靈潛能， 增加自身的力量、 智力、 物理、 魔法暴擊率和基本攻擊力和技能攻擊力。`
+
+[basic explain]
+	`   激發體內的戰靈潛能， 增加自身的力量、 智力、 物理、 魔法暴擊率和基本攻擊力和技能攻擊力。`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	526
+	`Character/Mage/Effect/SkillIcon.img`	527
+
+[static data]
+[/static data]
+
+[level info]
+	5	50	50	1	1	140	65	65	2	2	160	80	80	3	3	180	95	95	4	4	200	110	110	5	5	220	125	125	6	6	240	140	140	7	7	260	155	155	8	8	280	170	170	9	9	300	185	185	10	10	320	200	200	11	11	340	215	215	12	12	360	230	230	13	13	380	345	345	14	14	400	360	360	15	15	420	375	375	16	16	440	390	390	17	17	460	405	405	18	18	480	420	420	19	19	500	435	435	20	20	520	450	450	21	21	540	465	465	22	22	560	480	480	23	23	580	495	495	24	24	600
+[/level info]
+
+[pvp]
+	[level info]
+		4	1	1	1	1
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`力量增加量 : <int>
+智力增加量 : <int>
+物理暴擊率增加量 : <int>%%
+魔法暴擊率增加量 : <int>%%
+基本攻擊力和技能攻擊力增加量 : <float1>%%`	-1	0	1.0	-1	1	1.0	-1	2	1.0	-1	3	1.0	-1	4	0.1
+[/level property]

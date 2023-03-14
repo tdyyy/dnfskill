@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`小魔女的偏愛`
+
+[explain]
+	`    小魔女抱著壞壞兔表達喜愛， 溫馨的氣息擴散到周圍， 增加全體隊員的HP最大值、 MP最大值、 物理防御力、 魔法防御力、 體力和精神， 并減少所受傷害。
+    而且， 小魔女可以選擇一名偏愛的隊友， 賦予其更高的屬性加成， 并提升該隊友獲得的其他Buff技能的效果。 若偏愛的對象為瘋瘋熊， 則增加除覺醒技能之外的瘋瘋熊系列技能的攻擊力。
+    另外， 偏愛的對象將無視[禁忌詛咒]和[林中小屋]減少HP的效果。 使用[永恒的占據]復活偏愛的對象時， 偏愛的對象可獲得擁有額外HP的保護罩。
+    [小魔女的偏愛]Buff效果不與圣騎士 (男/女)的[天籟之音]、 [守護徽章]和[守護祝福]Buff效果疊加。
+ 
+- [偏愛對象的Buff效果增幅] -
+禁忌詛咒 : Buff效果 +20%%
+火熱的愛意 : Buff效果 +20%%
+細心縫補 : HP恢復量 +20%%
+愛心急救 : HP恢復量 +20%%
+小魔女的偏愛 : 防御力 +20%%、 所受傷害 -5%%`
+
+[basic explain]
+	`    小魔女抱著壞壞兔表達喜愛， 溫馨的氣息擴散到周圍， 增加全體隊員的HP最大值、 MP最大值、 物理防御力、 魔法防御力、 體力和精神， 并減少所受傷害。
+    而且， 小魔女可以選擇一名偏愛的隊友， 賦予其更高的屬性加成， 并提升該隊友獲得的其他Buff技能的效果。 若偏愛的對象為瘋瘋熊， 則增加除覺醒技能之外的瘋瘋熊系列技能的攻擊力。
+    另外， 偏愛的對象將無視[禁忌詛咒]和[林中小屋]減少HP的效果。 使用[永恒的占據]復活偏愛的對象時， 偏愛的對象可獲得擁有額外HP的保護罩。
+    [小魔女的偏愛]Buff效果不與圣騎士 (男/女)的[天籟之音]、 [守護徽章]和[守護祝福]Buff效果疊加。
+ 
+- [偏愛對象的Buff效果增幅] -
+禁忌詛咒 : Buff效果 +20%%
+火熱的愛意 : Buff效果 +20%%
+細心縫補 : HP恢復量 +20%%
+愛心急救 : HP恢復量 +20%%
+小魔女的偏愛 : 防御力 +20%%、 所受傷害 -5%%`
+
+[executable states]
+	0	14
+[/executable states]
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	35
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[consume MP]
+	402	1342
+
+[cool time]
+	10000	10000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	708
+	`Character/Mage/Effect/SkillIcon.img`	709
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↑ + Z`
+
+[static data]
+	1
+[/static data]
+
+[level info]
+	0
+[/level info]
+
+[level property]
+	1	99
+	`詛咒娃娃的消耗量:1個`
+[/level property]

@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`風卷殘雲`
+
+[basic explain]
+	`    在自身周圍生成強力的風暴後， 向前拋出。
+    向前方拋出的風暴持續一定時間後爆炸。 按方向鍵時， 可以拋出更遠的距離。`
+
+[explain]
+	`    在自身周圍生成強力的風暴後， 向前拋出。 周圍的敵人會吸附到風暴中心。
+    向前方拋出的風暴持續一定時間後爆炸。 按方向鍵時， 可以拋出更遠的距離。`
+
+[executable states]
+	0	8	14	102	143
+[/executable states]
+
+[purchase cost]
+	75
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	30	0	0
+
+[consume MP]
+	551	3305
+
+[cool time]
+	50000	50000
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	220
+	`Character/Mage/Effect/ATSkillIcon.img`	221
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	250	400
+[/static data]
+
+[level info]
+	3	18347	44643	200	18697	46928	200	19047	49214	200	19397	51499	200	19747	53785	200	20097	56070	200	20447	58356	200	20797	60641	200	21147	62927	200	21497	65212	200	21847	67498	200	22197	69783	200	22547	72069	200	22897	74354	200	23247	76640	200	23597	78925	200	23947	81211	200	24297	83496	200	24647	85782	200	24997	88067	200	25347	90353	200	25697	92638	200	26047	94924	200	26397	97209	200	26747	99495	200	27097	101780	200	27447	104066	200	27797	106351	200	28147	108637	200	28497	110922	200	28847	113208	200	29197	115493	200	29547	117779	200	29897	120064	200	30247	122350	200	30597	124635	200	30947	126921	200	31297	129206	200	31647	131492	200	31997	133777	200	32347	136063	200	32697	138348	200	33047	140634	200	33397	142919	200	33747	145205	200	34097	147490	200	34447	149776	200	34797	152061	200	35147	154347	200	35497	156632	200
+[/level info]
+
+[level property]
+	1	99
+	`多段攻擊力:<int>%%
+最後爆炸攻擊力:<int>%%`	-1	0	1.0	-1	1	1.0
+[/level property]

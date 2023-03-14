@@ -1,0 +1,41 @@
+#PVF_File
+
+[name]
+	`魔法賦予`
+
+[name2]
+	`Enchant`
+
+[basic explain]
+	`給裝備附加魔法力量， 使裝備產生新的屬性。`
+
+[explain]
+	`給裝備附加魔法力量， 使裝備產生新的屬性。 魔法賦予的效果永久生效， 但若再次魔法賦予， 則原有的魔法賦予效果會消失并附加新的魔法賦予屬性。
+    魔法賦予的熟練度可以提升魔法賦予Lv， 魔法賦予Lv越高， 魔法賦予成功率越高， 而且還可以增加魔法賦予的種類。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	20
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	10	10	10	10	10	10
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Common/SkillIcon.img`	52
+	`Character/Common/SkillIcon.img`	53

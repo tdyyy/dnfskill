@@ -1,0 +1,79 @@
+#PVF_File
+
+[name]
+	`俯沖`
+
+[name2]
+	`Ducking Dash`
+
+[explain]
+	`低身快速向前移動， 若按上下方向鍵， 則可以沿對角線移動; 若已學[強制 - 擺動]， 則可以中斷[俯沖]并立即施放[擺動]。
+ [俯沖]中再按技能鍵就可以停止移動。
+ 只能在[意念驅動]已施放的狀態下使用。`
+
+[basic explain]
+	`低身快速向前移動， 若按上下方向鍵， 則可以沿對角線移動; 若已學[強制 - 擺動]， 則可以中斷[俯沖]并立即施放[擺動]。`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	1	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[required level]
+	15
+
+[consume MP]
+	1	1
+
+[cool time]
+	800	800
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	86
+	`Character/Priest/Effect/SkillIcon.img`	87
+
+[command]
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`([意念驅動]狀態下) Z`
+
+[command customizing]
+	0
+
+[static data]
+	0
+[/static data]
+
+[level info]
+	3	150	50	500
+[/level info]
+
+[pvp]
+	[cool time]
+		1300	1300
+	[level info]
+		3	150	50	500
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`移動距離 : <int>px`	-1	0	1.0
+[/level property]

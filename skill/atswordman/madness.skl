@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+	`釋魂狂怒`
+
+[basic explain]
+	`    生成魔法陣后束縛敵人， 然后發射靈魂， 對魔法陣內的敵人進行攻擊。
+    魔法陣內的敵人會浮在空中進入被抓取狀態， 隨后暗殿騎士會在擁有的靈魂中消耗一部分靈魂進行攻擊。
+    沒有靈魂的時候， 無法使用技能。 攻擊被抓取狀態的敵人時， 可以額外吸收靈魂。`
+
+[explain]
+	`    生成魔法陣后束縛敵人， 然后發射靈魂， 對魔法陣內的敵人進行隨機的攻擊。
+    沒有靈魂的時候， 無法使用技能。`
+
+[feature skill index]
+	44
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[executable states]
+	0	14	108	77
+[/executable states]
+
+[pre required skill]
+	75	1
+[/pre required skill]
+
+[required level]
+	35
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	0	0	50	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[durability decrease rate]
+	105
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	317
+	`Character/Swordman/Effect/ATSkillIcon.img`	318
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←↑→ + Z`
+
+[skill command advantage]
+	10	20
+
+[dungeon]
+	[casting time]
+		300	300
+	[consume MP]
+		100	900
+	[cool time]
+		15000	15000
+	[static data]
+		300	50	8	1	1	380	190	15
+	[/static data]
+	[level info]
+		2	15	14715	15	16207	15	17701	15	19193	15	20686	15	22178	15	23672	15	25164	15	26658	15	28150	15	29643	15	31136	15	32629	15	34121	15	35615	15	37107	15	38601	15	40093	15	41586	15	43078	15	44572	15	46064	15	47558	15	49050	15	50543	15	52036	15	53529	15	55021	15	56515	15	58007	15	59501	15	60993	15	62486	15	63978	15	65472	15	66964	15	68458	15	69950	15	71443	15	72936	15	74429	15	75921	15	77415	15	78907	15	80401	15	81893	15	83386	15	84878	15	86372	15	87865	15	89358	15	90851	15	92343	15	93837	15	95329	15	96823	15	98315	15	99808	15	101301	15	102794	15	104286	15	105780	15	107272	15	108765	15	110258	15	111751	15	113243	15	114737	15	116229	15	117723
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		20000	20000
+	[cool time]
+		60000	60000
+	[static data]
+		150	50	4	8	0	380	240	15
+	[/static data]
+	[level info]
+		2	10	290	10	319	10	349	10	378	10	408	10	437	10	467	10	496	10	525	10	555	10	584	10	614	10	643	10	672	10	702	10	731	10	761	10	790	10	820	10	849	10	878	10	908	10	937	10	967	10	996	10	1026	10	1055	10	1084	10	1114	10	1143	10	1173	10	1202	10	1231	10	1261	10	1290	10	1320	10	1349	10	1379	10	1408	10	1437	10	1467	10	1496	10	1526	10	1555	10	1584	10	1614	10	1643	10	1673	10	1702	10	1732	10	1761	10	1790	10	1820	10	1849	10	1879	10	1908	10	1938	10	1967	10	1996	10	2026	10	2055	10	2085	10	2114	10	2144	10	2173	10	2202	10	2232	10	2261	10	2291	10	2320
+	[/level info]
+	[consume item]
+	[/consume item]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`魔法陣范圍 : <int>px
+爆炸魔法攻擊力 : <int>%%
+消耗的靈魂個數 : <int>個
+命中敵人時額外吸收的靈魂數量 : <int>個`	0	0	1.0	-1	1	1.0	-1	0	1.0	7	7	1.0
+[/level property]

@@ -1,0 +1,56 @@
+#PVF_File
+
+[name2]
+	`Throw Mastery`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	20
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	20	20	20	20	20	20
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[consume MP]
+	1	1
+
+[icon]
+	`Character/Common/SkillIcon.img`	10
+	`Character/Common/SkillIcon.img`	11
+
+[level info]
+	1	50	100	150	200	250	300	350	400	450	500	550	600	650	700	750	800	850	900	950	1000	1050	1100	1150	1200	1250	1300	1350	1400	1450	1500	1550	1600	1650	1700	1750	1800	1850	1900	1950	2000
+[/level info]
+
+[name]
+	`投擲精通`
+
+[explain]
+	`    投擲時可以增加投擲道具的攻擊力， 但能造成2次傷害的投擲道具(如燃燒瓶等)， 將不增加第2次傷害的攻擊力。
+    每次投擲時會消耗壹定量的MP。`
+
+[basic explain]
+	`    投擲時可以增加投擲道具的攻擊力。`
+
+[level property]
+	1	99
+	`攻擊力增加率 : <int>%%`	-1	0	1.0
+[/level property]

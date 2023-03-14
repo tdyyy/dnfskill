@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`魔僕召喚 : 獄犬`
+
+[explain]
+	`    在前方的血池中召喚魔犬軍團攻擊范圍內的敵人。
+    魔犬來回跳躍撕咬敵人並吸取血氣。
+    若使用向前方向鍵， 則可以在更遠處生成血池。`
+
+[basic explain]
+	`    在前方的血池中召喚魔犬軍團攻擊范圍內的敵人。`
+
+[executable states]
+	0	8	14	129
+[/executable states]
+
+[pre required skill]
+	128	1
+[/pre required skill]
+
+[purchase cost]
+	75
+[/purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[consume MP]
+	640	1920
+
+[cool time]
+	25000	25000
+
+[weapon effect type]
+	`[magical]`
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	360
+	`Character/Mage/Effect/ATSkillIcon.img`	361
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←↑→ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	5000	300	300	0	100	350	450
+[/static data]
+
+[level info]
+	1	1032	1136	1241	1345	1450	1555	1659	1764	1869	1973	2079	2184	2288	2393	2498	2602	2707	2812	2916	3021	3126	3230	3335	3440	3544	3649	3753	3858	3963	4067	4173	4278	4382	4487	4592	4696	4801	4906	5010	5115
+[/level info]
+
+[level property]
+	1	99
+	`吸收血氣:<float1>%%
+多段物理攻擊力 : <int>%%
+血池存在時間:<float1>秒
+鮮血獵犬刷新間隔:<float1>秒
+`	5	5	0.1	-1	0	1.0	0	0	0.001	1	1	0.001
+[/level property]

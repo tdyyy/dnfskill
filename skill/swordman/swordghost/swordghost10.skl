@@ -1,0 +1,85 @@
+#PVF_File
+
+[name]
+	`怨鬼·一閃`
+
+[explain]
+	`    怨鬼從劍鬼身上脫離出來朝著前方一閃攻擊一直線上面的敵人 
+    劍鬼本人處于劍術技能動作中的時候可以無視施法動作進行釋放`
+
+[basic explain]
+	`    怨鬼從劍鬼身上脫離出來朝著前方一閃攻擊一直線上面的敵人 
+    劍鬼本人處于劍術技能動作中的時候可以無視施法動作進行釋放`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	20
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	50	10	10	10	10	10
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	32	336
+
+[cool time]
+	6000	6000
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[executable states]
+	0	14	8	105	111	112	113	115	119
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	580
+	`Character/Swordman/Effect/SkillIcon.img`	581
+
+[static data]
+	1
+[/static data]
+
+[level info]
+	1	1962	2161	2360	2559	2758	2957	3156	3356	3555	3754	3953	4152	4351	4550	4749	4948	5147	5346	5546	5745	5944	6143	6342	6541	6740	6939	7138	7337	7536	7736	7935	8134	8333	8532	8731	8930	9129	9328	9527	9726	9926	10125	10324	10523	10722	10921	11120	11319	11518	11717	11916	12115	12315	12514	12713	12912	13111	13310	13509	13708	13907	14106	14305	14505	14704	14903	15102	15301	15500	15699
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`怨鬼沖刺攻擊力 : <int> %%
+`	-1	0	1.0
+[/level property]

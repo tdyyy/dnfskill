@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`苦無掌握`
+
+[basic explain]
+	`    可以使用苦無系列武器攻擊敵人， 且基本攻擊更變為魔法攻擊。
+    使用苦無系列武器時基本攻擊、 跳躍攻擊和前衝攻擊會投擲苦無。`
+
+[explain]
+	`    可以使用苦無系列武器攻擊敵人， 且基本攻擊更變為魔法攻擊。
+    使用苦無系列武器時基本攻擊、 跳躍攻擊和前衝攻擊會發射出苦無。
+    若基本攻擊中使用後方向鍵+攻擊鍵時， 則可以往後空翻並投擲苦無。 `
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[type]
+	`[passive]`
+
+[required level]
+	15
+
+[required level range]
+	1
+
+[skill class]
+	3
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	1	0	0
+
+[pre required skill]
+	24	1
+[/pre required skill]
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	228
+	`Character/Thief/Effect/SkillIcon.img`	229
+
+[static data]
+	600
+[/static data]
+
+[level property]
+	1	99
+	` 
+- [苦無掌握] -
+攻擊力 : <基礎精通>
+苦無投擲距離 : <int>px`	0	0	1.0
+[/level property]

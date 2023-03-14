@@ -1,0 +1,87 @@
+#PVF_File
+
+[name]
+	`咆哮吧！ 瘋瘋熊`
+
+[explain]
+	`瘋瘋熊瞬間變大， 深吸一口氣后向前方噴吐強烈的詛咒氣息。
+ 吐息經過的地面會變成浮動詛咒氣息的詛咒地帶。 隊友進入詛咒地帶時可以提升屬性`
+
+[basic explain]
+	`瘋瘋熊瞬間變大， 深吸一口氣后向前方噴吐強烈的詛咒氣息。
+ 吐息經過的地面會變成浮動詛咒氣息的詛咒地帶。 隊友進入詛咒地帶時可以提升屬性`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[pre required skill]
+	154	1
+[/pre required skill]
+
+[required level]
+	80
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[consume MP]
+	60	546
+
+[cool time]
+	45000	45000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	769
+	`Character/Mage/Effect/SkillIcon.img`	770
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[command key explain]
+	`操作指令 : ↓→→ + Z`
+
+[static data]
+	1000	24	5000
+[/static data]
+
+[level info]
+	1	2094	2306	2519	2731	2944	3156	3369	3581	3794	4006	4219	4431	4644	4856	5069	5281	5494	5706	5919	6131	6344	6556	6769	6981	7193	7406	7618	7831	8043	8256	8468	8681	8893	9106	9318	9531	9743	9956	10168	10381	10593	10806	11018	11231	11443	11656	11868	12081	12293	12505	12718	12930	13143	13355	13568	13780	13993	14205	14418	14630	14843	15055	15268	15480	15693	15905	16118	16330	16543	16755
+[/level info]
+
+[level property]
+	1	99
+	`詛咒吐息魔法攻擊力 : <int>%%
+詛咒吐息多段攻擊次數 : <int>
+詛咒地帶持續時間 : <float1>秒`	-1	0	1.0	1	1	1.0	2	2	0.001
+[/level property]

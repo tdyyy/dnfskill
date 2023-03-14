@@ -1,0 +1,73 @@
+#PVF_File
+
+[name]
+	`七星耀華`
+
+[basic explain]
+	`    突破五氣朝元的極限， 進入七星耀華的境界。 劍術變得比之前更加鋒利， 內勁大幅提升， 增加基本攻擊、 劍術和掌法的攻擊力。
+- [攻擊力增加技能] -
+[三連斬]、 [輪回劍]、 [櫻落斬]、 [碎巖裂地掌]、 [圓舞斬]、 [亂花葬]、 [游龍掌]、 [湮烈掌]、 [回天璇鳴劍]、 [花舞千魂殺]、 [花開寒影]、 [如來神掌]、 [嘯空十字斬]、 [蓮花劍舞]、 [櫻花劫]、 [飛花逐月]、 [落英驚鴻掌]、 [輕云出月風靜夜]`
+
+[explain]
+	`    突破五氣朝元的極限， 進入七星耀華的境界。 劍術變得比之前更加鋒利， 內勁大幅提升， 增加基本攻擊、 劍術和掌法的攻擊力。
+- [攻擊力增加技能] -
+[三連斬]、 [輪回劍]、 [櫻落斬]、 [碎巖裂地掌]、 [圓舞斬]、 [亂花葬]、 [游龍掌]、 [湮烈掌]、 [回天璇鳴劍]、 [花舞千魂殺]、 [花開寒影]、 [如來神掌]、 [嘯空十字斬]、 [蓮花劍舞]、 [櫻花劫]、 [飛花逐月]、 [落英驚鴻掌]、 [輕云出月風靜夜]`
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	30	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	345
+	`Character/Swordman/Effect/ATSkillIcon.img`	346
+
+[dungeon]
+	[static data]
+		100
+	[/static data]
+	[level info]
+		1	200	220	240	260	280	300	320	340	360	380	400	420	440	460	480	500	520	540	560	580	600	620	640	660	680	700	720	740	760	780	800	820	840	860	880	900	920	940	960	980	1000	1020	1040	1060	1080	1100	1120	1140	1160	1180
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[static data]
+		100
+	[/static data]
+	[level info]
+		1	0	0
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`基本攻擊、 劍術、 掌法技能攻擊力增加量 : <int>%%`	-1	0	0.1	0	0	1.0
+[/level property]

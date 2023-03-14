@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`薄暮利刃`
+
+[basic explain]
+	`    快速拔出黑曜， 擊倒前方敵人。
+    除[回旋十字斬]和覺醒技能之外的轉職技能命中敵人時， 可以強制中斷并立即施放該技能。`
+
+[explain]
+	`    快速拔出黑曜， 擊倒前方敵人。
+    除[回旋十字斬]和覺醒技能之外的轉職技能命中敵人時， 可以強制中斷并立即施放該技能。`
+
+[executable states]
+	0	14	108
+[/executable states]
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[required level]
+	30
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	50	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	485
+	`Character/Swordman/Effect/ATSkillIcon.img`	486
+
+[durability decrease rate]
+	70
+
+[consume item]
+[/consume item]
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←↓→ + Z`
+
+[skill command advantage]
+	10	20
+
+[consume MP]
+	224	1890
+
+[cool time]
+	10000	10000
+
+[dungeon]
+	[static data]
+		100	1
+	[/static data]
+	[level info]
+		1	6315	6956	7597	8237	8878	9519	10160	10800	11441	12082	12723	13363	14004	14645	15286	15926	16567	17208	17848	18489	19130	19771	20411	21052	21693	22334	22974	23615	24256	24897	25537	26178	26819	27459	28100	28741	29382	30022	30663	31304	31945	32585	33226	33867	34508	35148	35789	36430	37070	37711	38352	38993	39633	40274	40915	41556	42196	42837	43478	44119	44759	45400	46041	46681	47322	47963	48604	49244	49885	50526
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		10000	10000
+	[consume item]
+	[/consume item]
+	[static data]
+		100
+	[/static data]
+	[level info]
+		1	105	116	127	137	148	159	169	180	191	201	212	223	233	244	255	265	276	287	297	308	319	330	340	351	362	372	383	394	404	415	426	436	447	458	468	479	490	500	511	522	532	543	554	564	575	586	596	607	618	629	639	650	661	671	682	693	703	714	725	735	746	757	767	778	789	799	810	821	831	842
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`斬擊攻擊力 : <int>`	-2	0	1.0
+[/level property]

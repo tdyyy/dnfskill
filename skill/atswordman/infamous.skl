@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`無情夜行`
+
+[basic explain]
+	`冷酷無情的夜皇，手中的劍刃沒有一絲慈悲。
+增加基本攻擊力和技能攻擊力；
+裝備太刀時，減少除覺醒技能之外的技能冷卻時間。`
+
+[explain]
+	`冷酷無情的夜皇，手中的劍刃沒有一絲慈悲。
+增加基本攻擊力和技能攻擊力；
+裝備太刀時，減少除覺醒技能之外的技能冷卻時間。`
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[required level]
+	75
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	30	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	493
+	`Character/Swordman/Effect/ATSkillIcon.img`	494
+
+[dungeon]
+	[level info]
+		2	240	100	260	100	280	100	300	100	320	100	340	100	360	100	380	100	400	100	420	100	440	100	460	100	480	100	500	100	520	100	540	100	560	100	580	100	600	100	620	100	640	100	660	100	680	100	700	100	720	100	740	100	760	100	780	100	800	100	820	100	840	100	860	100	880	100	900	100	920	100	940	100	960	100	980	100	1000	100	1020	100
+	[/level info]
+[/dungeon]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`基本攻擊力和技能攻擊力增加量:<int>%
+裝備太刀時技能冷卻時間減少量:<int>%`	-1	0	0.1	-1	1	0.1
+[/level property]

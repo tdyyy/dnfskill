@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`不動明王陣`
+
+[name2]
+	`Acalanatha array`
+
+[explain]
+	`生成可以使敵人浮空的不動明王陣， 并釋放出旋轉於波動陣周邊的焰珠攻擊敵人; 但只有在波動印出現后才能施放此技能。
+ 若連續按攻擊鍵， 則可以提高焰珠的旋轉速度， 但焰珠旋轉一定次數后會消失并引發魔法爆炸。
+ 波動印數量越多， 出現的焰珠就越多; 在施放技能的時間段內， 施放者不會被敵人抓取。`
+
+[basic explain]
+	`生成可以使敵人浮空的不動明王陣， 并釋放出旋轉於波動陣周邊的焰珠攻擊敵人; 但只有在波動印出現后才能施放此技能。`
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[pre required skill]
+	2	1
+[/pre required skill]
+
+[required level]
+	45
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	0	0	50	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[durability decrease rate]
+	150
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	136
+	`Character/Swordman/Effect/SkillIcon.img`	137
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↓↑ + Z`
+
+[skill command advantage]
+	20	40
+
+[dungeon]
+	[consume MP]
+		400	3360
+	[casting time]
+		500	500
+	[cool time]
+		45000	45000
+	[static data]
+		4000	900	7	170	350	300
+	[/static data]
+	[level info]
+		2	129	386	142	426	155	466	169	506	182	546	196	586	208	626	222	666	235	705	249	745	262	785	275	825	289	865	302	905	315	945	328	985	342	1024	354	1065	369	1105	381	1144	395	1185	409	1225	421	1264	435	1304	448	1344	462	1384	474	1424	488	1464	501	1503	515	1544	528	1584	541	1623	555	1664	567	1704	582	1743	594	1784	608	1824	620	1863	634	1903	648	1943	661	1983	675	2023	687	2063	701	2102	714	2143	728	2182	740	2222	754	2263	767	2302	781	2342	794	2382	807	2422	821	2462	834	2502	847	2542	860	2582	874	2622	887	2661	900	2701	914	2742	927	2781	940	2821	953	2861	967	2901	980	2941	994	2981	1007	3021	1020	3061	1034	3101	1047	3140
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		40000	40000
+	[level info]
+		2	17	48	19	53	20	58	21	63	23	68	24	73	26	78	27	83	28	88	29	93	30	98	32	103	33	108	34	113	36	118	37	123	39	127	40	132	41	137	43	142	44	147	46	152	47	157	48	162	49	167	50	172	52	177	53	182	54	187	56	192	57	197	59	202	60	207	61	212	63	217	64	222	66	227	67	232	67	237	69	242	70	247	72	252	73	257	74	262	76	267	77	271	79	276	80	281	81	286	83	291	84	296	85	301	87	306	88	311	89	316	90	321	92	326	93	331	94	336	96	341	97	346	98	351	100	356	101	361	102	366	104	371	105	376	106	381	108	386	109	391
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`焰珠魔法攻擊力 : <int>
+爆炸魔法攻擊力 : <int>
+旋轉時間 : <float1>秒
+波動陣范圍 : <int>px`	-2	0	1.0	-2	1	1.0	0	0	0.001	4	4	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]
+
+[feature skill index]
+	214

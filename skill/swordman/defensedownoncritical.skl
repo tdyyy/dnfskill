@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`極 · 鬼劍術 (斬鐵式)`
+
+[name2]
+	`Super Ghost Fencing， ZT Style`
+
+[explain]
+	`    增加基本攻擊力和技能攻擊力。
+    將鬼劍術修煉至極致， 使敵人受到暴擊傷害時降低其自身的物理防御力， 效果持續一定時間； 此效果可以重疊。`
+
+[basic explain]
+	`    增加基本攻擊力和技能攻擊力。
+    將鬼劍術修煉至極致， 使敵人受到暴擊傷害時降低其自身的物理防御力， 效果持續一定時間； 此效果可以重疊。`
+
+[purchase cost]
+	45
+[/purchase cost]
+
+[required level]
+	48
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	0	0	0	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	200
+	`Character/Swordman/Effect/SkillIcon.img`	201
+
+[dungeon]
+	[static data]
+		10	10000
+	[/static data]
+	[level info]
+		2	1003	100	1151	110	1307	120	1474	130	1649	140	1832	150	2026	160	2228	170	2440	180	2660	190	2890	200	3128	210	3377	220	3634	230	3899	240	4175	250	4459	260	4752	270	5054	280	5366	290	5687	300	6016	310	6355	320	6703	330	7060	340	7426	350	7801	360	8185	370	8579	380	8981	390	9392	400	9814	410	10243	420	10681	430	11130	440	11587	450	12053	460	12528	470	13013	480	13506	490	14008	500	14520	510	15041	520	15570	530	16109	540	16657	550	17214	560
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[static data]
+		3	7000
+	[/static data]
+	[level info]
+		1	211	253	297	345	395	449	505	565	628	693	762	834	908	986	1067	1151	1238	1328	1421	1517	1616	1718	1823	1931	2042	2156	2274	2394	2517	2644	2773	2905	3041	3179	3321	3465	3613	3763	3917	4073	4233	4396	4562	4730	4902	5077	5255	5436	5620	5774	5324	5438	5552	5666	5780	5895	6009	6123	6237	6351	6465	6579	6693	6807	6922	7036	7150	7264	7378	7492
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`最大重疊數 : <int>
+持續時間 : <float1>秒
+物防降低量 : <int>
+基本攻擊力和技能攻擊力增加 : <float1>%%`	0	0	1.0	1	1	0.001	-1	0	1.0	-1	1	0.1
+[/level property]

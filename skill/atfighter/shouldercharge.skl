@@ -1,0 +1,110 @@
+#PVF_File
+
+[executable states]
+	8
+[/executable states]
+
+[feature skill index]
+	162
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[pre required skill]
+	20	1
+[/pre required skill]
+
+[required level]
+	25
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	50	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[durability decrease rate]
+	20
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	16
+	`Character/Fighter/Effect/SkillIcon.img`	17
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[skill command advantage]
+	10	20
+
+[shake screen]
+	10	150
+
+[dungeon]
+	[consume MP]
+		50	420
+	[cool time]
+		7000	7000
+	[static data]
+		50	10	800	-3000
+	[/static data]
+	[level info]
+		1	1109	1223	1338	1453	1569	1683	1798	1912	2027	2141	2256	2370	2487	2601	2716	2830	2945	3059	3174	3288	3403	3519	3634	3748	3863	3977	4092	4206	4321	4437	4552	4666	4781	4895	5010	5124	5239	5354	5470	5584	5699	5813	5928	6042	6157	6271	6388	6502	6617	6731	6846	6960	7075	7189	7304	7420	7535	7649	7764	7878	7993	8107	8222	8338	8453	8567	8682	8796	8911	9025
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[cool time]
+		12000	12000
+	[level info]
+		1	123	136	149	161	174	187	199	212	225	238	250	263	276	289	301	314	327	340	352	365	378	390	403	416	429	441	454	467	480	492	505	518	531	543	556	569	581	594	607	620	632	645	658	671	683	696	709	721	734	747	760	772	785	798	811	823	836	849	862	874	887	900	912	925	938	951	963	976	989	1002
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[name]
+	`鐵山靠`
+
+[explain]
+	`此技能是失傳已久的羅漢拳中的一式， 可以用肩部對敵人進行猛力的攻擊。
+    施放后， 自身會進入霸體狀態并向前滑行著攻擊敵人； 距離敵人越近攻擊力越高。`
+
+[basic explain]
+	`此技能是失傳已久的羅漢拳中的一式， 可以用肩部對敵人進行猛力的攻擊。`
+
+[command key explain]
+	`操作指令 : →→ + Z`
+
+[name2]
+	`鐵山敲`
+
+[level property]
+	1	99
+	`物理攻擊力 : <float1>%%`	-1	0	1.0
+[/level property]

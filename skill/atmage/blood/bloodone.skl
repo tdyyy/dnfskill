@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`鮮血融合`
+
+[explain]
+	`從敵人身上吸取血液，與深淵之心融合生成新的力量——血氣。血氣是血法師運用在技能裏的一種新的力量之源。
+當血氣儲滿時，角色會進入興奮狀態，增加物理攻擊力。
+吸血狀態下，角色施展消耗血氣的技能時減少消耗量。
+當血氣不足時，角色可以消耗自身HP施展血氣的技能。`
+
+[basic explain]
+	`從敵人身上吸取血液，與深淵之心融合生成新的力量——血氣。血氣是血法師運用在技能裏的一種新的力量之源。
+當血氣儲滿時，角色會進入興奮狀態，增加物理攻擊力。
+吸血狀態下，角色施展消耗血氣的技能時減少消耗量。
+當血氣不足時，角色可以消耗自身HP施展血氣的技能。`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[pre required skill]
+	113	1
+[/pre required skill]
+
+[executable states]
+[/executable states]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	0	0	0	10	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[required level]
+	15
+
+[required level range]
+	3
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	310
+	`Character/Mage/Effect/ATSkillIcon.img`	311
+
+[static data]
+	1000	90	50	0	50	60000	500	4	50
+[/static data]
+
+[level info]
+	3	5	230	60000	10	230	60000	15	230	60000	20	230	60000	25	230	60000	30	230	60000	35	230	60000	40	230	60000	45	230	60000	50	230	60000	60	230	60000	70	230	60000	80	230	60000	90	230	60000	100	230	60000	110	230	60000	120	230	60000	130	230	60000	140	230	60000	150	230	60000
+[/level info]
+
+[level property]
+	1	99
+	`[掌握技能時效果]
+命中率增加量 : <float2>%%
+[血氣吸收狀態消耗系技能附加效果]
+血氣消耗減少率 : <int>%%
+[血氣高漲狀態]
+基本攻擊力和技能攻擊力增加率 : <float2>%%
+持續時間 : <float2>秒
+[血氣不足時]
+消耗HP比率 : 相應技能血氣消耗量的<int>%%
+[吸血系技能攻擊時]
+傷害增加率 : <float2>%%
+物防減少持續時間 : <float2>秒`	8	8	0.1	2	2	1.0	-1	0	0.1	5	5	0.001	4	4	1.0	-1	1	0.1	-1	2	0.001
+[/level property]

@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`九霄風雷`
+
+[basic explain]
+	`    和龍卷風合為一體， 攻擊指定位置的敵人。
+[我即是風！]`
+
+[explain]
+	`    和龍卷風合為一體， 攻擊指定位置的敵人。 施放時， 可以指定龍卷風降臨的位置， 然後和龍卷風合為一體給予敵人多段傷害並引發爆炸造成巨大傷害。 龍卷風降臨的位置只能選擇角色前方， 並且可以在空中施放技能。`
+
+[executable states]
+	0	8	14	102	143
+[/executable states]
+
+[purchase cost]
+	85
+[/purchase cost]
+
+[required level]
+	80
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	30	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[consume MP]
+	1324	2563
+
+[cool time]
+	35000	35000
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	394
+	`Character/Mage/Effect/ATSkillIcon.img`	395
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓↑→ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	200	100	100	20	1200	150
+[/static data]
+
+[level info]
+	2	3785	63610	4168	70062	4555	76516	4938	82970	5323	89422	5708	95874	6090	102330	6475	108782	6860	115234	7243	121690	7628	128142	8013	134594	8395	141048	8780	147502	9163	153954	9548	160408	9933	166860	10315	173314	10700	179768	11085	186220	11468	192672	11853	199128	12238	205580	12620	212032	13005	218488	13388	224940	13773	231392	14158	237846	14540	244300	14925	250752	15310	257206	15693	263658	16078	270112	16463	276566	16845	283018	17230	289470	17613	295926	17998	302378	18383	308830	18765	315286
+[/level info]
+
+[pvp]
+	[level info]
+		0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`多段物理攻擊力 : <int>%%
+爆炸物理攻擊力 : <int>%%`	-1	0	1.0	-1	1	1.0
+[/level property]

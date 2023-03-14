@@ -1,0 +1,46 @@
+#PVF_File
+
+[name2]
+	`Cancel - Gatling`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	15
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	58
+	`Character/Gunner/Effect/SkillIcon.img`	59
+
+[command]
+[/command]
+
+[static data]
+[/static data]
+
+[name]
+	`強制 - 格林機槍`
+
+[explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[M-137格林機槍]。`
+
+[basic explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[M-137格林機槍]。`

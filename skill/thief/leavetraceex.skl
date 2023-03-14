@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`強化 - 忍法 : 殘影術`
+
+[basic explain]
+	`    施放技能時， 可以生成殘影代替忍者繼續施放當前技能。
+    [殘影擁有和忍者一樣的能力， 甚至在某些時候， 可以發揮出比本體更強大的力量。]`
+
+[explain]
+	`    施放技能時， 可以生成殘影代替忍者繼續施放當前技能。
+    進入地下城後自動發動該技能， 發動後強制取消當前技能時， 會出現殘影繼續代替忍者使用強制取消的技能。
+    殘影消失時， 會發生爆炸給周圍敵人造成火屬性傷害。
+    使用完所有殘影後， 必須經過一段時間後才能恢復， 且可以連續施放。
+    該技能無法享受[忍術精通]的加成。
+    在決鬥場中， 殘影施放的技能會受到結印數量的影響。`
+
+[basic explain ex]
+	`    增加[忍法 : 殘影術]的爆炸傷害， 並減少殘影恢復時間。`
+
+[explain ex]
+	`    增加[忍法 : 殘影術]的爆炸傷害， 並減少殘影恢復時間。
+    技能每增加Lv1時， 攻擊力增加率 : 10%%
+    技能每增加Lv1時， 殘影恢復時間減少率 : 6%%`
+
+[feature skill type]
+	1
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	5	5	5	5	5	5
+
+[pre required skill]
+	88	1
+[/pre required skill]
+
+[special purchase cost]
+	1
+[/special purchase cost]
+
+[weapon effect type]
+	`[magical]`
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	271
+	`Character/Thief/Effect/SkillIcon.img`	380
+
+[consume MP]
+	128	1280
+
+[cool time]
+	15000	15000
+
+[level info]
+	3	10	1500	100	10	1500	102	10	1500	104	10	1500	106	10	1500	108	10	1375	110	10	1375	112	10	1375	114	10	1375	116	10	1375	118	10	1250	120	10	1250	122	10	1250	124	10	1250	126	10	1250	128	10	1125	130	10	1125	132	10	1125	134	10	1125	136	10	1125	138	10	1000	140	10	1000	142	10	1000	144	10	1000	146	10	1000	148	10	875	150	10	875	152	10	875	154	10	875	156	10	875	158	10	750	160	10	750	162	10	750	164	10	750	166	10	750	168	10	625	170	10	625	172	10	625	174	10	625	176	10	625	178	10	500	180	10	500	182	10	500	184	10	500	186	10	500	188	10	375	190	10	375	192	10	375	194	10	375	196	10	375	198
+[/level info]
+
+[special level up]
+	-1	1
+	`%`	6	-1	2
+	`%`	10
+[/special level up]
+
+[level property]
+	1	99
+	` 
+- [忍法 ： 殘影術] -
+殘影數量上限 : <int>個
+每個殘影恢復時間 : <float2>秒
+殘影使用技能時攻擊力比率 : <int>%%`	-1	0	1.0	-1	1	0.001	-1	2	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

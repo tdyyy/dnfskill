@@ -1,0 +1,85 @@
+#PVF_File
+
+[name]
+	`里 · 鬼劍術`
+
+[explain]
+	`    劍魂特有的鬼劍術； 使用的武器不同， 出現的攻擊效果也不同。
+    可以與普通攻擊形成連擊， 但最后一擊后無法連接普通攻擊或[里 · 鬼劍術]。
+    可強制中斷[里·鬼劍術]， 并施放其它的轉職技能。`
+
+[basic explain]
+	`    劍魂特有的鬼劍術， 使用的武器不同， 出現的攻擊效果也不同。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	1
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	5	0	0	0	5
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[consume MP]
+	6	140
+
+[cool time]
+	0	0
+
+[auto cooltime apply]
+	0
+
+[durability decrease rate]
+	14
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	148
+	`Character/Swordman/Effect/SkillIcon.img`	149
+
+[command]
+[/command]
+
+[command customizing]
+	0
+
+[dungeon]
+	[static data]
+		1
+	[/static data]
+	[level info]
+		1	10	30	50	70	90	110	130	150	170	190	210	230	250	270	290	310	330	350	370	390	410	430	450	470	490	510	530	550	570	590
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[cool time]
+		2000	2000
+	[static data]
+		0
+	[/static data]
+	[level info]
+		1	0	3	6	9	12	15	18	21	24	27	30	33	36	39	42	45	48	51	54	57	60	63	66	69	72	75	78	81	84	87
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`[里 · 鬼劍術]攻擊力增加率 : <int>%%`	-1	0	1.0
+[/level property]

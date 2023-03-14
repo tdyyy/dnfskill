@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`劍士皮甲專精`
+
+[name2]
+	`Leather Armor Mastery`
+
+[basic explain]
+	`    裝備皮甲系防具時， 可以增加力量、 精神、 體力、 攻擊速度、 物理暴擊率、 MP恢復速度及MP和HP上限。`
+
+[explain]
+	`    裝備皮甲系防具時， 可以增加力量、 精神、 體力、 攻擊速度、 物理暴擊率、 MP恢復速度及MP和HP上限。
+    效果隨裝備的皮甲數量增加而增大， 且增加的物理暴擊率比[皮甲精通]更高。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	234
+	`Character/Swordman/Effect/ATSkillIcon.img`	235
+
+[static data]
+	4	10	4	10	0	0	4	10	0	50	100	150	0	20	70	100	0	20	25
+[/static data]
+
+[pvp]
+	[static data]
+		4	10	4	10	0	0	4	15	0	50	100	150	0	20	70	100	0	30	15
+	[/static data]
+[/pvp]

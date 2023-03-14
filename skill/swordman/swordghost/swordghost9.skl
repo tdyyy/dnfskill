@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`鬼魂幻步`
+
+[explain]
+	`    劍鬼特有的能力，怨鬼從劍鬼身上分裂出去之后使用該技能，可以使地圖內所有怪物轉移到怨鬼所在位置
+    只有地圖中存在分裂出的怨鬼分身才可以使用該技能
+    地圖中存在怨鬼分身時，按下空格鍵也會觸發該技能
+    怪物聚集后同時會施放LV30的[共鳴·月靈斬]的怨鬼斬擊`
+
+[basic explain]
+	`    劍鬼特有的能力，怨鬼從劍鬼身上分裂出去之后使用該技能，可以使地圖內所有怪物轉移到怨鬼所在位置
+    只有地圖中存在分裂出的怨鬼分身才可以使用該技能
+    地圖中存在怨鬼分身時，按下空格鍵也會觸發該技能
+    怪物聚集后同時會施放LV30的[共鳴·月靈斬]的怨鬼斬擊`
+
+[purchase cost]
+	1
+[/purchase cost]
+
+[required level]
+	20
+
+[pre required skill]
+	126	1
+[/pre required skill]
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	1	1
+
+[cool time]
+	1000	1000
+
+[executable states]
+	0	14	8	105	111	112	113	114	115	116	117	118	119	120	121	122	123	124	125	126	127	128
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	582
+	`Character/Swordman/Effect/SkillIcon.img`	583
+
+[command]
+	{6=`(BUFF)`}
+[/command]
+
+[static data]
+	1
+[/static data]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]

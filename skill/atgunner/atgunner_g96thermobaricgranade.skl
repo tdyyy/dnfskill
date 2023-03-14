@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`G-96熱壓手雷`
+
+[explain]
+	`    向前投擲一顆[G-96熱壓手雷]。 投擲后， 當榴彈達到一定高度時， 會瞬間引燃所有燃料后對周圍的敵人造成巨額傷害。`
+
+[basic explain]
+	`    向前投擲一顆[G-96熱壓手雷]。`
+
+[executable states]
+	8	0	14	6	7
+[/executable states]
+
+[purchase cost]
+	90
+[/purchase cost]
+
+[required level]
+	80
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	4
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	30	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	466
+	`Character/Gunner/Effect/SkillIcon.img`	467
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓→→ + Z`
+
+[skill command advantage]
+	10	20
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[consume MP]
+	800	6000
+
+[cool time]
+	45000	45000
+
+[durability decrease rate]
+	315
+
+[dungeon]
+	[level info]
+		1	38800	42736	46673	50608	54545	58481	62418	66353	70290	74226	78163	82099	86035	89971	93908	97844	101780	105716	109653	113589	117525	121461	125398	129334	133270	137206	141143	145079	149016	152951	156888	160824	164761	168696	172633	176569	180506	184441	188378	192314	196251	200187	204122	208059	211996	215932	219867	223804	227741	231677	235612	239549	243486	247422	251359	255294	259230	263167	267104	271039	274975	278912	282849	286784	290720	294657	298594	302529	306465	310402
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		1	388	427	466	506	545	584	624	663	702	742	781	820	860	899	939	978	1017	1057	1096	1135	1175	1214	1253	1293	1332	1372	1411	1450	1490	1529	1568	1608	1647	1686	1726	1765	1805	1844	1883	1923	1962	2001	2041	2080	2119	2159	2198	2238	2277	2316	2356	2395	2434	2474	2513	2552	2592	2631	2671	2710	2749	2789	2828	2867	2907	2946	2985	3025	3064	3104
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`爆炸物理攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

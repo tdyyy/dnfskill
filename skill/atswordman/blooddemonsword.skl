@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`汲血魔劍`
+
+[basic explain]
+	`    召喚塔莫斯， 塔莫斯和契魔者一起攻擊敵人。`
+
+[explain]
+	`    召喚塔莫斯， 塔莫斯和契魔者一起攻擊敵人。
+    攻擊敵人時， 發動十字斬擊。`
+
+[feature skill index]
+	66
+
+[executable states]
+	0	108	14
+[/executable states]
+
+[purchase cost]
+	70
+[/purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness second growtype]
+	1	1
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	365
+	`Character/Swordman/Effect/ATSkillIcon.img`	366
+
+[durability decrease rate]
+	350
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↓→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	400	1500
+
+[cool time]
+	50000	50000
+
+[casting time]
+	400	400
+
+[weapon effect type]
+	`[physical]`
+
+[static data]
+	100	0
+[/static data]
+
+[level info]
+	1	32119	35377	38636	41894	45153	48411	51670	54928	58187	61445	64704	67962	71221	74479	77738	80996	84255	87513	90772	94030	97289	100547	103806	107064	110322	113581	116839	120098	123356	126615	129873	133132	136390	139649	142907	146166	149424	152683	155941	159200
+[/level info]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		1	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`十字斬擊物理攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

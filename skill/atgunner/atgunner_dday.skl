@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+	`決戰之日`
+
+[explain]
+	`    向前方投擲一顆信號彈， 隨后炮兵部隊和戰爭女神機動隊會集中火力支援信號彈指定的位置。
+    可在空中投擲。`
+
+[basic explain]
+	`    向前方投擲一顆信號彈， 尋求火力支援。`
+
+[executable states]
+	8	0	14	6	7
+[/executable states]
+
+[purchase cost]
+	200
+[/purchase cost]
+
+[required level]
+	85
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	4
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	30	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	468
+	`Character/Gunner/Effect/SkillIcon.img`	469
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓↑→→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume item]
+	3037	10	10
+[/consume item]
+
+[consume MP]
+	2500	8000
+
+[cool time]
+	180000	180000
+
+[durability decrease rate]
+	1260
+
+[dungeon]
+	[level info]
+		1	3047	3754	4460	5167	5874	6581	7288	7994	8701	9408	10115	10822	11529	12236	12941	13648	14355	15062	15769	16476	17182	17889	18596	19303	20009	20716	21423	22129	22836	23543	24250	24957	25664	26371	27076	27783	28490	29197	29904	30611	31318	32024	32731	33438	34145	34851	35558	36265	36972	37678	38385	39092	39799	40505	41212	41919	42626	43333	44039	44746	45453	46160	46866	47573	48280	48987	49693	50400	51107	51814
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		1	30	37	44	51	58	65	72	79	87	94	101	108	115	122	129	136	143	150	157	164	171	178	185	193	200	207	214	221	228	235	242	249	256	263	270	277	284	291	299	306	313	320	327	334	341	348	355	362	369	376	383	390	397	405	412	419	426	433	440	447	454	461	468	475	482	489	496	504	511	518
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`攻擊力 : <int>%% X 40次`	-1	0	1.0
+[/level property]

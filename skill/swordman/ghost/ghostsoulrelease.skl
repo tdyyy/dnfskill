@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`鬼神解放`
+
+[basic explain]
+	`    施放[裂波斬]、 [鬼斬]、 [月光斬]、 [鬼影鞭]、 [死亡墓碑]、 [鬼影閃]、 [鬼斬 : 狂怒]、 [第7鬼神 : 邪神之怖拉修]、 [鬼斬 : 煉獄]、 [幽魂降臨 : 式]、 [王者號令 : 吉格降臨]等過程中， 可以無施放動作立即發動[侵蝕之普戾蒙]、 [冰霜之薩亞]、 [冥祭之沼]、 [幽魂之布雷德]。
+    只有學習[噬靈鬼斬]、 [滿月斬]后， 才能在[鬼斬]和[月光斬]施放中發動以上技能。`
+
+[explain]
+	`    施放[裂波斬]、 [鬼斬]、 [月光斬]、 [鬼影鞭]、 [死亡墓碑]、 [鬼影閃]、 [鬼斬 : 狂怒]、 [第7鬼神 : 邪神之怖拉修]、 [鬼斬 : 煉獄]、 [幽魂降臨 : 式]、 [王者號令 : 吉格降臨]等過程中， 可以無施放動作立即發動[侵蝕之普戾蒙]、 [冰霜之薩亞]、 [冥祭之沼]、 [幽魂之布雷德]。
+    攻擊技能傾向不同， 地板技能設置的位置也不相同。
+    只有學習[噬靈鬼斬]、 [滿月斬]后， 才能在[鬼斬]和[月光斬]施放中發動以上技能。`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	20
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	1	1	1	1	1	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	528
+	`Character/Swordman/Effect/SkillIcon.img`	529
+
+[executable states]
+[/executable states]
+
+[dungeon]
+	[static data]
+		100	-100	200	0
+	[/static data]
+	[level info]
+		0
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`前方100px設置技能 : [裂波斬]、 [鬼斬]、 [月光斬]、 [鬼影鞭]、 [鬼斬 : 狂怒]、 [冥炎劍]
+中央設置技能 : [死亡墓碑]等
+后方100px設置技能 : [鬼影閃]
+前方200px設置技能 : [第7鬼神 : 邪神之怖拉修]、 [鬼斬 : 煉獄]、 [幽魂降臨 : 式]、 [王者號令 : 吉格降臨]`
+[/level property]

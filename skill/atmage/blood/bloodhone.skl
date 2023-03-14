@@ -1,0 +1,55 @@
+#PVF_File
+
+[name]
+	`血之共鳴`
+
+[explain]
+	`    精通鮮血的力量并與之共鳴， 增加血法師的基本攻擊力和技能攻擊力。`
+
+[basic explain]
+	`    精通鮮血的力量并與之共鳴。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[executable states]
+[/executable states]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	11
+
+[growtype maximum level]
+	0	0	0	1	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[required level]
+	20
+
+[required level range]
+	3
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	438
+	`Character/Mage/Effect/ATSkillIcon.img`	439
+
+[static data]
+[/static data]
+
+[level info]
+	1	100	120	140	160	180	200	220	240	260	280	300	320	340	360	380	400	420	440	460	480
+[/level info]
+
+[level property]
+	1	99
+	`基本攻擊力和技能攻擊力增加量 : <float1>%%`	-1	0	0.1
+[/level property]

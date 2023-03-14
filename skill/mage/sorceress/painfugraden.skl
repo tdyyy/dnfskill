@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`苦痛庭院`
+
+[explain]
+	`    召喚長滿魔力荊棘藤的苦痛庭院， 攻擊范圍內的敵人， 并捆住敵人的腳， 使其進入束縛狀態。
+    荊棘藤擊中敵人時， 可以吸收敵人的魔力收獲詛咒人偶。
+    不論擊中多少敵人， 都只能收獲1個詛咒人偶。`
+
+[basic explain]
+	`    召喚長滿魔力荊棘藤的苦痛庭院， 攻擊范圍內的敵人， 并捆住敵人的腳， 使其進入束縛狀態。
+    荊棘藤擊中敵人時， 可以吸收敵人的魔力收獲詛咒人偶。
+    不論擊中多少敵人， 都只能收獲1個詛咒人偶。`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[pre required skill]
+	144	1
+[/pre required skill]
+
+[required level]
+	60
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[consume MP]
+	580	4500
+
+[cool time]
+	60000	60000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	801
+	`Character/Mage/Effect/SkillIcon.img`	802
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[command key explain]
+	`操作指令 : →←→ + Z`
+
+[static data]
+[/static data]
+
+[level info]
+	3	879	9	5623	957	9	6224	1035	9	6825	1113	9	7426	1191	9	8027	1269	9	8628	1347	9	9229	1425	9	9830	1503	9	10431	1581	9	11032	1659	9	11633	1737	9	12234	1815	9	12835	1893	9	13436	1971	9	14037	2049	9	14638	2127	9	15239	2205	9	15840	2283	9	16441	2361	9	17042	2439	9	17643	2517	9	18244	2595	9	18845	2673	9	19446	2751	9	20047	2829	9	20648	2907	9	21249	2985	9	21850	3063	9	22451	3141	9	23052	3219	9	23653	3297	9	24254	3375	9	24855	3453	9	25456	3531	9	26057	3609	9	26658	3687	9	27259	3765	9	27860	3843	9	28461	3921	9	29062	3999	9	29663	4077	9	30264	4155	9	30865	4233	9	31466	4311	9	32067	4389	9	32668	4467	9	33269	4545	9	33870	4623	9	34471	4701	9	35072
+[/level info]
+
+[level property]
+	1	99
+	`荊棘多段攻擊力:<int>%%
+荊棘多段攻擊次數:<int>次
+最后爆炸攻擊力:<int>%%`	-1	0	1.0	-1	1	1.0	-1	2	1.0
+[/level property]

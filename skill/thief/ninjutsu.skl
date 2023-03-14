@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`忍術精通`
+
+[basic explain]
+	`    忍者的專屬忍術精通。
+    學習後， 減少忍術技能的冷卻時間。
+    [臨兵鬥者皆陣]`
+
+[explain]
+	`    忍者的專屬忍術精通。
+    學習後， 減少忍術技能的冷卻時間。
+    [臨兵鬥者皆陣]`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	15
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	1	0	0
+
+[durability decrease rate]
+	20
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	226
+	`Character/Thief/Effect/SkillIcon.img`	227
+
+[static data]
+	150	60	35	30	110	100	160	50	110
+[/static data]
+
+[level info]
+	7	0	0	0	0	0	0	200
+[/level info]
+
+[level property]
+	1	99
+	` 
+- [忍術精通] -
+忍術技能冷卻時間減少率 : <int>%%`	-1	6	0.1
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

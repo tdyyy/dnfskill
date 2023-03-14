@@ -1,0 +1,40 @@
+#PVF_File
+
+[name]
+	`強制 - 虎襲`
+
+[name2]
+	`Cancel - Smasher`
+
+[explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[虎襲]。`
+
+[basic explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[虎襲]。`
+
+[purchase cost]
+	10
+[/purchase cost]
+
+[required level]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	50
+	`Character/Priest/Effect/SkillIcon.img`	51

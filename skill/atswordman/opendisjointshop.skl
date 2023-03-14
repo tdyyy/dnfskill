@@ -1,0 +1,42 @@
+#PVF_File
+
+[name]
+	`開啟分解商店`
+
+[name2]
+	`Open Disjoint Shop`
+
+[basic explain]
+	`    可以開啟分解商店， 分解商店為其他玩家提供分解服務并使分解師得到壹定的手續費， 同時也能分解自身的裝備。 `
+
+[explain]
+	`    可以開啟分解商店， 分解商店為其他玩家提供分解服務并使分解師得到壹定的手續費， 同時也能分解自身的裝備。
+    熟練度上升到壹定程度後， 可以通過諾頓升級分解機。 當分解機的耐久度為0時， 需要找諾頓修理才能繼續使用。
+    分解師的分解機不同與諾頓的分解機， 有些道具只能在分解師的分解機中獲得。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	20
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	10	10	10	10	10	10
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Common/SkillIcon.img`	62
+	`Character/Common/SkillIcon.img`	63

@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`秘術·心斬`
+
+[basic explain]
+	`[收刀術系列]
+    將黑曜收刀， 精神集中到極致。 然后， 以本人為中心向斜線方向拔刀， 對范圍內的敵人發動斬擊。`
+
+[explain]
+	`[收刀術系列]
+    將黑曜收刀， 精神集中到極致。 然后， 以本人為中心向斜線方向拔刀， 對范圍內的敵人發動斬擊。`
+
+[executable states]
+	0	108	14
+[/executable states]
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[required level]
+	45
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	50	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	475
+	`Character/Swordman/Effect/ATSkillIcon.img`	476
+
+[durability decrease rate]
+	315
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↓↑+ Z`
+
+[skill command advantage]
+	20	40
+
+[consume MP]
+	250	2503
+
+[cool time]
+	40000	40000
+
+[dungeon]
+	[static data]
+		0	120	100	0	130
+	[/static data]
+	[level info]
+		1	25243	27804	30365	32926	35487	38048	40609	43169	45730	48291	50852	53413	55974	58535	61096	63657	66218	68779	71340	73901	76462	79022	81583	84144	86705	89266	91827	94388	96949	99510	102071	104632	107193	109754	112315	114876	117436	119997	122558	125119	127680	130241	132802	135363	137924	140485	143046	145607	148168	150729	153289	155850	158411	160972	163533	166094	168655	171216	173777	176338	178899	181460	184021	186582	189142	191703	194264	196825	199386	201947
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[consume item]
+	[/consume item]
+	[start cool time]
+		40000	40000
+	[static data]
+		0	110	70	0	130
+	[/static data]
+	[level info]
+		1	421	463	506	549	591	634	677	719	762	805	847	890	933	975	1018	1061	1103	1146	1189	1232	1275	1317	1360	1403	1445	1488	1531	1573	1616	1659	1701	1744	1787	1829	1872	1915	1957	2000	2043	2085	2128	2171	2213	2256	2299	2341	2384	2427	2469	2512	2555	2597	2640	2683	2725	2768	2811	2853	2896	2939	2981	3025	3067	3110	3153	3195	3238	3281	3323	3366
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`拔刀攻擊力 : <int>`	-2	0	1.0
+[/level property]

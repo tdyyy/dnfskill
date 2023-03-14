@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`萬象風龍陣`
+
+[basic explain]
+	`    召喚颶風， 將地面上的所有敵人橫掃一空。
+[亡者懼怕臺風， 但生存者與臺風為伴。]
+[技能各Lv附加效果]
+- Lv3 : 增加10%%物理暴擊率， 效果持續30秒。
+- Lv6 : [御風之力]的技能Lv +3， 效果持續一定時間。
+- Lv9 : 增加10%%攻擊力`
+
+[explain]
+	`    召喚颶風， 將地面上的所有敵人橫掃一空。 颶風飛速旋轉並粉碎敵人。`
+
+[executable states]
+	0	8	14	143	102
+[/executable states]
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[league ban]
+	1
+
+[maximum level]
+	50
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	30	0	0
+
+[consume MP]
+	1381	2532
+
+[cool time]
+	85000	85000
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	216
+	`Character/Mage/Effect/ATSkillIcon.img`	217
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↑↓↓ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+[/static data]
+
+[level info]
+	2	5721	27222	6303	32070	6882	36918	7464	41766	8043	46614	8625	51462	9204	56310	9786	61158	10365	66006	10947	70854	11526	75702	12108	80550	12687	85398	13269	90246	13848	95094	14430	99942	15009	104790	15591	109638	16170	114486	16752	119334	17331	124182	17913	129030	18492	133878	19074	138726	19653	143574	20235	148422	20814	153270	21396	158118	21975	162966	22557	167814	23136	172662	23718	177510	24297	182358	24879	187206	25458	192054	26040	196902	26619	201750	27201	206598	27780	211446	28362	216294	28941	221142	29523	225990	30102	230838	30684	235686	31263	240534	31845	245382	32424	250230	33006	255078	33585	259926	34167	264774
+[/level info]
+
+[level property]
+	1	99
+	`颶風數量: 4
+多段颶風傷害:<int>%%
+最後爆炸傷害<int>%%`	-1	0	1.0	-1	1	1.0
+[/level property]

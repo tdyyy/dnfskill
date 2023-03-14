@@ -1,0 +1,89 @@
+#PVF_File
+
+[name]
+	`強化 - 忍法 : 幻影手裏劍`
+
+[basic explain]
+	`    召喚數個幻影， 向敵人連續投擲無數個手裏劍。`
+
+[explain]
+	`    召喚數個幻影， 向敵人連續投擲無數個手裏劍。
+    在空中施放時， 向地面投擲手裏劍， 但無法結印。
+- [忍術精通追加效果] -
+召喚的幻影數量增加。`
+
+[basic explain ex]
+	`    增加[幻影手裏劍]的攻擊力。`
+
+[explain ex]
+	`增加[幻影手裏劍]的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	1
+[/special purchase cost]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	5	5	5	5	5	5
+
+[pre required skill]
+	82	1
+[/pre required skill]
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	267
+	`Character/Thief/Effect/SkillIcon.img`	376
+
+[consume MP]
+	91	910
+
+[cool time]
+	12000	12000
+
+[static data]
+	130
+[/static data]
+
+[level info]
+	2	154	2	170	2	186	2	202	2	218	2	234	2	250	2	266	2	282	2	298	2	314	2	330	2	346	2	362	2	378	3	394	3	410	3	426	3	442	3	458	3	474	3	490	3	506	3	522	3	538	4	554	4	570	4	586	4	602	4	618	4	634	4	650	4	666	4	682	4	698	4	714	4	730	4	746	4	762	4	778	4	794	4	810	4	826	4	842	4	858	4	874	4	890	4	906	4	922	4	938	4	954	4	970	4	986	4	1002	4	1018	4	1034	4	1050	4	1066	4	1082	4	1098	4	1114	4	1130	4	1146	4	1162	4	1178	4	1194	4	1210	4	1226	4	1242	4	1258	4
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10
+[/special level up]
+
+[level property]
+	1	99
+	` 
+- [忍法 ： 幻影手裏劍] -
+手裏劍魔法攻擊力 : <int>%%
+ 
+分身數量 : <int>個
+手裏劍大小 : <int>%%`	-1	0	1.0	-1	1	1.0	0	0	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

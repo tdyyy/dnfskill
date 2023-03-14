@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`攻擊類型轉換`
+
+[name2]
+	`Conversion`
+
+[explain]
+	`可以把轉職之前的技能攻擊類型轉換成物理攻擊或魔法攻擊。 (不適用於Buff技能; 并且在決斗場中無效)
+適用的技能有 : [回旋踢]、 [膝撞]、 [踏射]、 [瞬踢]、 [M-137格林機槍]、 [M-3噴火器]、 [BBQ]、 [RX-78追擊者]、 [浮空彈]、 [G-14手雷]`
+
+[basic explain]
+	`可以把轉職之前的技能攻擊類型轉換成物理攻擊或魔法攻擊。
+    滑鼠右鍵點擊技能圖示即可進行轉換。 (不適用於Buff技能； 并且在決斗場中無效)`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	20
+
+[required level range]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	1	1	1	1	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[pre required skill]
+[/pre required skill]
+
+[icon]
+	`Character/Common/SkillIcon.img`	110
+	`Character/Common/SkillIcon.img`	111
+
+[physical magical change]
+	0
+
+[static data]
+	3	4	6	7	12	13	14	27	47	56
+[/static data]
+
+[pvp]
+	[static data]
+	[/static data]
+[/pvp]

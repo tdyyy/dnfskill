@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`雙重斬`
+
+[basic explain]
+	`    同時拔出主武器和白牙， 對敵人快速發動2次斬擊。`
+
+[explain]
+	`    同時拔出主武器和白牙， 對敵人快速發動2次斬擊。 基本攻擊過程中使用時， 無需準備姿勢， 立即攻擊。`
+
+[executable states]
+	0	108	14
+[/executable states]
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[required level]
+	1
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	50	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	427
+	`Character/Swordman/Effect/ATSkillIcon.img`	428
+
+[durability decrease rate]
+	28
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑ + Z`
+
+[skill command advantage]
+	10	20
+
+[dungeon]
+	[consume MP]
+		20	250
+	[cool time]
+		4000	4000
+	[static data]
+		100	-250	1000	-5000	1	0
+	[/static data]
+	[level info]
+		1	666	733	801	869	936	1004	1071	1139	1207	1274	1342	1409	1477	1545	1612	1680	1747	1815	1883	1950	2018	2085	2153	2221	2288	2356	2423	2491	2559	2626	2694	2761	2829	2897	2964	3032	3099	3167	3235	3302	3370	3437	3505	3573	3640	3708	3775	3843	3911	3978	4046	4113	4181	4249	4316	4384	4451	4519	4587	4654	4722	4789	4857	4925	4992	5060	5127	5195	5263	5330
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[static data]
+		100	-250	1000	-3000	1
+	[/static data]
+	[level info]
+		1	31	34	37	40	43	47	50	53	56	59	62	65	68	72	75	78	81	84	87	90	93	97	100	103	106	109	112	115	119	122	125	128	131	134	137	140	144	147	150	153	156	159	162	165	169	172	175	178	181	184	187	191	194	197	200	203	206	209	212	216	219	222	225	228	231	234	238	241	244	247
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`斬擊攻擊力 : <int> x 2`	-2	0	1.0
+[/level property]

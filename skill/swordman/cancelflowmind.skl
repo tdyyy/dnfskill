@@ -1,0 +1,40 @@
+#PVF_File
+
+[name]
+	`強制 - 流心`
+
+[name2]
+	`cancel - Flow Heart`
+
+[explain]
+	`強制中斷當前進行的普通攻擊動作以及[里‧鬼劍術]、 [連突刺]和[逆轉反擊]， 并立即施放[流心]技能。`
+
+[basic explain]
+	`強制中斷當前進行的普通攻擊動作或幾種特定技能， 并立即施放[流心]。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	25
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	262
+	`Character/Swordman/Effect/SkillIcon.img`	263

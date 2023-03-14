@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`街霸重甲專精`
+
+[name2]
+	`Street Fighter's Heavy Armor Mastery`
+
+[explain]
+	`裝備重甲系防具時， 可以增加力量、 智力、 體力、 精神、 MP恢復速度、 MP最大值和HP最大值； 且MP恢復速度、 施放速度和攻擊速度的懲罰效果會消失。
+    效果隨裝備的重甲數量增加而增大。`
+
+[basic explain]
+	`裝備重甲系防具時， 可以增加力量、 智力、 體力、 精神、 MP恢復速度、 MP最大值和HP最大值； 且MP恢復速度、 施放速度和攻擊速度的懲罰效果會消失。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	1	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	88
+	`Character/Fighter/Effect/ATSkillIcon.img`	89
+
+[static data]
+	0	0	4	10	0	0	4	10	0	50	100	150	0	20	0	24	12	24	12	0	0
+[/static data]
+
+[pvp]
+	[static data]
+		0	0	0	0	0	0	4	10	0	0	100	150	0	20	0	24	12	24	12	0	0
+	[/static data]
+[/pvp]

@@ -1,0 +1,84 @@
+#PVF_File
+
+[name]
+	`強化 - 汲血魔劍`
+
+[basic explain]
+	`    召喚塔莫斯， 塔莫斯和契魔者一起攻擊敵人。`
+
+[explain]
+	`    召喚塔莫斯， 塔莫斯和契魔者一起攻擊敵人。
+    攻擊敵人時， 發動十字斬擊。`
+
+[basic explain ex]
+	`    增加[汲血魔劍]的攻擊力。`
+
+[explain ex]
+	`增加[汲血魔劍]的攻擊力。r
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[pre required skill]
+	162	1
+[/pre required skill]
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[required level]
+	70
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	7
+
+[growtype maximum level]
+	0	0	0	5	0	5
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	391
+	`Character/Swordman/Effect/ATSkillIcon.img`	392
+
+[static data]
+	100	0
+[/static data]
+
+[level info]
+	1	32119	35377	38636	41894	45153	48411	51670	54928	58187	61445	64704	67962	71221	74479	77738	80996	84255	87513	90772	94030	97289	100547	103806	107064	110322	113581	116839	120098	123356	126615	129873	133132	136390	139649	142907	146166	149424	152683	155941	159200
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10
+[/special level up]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		1	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000	5000
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`十字斬擊物理攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

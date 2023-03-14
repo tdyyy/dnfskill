@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`步槍精通`
+
+[name2]
+	`Musket Mastery`
+
+[explain]
+	`    增加步槍的操作能力。
+使用步槍系列武器攻擊敵人時， 可以增加攻擊速度和射擊次數， 同時減少彈藥專家的技能冷卻時間。`
+
+[basic explain]
+	`    使用步槍系列武器攻擊敵人時， 可以增加攻擊速度和射擊次數， 同時減少彈藥專家的技能冷卻時間。`
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	0	0	0	0	10	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[required level]
+	20
+
+[required level range]
+	3
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	412
+	`Character/Gunner/Effect/SkillIcon.img`	413
+
+[level info]
+	3	100	100	3	120	120	3	140	140	3	160	160	3	180	180	3	200	200	3	220	220	3	240	240	3	260	260	3	280	280	3	300	300	3	320	320	3	340	340	3	360	360	3	380	380	3	400	400	3	420	420	3	440	440	3	460	460	3	480	480	3
+[/level info]
+
+[pvp]
+	[level info]
+		3	10	10	1	20	15	1	30	20	1	40	25	1	50	30	1	60	35	1	70	40	1	80	45	1	90	50	1	100	55	1	110	60	1	120	65	1	130	70	1	140	75	1	150	80	1	160	85	1	170	90	1	180	95	1	190	100	1	200	105	1
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`攻擊速度增加量 : <float1>%%
+發射次數增加量 : <int>
+冷卻時間減少 : <float1>%%`	-1	0	0.1	-1	2	1.0	-1	1	0.1
+[/level property]

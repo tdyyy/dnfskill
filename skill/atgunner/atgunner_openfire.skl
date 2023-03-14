@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`開火`
+
+[explain]
+	`    跳到空中， 將持有的所有手雷一次性扔向前方。
+    在空中也可以施放。`
+
+[basic explain]
+	`    跳到空中， 將持有的所有手雷一次性扔向前方。`
+
+[executable states]
+	8	0	14	6	7
+[/executable states]
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	4
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	30	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	566
+	`Character/Gunner/Effect/SkillIcon.img`	567
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←→ + Z`
+
+[skill command advantage]
+	20	40
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[consume MP]
+	160	1600
+
+[cool time]
+	45000	45000
+
+[durability decrease rate]
+	315
+
+[dungeon]
+	[level info]
+		2	4495	6	4874	6	5253	6	5632	6	6011	6	6390	6	6770	6	7149	6	7528	6	7907	6	8286	6	8665	6	9044	6	9423	6	9802	6	10182	6	10561	6	10940	6	11319	6	11698	6	12077	6	12456	6	12835	6	13214	6	13594	6	13973	6	14352	6	14731	6	15110	6	15489	6	15868	6	16247	6	16626	6	17006	6	17385	6	17764	6	18143	6	18522	6	18901	6	19280	6	19660	6	20039	6	20418	6	20797	6	21176	6	21555	6	21934	6	22313	6	22692	6	23072	6	23451	6	23830	6	24209	6	24588	6	24967	6	25346	6	25725	6	26105	6	26484	6	26863	6	27242	6	27621	6	28000	6	28379	6	28758	6	29137	6	29517	6	29896	6
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		2	37	6	41	6	44	6	48	6	52	6	56	6	60	6	63	6	67	6	71	6	75	6	79	6	82	6	86	6	90	6	94	6	98	6	101	6	105	6	109	6	113	6	116	6	120	6	124	6	128	6	132	6	135	6	139	6	143	6	147	6	151	6	154	6	158	6	162	6	166	6	170	6	173	6	177	6	181	6	185	6	189	6	192	6	196	6	200	6	204	6	207	6	211	6	215	6	219	6	223	6	226	6	230	6	234	6	238	6	242	6	245	6	249	6	253	6	257	6	261	6	264	6	268	6	272	6	276	6	280	6	283	6	287	6	291	6	295	6	298	6
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`爆炸攻擊力 : <int>%% X <int>`	-1	0	1.0	-1	1	1.0
+[/level property]

@@ -1,0 +1,132 @@
+#PVF_File
+
+[name]
+	`隕落螺旋刺`
+
+[name2]
+	`Aslant Spiral`
+
+[basic explain]
+	`    鎖定前方目標后， 自身向上躍起并以極快的速度旋轉攻擊敵人； 可以對指定目標進行強威力的攻擊。`
+
+[explain]
+	`    鎖定前方目標后， 自身向上躍起并以極快的速度旋轉攻擊敵人； 可以對指定目標進行強威力的攻擊。`
+
+[purchase cost]
+	70
+[/purchase cost]
+
+[pre required skill]
+	33	5
+[/pre required skill]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[skill under cooltime effect each]
+[/skill under cooltime effect each]
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	0	0	0	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[shake screen]
+	6	400
+
+[durability decrease rate]
+	50
+
+[weapon effect type]
+	`[physical]`
+
+[is linked blast]
+	1
+
+[linked blast add point]
+	1
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	146
+	`Character/Thief/Effect/SkillIcon.img`	147
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	50	50
+
+[dungeon]
+	[consume MP]
+		800	1680
+	[cool time]
+		50000	50000
+	[static data]
+		0	600	0	300	3	80	1	100	0	100	400	140	500
+	[/static data]
+	[level info]
+		2	1653	3305	2000	4000	2349	4696	2696	5391	3044	6088	3391	6784	3740	7479	4088	8175	4435	8870	4784	9567	5131	10261	5479	10958	5826	11654	6175	12349	6523	13045	6870	13740	7219	14437	7566	15133	7914	15828	8263	16524	8610	17220	8958	17915	9305	18611	9654	19308	10001	20003	10349	20699	10698	21394	11045	22090	11393	22787	11740	23481	12089	24178	12436	24873	12784	25569	13133	26264	13480	26960	13828	27657	14175	28352	14524	29048	14872	29743	15219	30439	15568	31134	15915	31830	16263	32527	16610	33222	16959	33918	17307	34613	17654	35309	18003	36006	18350	36700	18698	37397
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[static data]
+		0	600	0	300	6	80	1	100	0	100	500	280	500
+	[/static data]
+	[level info]
+		2	115	230	139	278	163	326	187	374	211	423	236	471	260	519	284	568	308	616	332	664	356	713	380	761	405	809	429	858	453	906	477	954	501	1003	525	1051	550	1099	574	1148	598	1196	622	1244	646	1292	670	1341	695	1389	719	1437	743	1486	767	1534	791	1582	815	1631	839	1679	864	1727	888	1776	912	1824	936	1872	960	1921	984	1969	1009	2017	1033	2066	1057	2114	1081	2162	1105	2210	1129	2259	1154	2307	1178	2355	1202	2404	1226	2452	1250	2500	1274	2549	1298	2597
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`旋轉物理攻擊力 : <int>%% X <int>
+沖擊波物理攻擊力 : <int>`	-1	0	1.0	4	4	1.0	-2	1	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

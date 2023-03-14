@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`招架反擊`
+
+[basic explain]
+	`    招架敵人攻擊的同時進行反擊。`
+
+[explain]
+	`    [招架]成功後可激活該技能； 使用後， 可以進行2次快速斬擊。`
+
+[executable states]
+	0	85	126
+[/executable states]
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	0	50	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	34
+	`Character/Swordman/Effect/ATSkillIcon.img`	35
+
+[shake screen]
+	2	10000
+
+[durability decrease rate]
+	20
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓(按住狀態下) + Z`
+
+[weapon effect type]
+	`[physical]`
+
+[dungeon]
+	[consume MP]
+		17	390
+	[cool time]
+		2000	2857
+	[static data]
+		800	100
+	[/static data]
+	[level info]
+		1	1174	1293	1412	1532	1651	1770	1890	2009	2128	2248	2367	2486	2605	2724	2843	2962	3082	3201	3320	3439	3558	3677	3797	3916	4035	4154	4273	4392	4511	4631	4750	4870	4989	5108	5227	5347	5466	5585	5704	5823	5942	6061	6181	6300	6419	6538	6657	6776	6896	7015	7134	7253	7372	7491	7610	7730	7850	7969	8088	8207	8326	8445	8565	8684	8803	8922	9041	9160	9280	9399
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[cool time]
+		3000	3000
+	[static data]
+		400	100
+	[/static data]
+	[level info]
+		1	31	34	37	40	44	47	50	53	56	60	63	66	69	72	76	79	82	85	88	91	95	98	101	104	107	110	114	117	120	123	126	130	133	136	139	142	145	149	152	155	158	161	165	168	171	174	177	181	184	187	190	193	196	200	203	206	209	212	216	219	222	225	228	232	235	238	241	244	247	251
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`物理攻擊力 : <int>%%`	-1	0	1.0
+[/level property]
+
+[feature skill index]
+	55

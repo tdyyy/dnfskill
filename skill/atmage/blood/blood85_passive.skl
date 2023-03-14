@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`鮮血之殤`
+
+[explain]
+	`覺醒血獄君主的力量，提升暴擊率和暴擊傷害`
+
+[basic explain]
+	`覺醒血獄君主的力量，提升暴擊率和暴擊傷害`
+
+[purchase cost]
+	40
+[/purchase cost]
+
+[executable states]
+[/executable states]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[required level]
+	75
+
+[required level range]
+	3
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	390
+	`Character/Mage/Effect/ATSkillIcon.img`	391
+
+[static data]
+[/static data]
+
+[level info]
+	3	10	30	30	11	32	33	12	34	36	13	36	39	14	38	42	15	40	45	16	42	48	17	44	51	18	46	54	19	48	57	20	50	60	21	52	63	22	54	66	23	56	69	24	58	72	25	60	75	26	62	78	27	64	81	28	66	84	29	68	87	30	70	90	31	72	93	32	74	96	33	76	99	34	78	102	35	80	105	36	82	108	37	84	111	38	86	114	39	88	117	40	90	120	41	92	123	42	94	126	43	96	129	44	98	132	45	100	135	46	102	138	47	104	141	48	106	144	49	108	147	50	110	150	51	112	153	52	114	156	53	116	159	54	118	162	55	120	165	56	122	168	57	124	171	58	126	174	59	128	177
+[/level info]
+
+[level property]
+	1	99
+	`提升暴擊率：<int>%%
+提升暴擊傷害：<int>%%
+每點溢出血氣恢復生命值:<int> 點`	-1	0	1.0	-1	1	1.0	-1	2	1.0
+[/level property]

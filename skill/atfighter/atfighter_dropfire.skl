@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`烈火強踢`
+
+[explain]
+	`    往前突進， 并讓敵人進入僵直狀態。 把敵人聚集后， 使用強力的向下劈擊對敵人造成大量傷害。
+    無法聚集或上挑霸體狀態的怪物。
+    在空中可以強制中斷該技能并使用[柔化肌肉]。`
+
+[basic explain]
+	`    往前突進， 并讓敵人進入僵直狀態。 把敵人聚集后， 使用強力的向下劈擊對敵人造成大量傷害。`
+
+[executable states]
+	8	0	14	6
+[/executable states]
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	30	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[weapon effect type]
+	`[physical]`
+
+[durability decrease rate]
+	315
+
+[consume item]
+	3037	3	3
+[/consume item]
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	266
+	`Character/Fighter/Effect/ATSkillIcon.img`	267
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	450	1260
+
+[cool time]
+	45000	45000
+
+[dungeon]
+	[level info]
+		1	39799	43837	47874	51912	55949	59987	64025	68062	72100	76137	80175	84213	88250	92288	96326	100363	104401	108438	112476	116514	120551	124589	128627	132664	136702	140739	144777	148815	152852	156890	160928	164965	169003	173040	177078	181116	185153	189191	193229	197266	201304	205341	209379	213417	217454	221492	225529	229567	233605	237642	241680	245718	249755	253793	257830	261868	265906	269943	273981	278019	282056	286094	290131	294169	298207	302244	306282	310320	314357	318395
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		1	198	219	239	259	279	299	320	340	360	380	400	421	441	461	481	501	522	542	562	582	602	622	643	663	683	703	723	744	764	784	804	824	845	865	885	905	925	945	966	986	1006	1026	1046	1067	1087	1107	1127	1147	1168	1188	1208	1228	1248	1268	1289	1309	1329	1349	1369	1390	1410	1430	1450	1470	1491	1511	1531	1551	1571	1591
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`爆炸物理攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

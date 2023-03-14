@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`空絕斬 : 地裂`
+
+[basic explain]
+	`    跳躍后， 將普諾變形為巨劍向下猛擊形成沖擊波。 可以利用方向鍵控制跳躍的距離。`
+
+[explain]
+	`    跳躍后， 將普諾變形為巨劍向下猛擊形成沖擊波。 可以利用方向鍵控制跳躍的距離。`
+
+[/arad royal rumble]
+
+[executable states]
+	0	108	14
+[/executable states]
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	337
+	`Character/Swordman/Effect/ATSkillIcon.img`	338
+
+[durability decrease rate]
+	280
+
+[consume item]
+[/consume item]
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓→→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	580	4500
+
+[cool time]
+	24000	24000
+
+[weapon effect type]
+	`[physical]`
+
+[static data]
+	300	-450	600	-900	100
+[/static data]
+
+[level info]
+	1	3000
+[/level info]
+
+[dungeon]
+	[static data]
+		300	-450	600	-900	100
+	[/static data]
+	[level info]
+		1	51106	56291	61476	66661	71845	77030	82215	87400	92584	97769	102954	108139	113324	118508	123693	128878	134063	139247	144432	149617	154802	159986	165171	170356	175541	180725	185910	191095	196280	201464	206649	211834	217019	222203	227388	232573	237758	242943	248127	253312	258497	263682	268866	274051	279236	284421	289605	294790	299975	305160	310344	315529	320714	325899	331083	336268	341453	346638	351822	357007	362192	367377	372561	377746	382931	388116	393301	398485	403670	408855
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[level property]
+	1	99
+	`沖擊波物理攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

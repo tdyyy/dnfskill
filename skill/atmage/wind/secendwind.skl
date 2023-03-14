@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`風神訣`
+
+[explain]
+	`    增加基本攻擊力和技能攻擊力。`
+
+[basic explain]
+	`    增加基本攻擊力和技能攻擊力。`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	0	0	0	30	0
+
+[second growtype maximum level]
+	0	0	30	30	30	30	30	30	30	30	30	30
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	392
+	`Character/Mage/Effect/ATSkillIcon.img`	393
+
+[level info]
+	1	140	160	180	200	220	240	260	280	300	320	340	360	380	400	420	440	460	480	500	520	540	560	580	600	620	640	660	680	700
+[/level info]
+
+[pvp]
+	[level info]
+		1	1
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`基本攻擊力和技能攻擊力增加 : <float1>%%`	-1	0	0.1
+[/level property]

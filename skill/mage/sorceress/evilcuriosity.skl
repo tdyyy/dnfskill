@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`邪惡的好奇心`
+
+[explain]
+	`    增加小魔女的技能攻擊力和魔法暴擊率。
+    [小魔女的好奇心對某些人來說是個悲劇。 當然她自己并不在意這個事實……]`
+
+[basic explain]
+	`    增加小魔女的技能攻擊力和魔法暴擊率。
+    [小魔女的好奇心對某些人來說是個悲劇。 當然她自己并不在意這個事實……]`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	20
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	10	10	10	10	10	10
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	704
+	`Character/Mage/Effect/SkillIcon.img`	705
+
+[static data]
+[/static data]
+
+[level info]
+	2	11	20	13	40	14	60	16	80	17	100	19	120	20	140	22	160	23	180	25	200	26	220	28	240	29	260	31	280	32	300	34	320	35	340	37	360	38	380	40	400
+[/level info]
+
+[level property]
+	1	99
+	`技能攻擊力增加量:<int>%%
+魔法暴擊率:<float2>%%`	-1	0	1.0	-1	1	0.1
+[/level property]

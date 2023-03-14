@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`冥炎劍`
+
+[basic explain]
+	`    召喚凝聚卡洛之力的冥炎劍， 以二刀流動作向前突進， 連續攻擊敵人。`
+
+[explain]
+	`    召喚凝聚卡洛之力的冥炎劍， 以二刀流動作向前突進， 連續攻擊敵人。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[pre required skill]
+	75	1
+[/pre required skill]
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[required level]
+	45
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	50	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	532
+	`Character/Swordman/Effect/SkillIcon.img`	533
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →→ + Z`
+
+[consume MP]
+	110	924
+
+[cool time]
+	45000	45000
+
+[dungeon]
+	[static data]
+	[/static data]
+	[level info]
+		1	1863	2056	2249	2442	2635	2828	3021	3214	3407	3600	3787	3980	4174	4367	4560	4753	4946	5139	5333	5526	5719	5912	6105	6291	6484	6685	6872	7065	7258	7451	7644	7837	8030	8223	8416	8609	8802	8995	9189	9374	9569	9762	9955	10148	10341	10534	10727	10920	11113	11306	11499	11692	11887	12073	12266	12459	12652	12845	13038	13231	13424	13617	13811	14004	14197	14390	14584	14777	14963	15156
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[cool time]
+		300000	300000
+	[start cool time]
+		300000	300000
+	[level info]
+		1	186	205	224	244	263	282	302	321	340	360	378	398	417	436	456	475	494	513	533	552	571	591	610	629	648	668	687	706	725	745	764	783	803	822	841	860	880	899	918	937	956	976	995	1014	1034	1053	1072	1092	1111	1130	1149	1169	1188	1207	1226	1245	1265	1284	1303	1323	1342	1361	1381	1400	1419	1439	1458	1477	1496	1515
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`技能攻擊力 : <float1>%%`	-1	0	1.0
+[/level property]

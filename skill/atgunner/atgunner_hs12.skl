@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`HS-12等離子體發生器`
+
+[explain]
+	`    召喚凝聚等離子體的的機器人——HS-12等離子體發生器， 對敵人造成傷害。
+    學習[G-X主宰者]后， G-X主宰者引發爆炸并增加爆炸范圍。`
+
+[basic explain]
+	`    召喚凝聚等離子體的的機器人——HS-12等離子體發生器， 對敵人造成傷害。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	586
+	`Character/Gunner/Effect/SkillIcon.img`	587
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↓→ + Z`
+
+[skill command advantage]
+	20	40
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[consume MP]
+	421	1178
+
+[casting time]
+	300	300
+
+[cool time]
+	30000	30000
+
+[durability decrease rate]
+	210
+
+[dungeon]
+	[level info]
+		2	14462	100	15929	100	17396	100	18864	100	20331	100	21798	100	23265	100	24732	100	26199	100	27667	100	29134	100	30601	100	32068	100	33535	100	35003	100	36470	100	37937	100	39404	100	40871	100	42338	100	43806	100	45273	100	46740	100	48207	100	49674	100	51141	100	52609	100	54076	100	55543	100	57010	100	58477	100	59945	100	61412	100	62879	100	64346	100	65813	100	67280	100	68748	100	70215	100	71682	100	73149	100	74616	100	76084	100	77551	100	79018	100	80485	100	81952	100	83419	100	84887	100
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		2	185	100	204	100	223	100	241	100	260	100	279	100	298	100	317	100	335	100	354	100	373	100	392	100	411	100	429	100	448	100	467	100	486	100	505	100	523	100	542	100	561	100	580	100	599	100	618	100	636	100	655	100	674	100	693	100	712	100	730	100	749	100	768	100	787	100	806	100	824	100	843	100	862	100	881	100	900	100	919	100	937	100	956	100	975	100	994	100	1013	100	1031	100	1050	100	1069	100	1088	100
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`等離子體發生器爆炸攻擊力 : <int>%%
+爆炸范圍 : <int>%%`	-1	0	1.0	-1	1	1.0
+[/level property]

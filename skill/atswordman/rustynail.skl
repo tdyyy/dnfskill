@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`鬼縛釘`
+
+[basic explain]
+	`    前方一定范圍內存在敵人時， 可以施放該技能。
+    利用鬼縛珠的魔力生成鬼縛絲， 向范圍內的敵人中最強的敵人發射并控制敵人， 然后快速接近并連續攻擊敵人。
+    技能受[基礎精通]的影響， 且可以在空中施放。`
+
+[explain]
+	`    前方一定范圍內存在敵人時， 可以施放該技能。
+    利用鬼縛珠的魔力生成鬼縛絲， 向范圍內的敵人中最強的敵人發射并控制敵人， 然后快速接近并連續攻擊敵人。
+    技能受[基礎精通]的影響， 且可以在空中施放。`
+
+[executable states]
+	0	108	14	6
+[/executable states]
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	5
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	429
+	`Character/Swordman/Effect/ATSkillIcon.img`	430
+
+[durability decrease rate]
+	42
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓ + Z`
+
+[skill command advantage]
+	10	20
+
+[consume MP]
+	75	75
+
+[cool time]
+	7000	7000
+
+[dungeon]
+	[static data]
+		0	450	110	200	-50	-10	30	-30	30	2000	70	70	0	-20	1	500	80	1	100
+	[/static data]
+	[level info]
+		2	431	1006
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[consume item]
+	[/consume item]
+	[static data]
+		0	350	80	120	-50	-10	30	-30	30	2000	70	70	0	-20	1	300	40	1	50
+	[/static data]
+	[level info]
+		2	220	500
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`索敵距離 : <int>px
+索敵寬度 : <int>px
+索敵高度 : <int>px
+踢擊攻擊力 : <int>
+斬擊攻擊力 : <int>`	1	1	1.0	2	2	1.0	3	3	1.0	-2	0	1.0	-2	1	1.0
+[/level property]

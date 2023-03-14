@@ -1,0 +1,48 @@
+#PVF_File
+
+[name]
+	`鬼劍士布甲專精`
+
+[explain]
+	`    裝備布甲系防具時， 可以增加施放速度、 力量、 智力、 體力、 精神、 MP恢復速度、 MP最大值、 HP恢復速度和HP最大值。
+    效果隨裝備的布甲數量增加而增大。`
+
+[basic explain]
+	`    裝備布甲系防具時， 可以增加施放速度、 力量、 智力、 體力、 精神、 MP恢復速度、 MP最大值、 HP恢復速度和HP最大值。 `
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	1
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	204
+	`Character/Swordman/Effect/SkillIcon.img`	205
+
+[static data]
+	4	10	4	10	4	10	4	10	70	100	100	150	50	80	70	100	15	20	25
+[/static data]
+
+[pvp]
+	[static data]
+		4	10	4	10	4	10	4	15	70	100	100	150	50	80	70	100	20	30	15
+	[/static data]
+[/pvp]

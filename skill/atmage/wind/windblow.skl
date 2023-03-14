@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`風暴之拳`
+
+[basic explain]
+	`    聚集風的力量， 施展致命的重拳。
+[風暴會將你們碾成碎片！]`
+
+[explain]
+	`    聚集風的力量， 施展致命的重拳。 若被重拳命中， 則會引發風暴並給予多段傷害。 若使用方向鍵， 可以向前突進並施展重拳。`
+
+[executable states]
+	0	8	14	102	143
+[/executable states]
+
+[feature skill index]
+	43
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[required level]
+	45
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	50	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[consume MP]
+	311	1866
+
+[cool time]
+	45000	45000
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	372
+	`Character/Mage/Effect/ATSkillIcon.img`	373
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←→→ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	1500	100	200	150	5
+[/static data]
+
+[level info]
+	2	10828	928	11927	1021	13025	1116	14125	1210	15224	1305	16321	1399	17420	1492	18518	1587	19617	1681	20716	1776	21814	1869	22912	1963	24011	2058	25110	2152	26209	2246	27308	2340	28405	2435	29505	2528	30603	2624	31702	2717	32801	2810	33898	2906	34998	2999	36096	3094	37194	3188	38293	3282	39392	3376	40491	3470	41589	3565	42687	3658	43786	3752	44885	3847	45983	3941	47082	4035	48180	4129	49279	4224	50378	4318	51476	4411	52575	4507	53673	4600	54772	4694	55871	4789	56969	4883	58068	4977	59166	5071	60265	5165	61363	5259	62462	5354	63560	5447	64659	5541	65758	5636	66856	5730	67955	5825	69053	5918	70153	6013	71250	6107	72349	6201	73448	6296	74546	6389	75645	6483
+[/level info]
+
+[level property]
+	1	99
+	`重拳物理攻擊力 : <int>%%
+風暴多段攻擊力 : <int>%%`	-1	0	1.0	-1	1	1.0
+[/level property]

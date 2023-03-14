@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`怨魂斬`
+
+[explain]
+	`    聚集靈魂的力量將身前的敵人稍稍逼退之后，大幅度揮出強力一劈造成巨大傷害`
+
+[basic explain]
+	`    聚集靈魂的力量將身前的敵人稍稍逼退之后，大幅度揮出強力一劈造成巨大傷害`
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[required level]
+	45
+
+[required level range]
+	2
+
+[pre required skill]
+	71	5
+[/pre required skill]
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[consume MP]
+	299	2511
+
+[cool time]
+	45000	45000
+
+[executable states]
+	0	14	8	105	111	115	112
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	604
+	`Character/Swordman/Effect/SkillIcon.img`	605
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[static data]
+	100	100	1	180	400	50
+[/static data]
+
+[level info]
+	1	17359	19120	20881	22642	24404	26165	27926	29687	31448	33209	34970	36731	38492	40254	42015	43776	45537	47298	49059	50820	52581	54343	56104	57865	59626	61387	63148	64909	66670	68431	70193	71954	73715	75476	77237	78998	80759	82520	84282	86043	87804	89565	91326	93087	94848	96609	98370	100132	101893	103654	105415	107176	108937	110698	112459	114221	115982	117743	119504	121265	123026	124787	126548	128309	130071	131832	133593	135354	137115	138876
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`劍鬼斬擊物理傷害 : <int>%%
+   
+[劍鬼-靈魂權能特殊效果]
+追加斬擊物理傷害 : <int> %%
+劍鬼移動距離 : <int> PX
+移動速率 : <int> 
+`	-1	0	1.0	-1	0	0.8	4	4	1.0	5	5	10.0
+[/level property]

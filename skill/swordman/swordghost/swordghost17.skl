@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`怨鬼·回天`
+
+[explain]
+	`    怨鬼從劍鬼身上脫離出來進行連續的兩次超大范圍的拔刀攻擊 
+    劍鬼本人處于劍術技能動作中的時候可以無視施法動作進行釋放`
+
+[basic explain]
+	`    怨鬼從劍鬼身上脫離出來進行連續的兩次超大范圍的拔刀攻擊 
+    劍鬼本人處于劍術技能動作中的時候可以無視施法動作進行釋放`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	40
+
+[required level range]
+	2
+
+[pre required skill]
+	137	5
+[/pre required skill]
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[consume MP]
+	170	1428
+
+[cool time]
+	20000	20000
+
+[executable states]
+	0	14	8	105	111	115	112
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	602
+	`Character/Swordman/Effect/SkillIcon.img`	603
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[static data]
+	110	110	1	75	160
+[/static data]
+
+[level info]
+	2	2940	4410	3238	4858	3537	5305	3835	5753	4133	6200	4432	6648	4730	7095	5028	7543	5327	7990	5625	8438	5923	8885	6222	9333	6520	9780	6818	10228	7117	10675	7415	11122	7713	11570	8011	12017	8310	12465	8608	12912	8906	13360	9205	13807	9503	14255	9801	14702	10100	15150	10398	15597	10696	16045	10995	16492	11293	16940	11591	17387	11890	17835	12188	18282	12486	18730	12785	19177	13083	19625	13381	20072	13680	20520	13978	20967	14276	21414	14574	21862	14873	22309	15171	22757	15469	23204	15768	23652	16066	24099	16364	24547	16663	24994	16961	25442	17259	25889	17558	26337	17856	26784	18154	27232	18453	27679	18751	28127	19049	28574	19348	29022	19646	29469	19944	29917	20243	30364	20541	30811	20839	31259	21137	31706	21436	32154	21734	32601	22032	33049	22331	33496	22629	33944	22927	34391	23226	34839	23524	35286
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`怨鬼第一次斬擊物理傷害 : <int>%%
+怨鬼第二次斬擊物理傷害 : <int>%%
+`	-1	0	1.0	-1	1	1.0
+[/level property]

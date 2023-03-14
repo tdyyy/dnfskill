@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+	`共鳴：冥夜鬼天殺`
+
+[explain]
+	`    化身為夜叉，讓周圍化作一片黑暗后怨鬼現身 
+    之后夜叉和怨鬼進行交叉斬擊賦予敵人強力的物理傷害`
+
+[basic explain]
+	`    化身為夜叉，讓周圍化作一片黑暗后怨鬼現身 
+    之后夜叉和怨鬼進行交叉斬擊賦予敵人強力的物理傷害`
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[pre required skill]
+	28	3
+[/pre required skill]
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	30	30	30	30	30	30
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[consume MP]
+	526	1200
+
+[cool time]
+	45000	45000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	630
+	`Character/Swordman/Effect/SkillIcon.img`	631
+
+[static data]
+	2	30	220	-10	150	115	900	3	100	100	3500	1000	120	120	170	450
+[/static data]
+
+[level info]
+	1	11552	14231	16910	19589	22268	24946	27625	30304	32983	35662	38341	41020	43699	46377	49056	51735	54414	57093	59772	62451	65129	67808	70487	73166	75845	78524	81203	83882	86560	89239	91918	94597	97276	99955	102634	105313	107991	110670	113349	116028	118707	121386	124065	126743	129422	132101	134780	137459	140138	142817	145496	148174	150853	153532	156211	158890	161569	164248	166926	169605	172284	174963	177642	180321	183000	185679	188357	191036	193715	196394
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`物理百分比傷害 : <int>%%
+`	-1	0	4.0
+[/level property]

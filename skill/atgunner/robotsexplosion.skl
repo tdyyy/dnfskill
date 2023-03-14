@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`機械引爆`
+
+[name2]
+	`Robots Explosion`
+
+[explain]
+	`強制引爆自身周圍的[RX-78追擊者]和[Ez-8自爆者]， 并給予周圍敵人爆炸傷害。
+    瞄準引爆 : 按住技能鍵后就會出現游標， 若移動游標后松開技能鍵， 則追擊者、 自爆者、 風暴和攔截機會向游標方向突進并爆炸。`
+
+[basic explain]
+	`強制引爆自身周圍的[RX-78追擊者]和[Ez-8自爆者]， 并給予周圍敵人爆炸傷害。`
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	0	0	0	10	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[consume MP]
+	10	14
+
+[casting time]
+	400	400
+
+[durability decrease rate]
+	10
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	128
+	`Character/Gunner/Effect/SkillIcon.img`	129
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(BUFF)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←→ + Space`
+
+[cool time]
+	1000	1000
+
+[static data]
+	500	250	500	240	1500
+[/static data]
+
+[level info]
+	1	300	370	440	510	580	650	720	790	860	930	1000	1070	1140	1210	1280	1350	1420	1490	1560	1630
+[/level info]
+
+[pvp]
+	[casting time]
+		600	600
+	[cool time]
+		5000	5000
+[/pvp]
+
+[level property]
+	1	99
+	`引爆范圍 : <int>px`	-1	0	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]
+
+[feature skill index]
+	148

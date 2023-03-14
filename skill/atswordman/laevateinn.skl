@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`誓約之劍 : 雷沃汀`
+
+[basic explain]
+	`    召喚誓約之劍——雷沃汀。`
+
+[explain]
+	`    凝縮魔劍的力量， 召喚出凝聚四大元素力量的誓約之劍， 斬破次元的界限。
+    次元震動的期間， 敵人將進入長時間的僵直狀態， 當次元破裂時受到巨大的傷害。`
+
+[executable states]
+	0	108	14	86	143	94	88	91	134	132	147	145	128	131	169	133	174	135	136	137	138	139	140	126
+[/executable states]
+
+[purchase cost]
+	200	100
+[/purchase cost]
+
+[required level]
+	85
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	30	0	0	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	357
+	`Character/Swordman/Effect/ATSkillIcon.img`	358
+
+[durability decrease rate]
+	1260
+
+[consume item]
+	3037	10	10
+[/consume item]
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↓→ + Z`
+
+[skill command advantage]
+	50	50
+
+[consume MP]
+	10000	10000
+
+[cool time]
+	300000	300000
+
+[/dnfaos]
+
+[weapon effect type]
+	`[physical]`
+
+[dungeon]
+	[consume MP]
+		2500	5000
+	[cool time]
+		180000	180000
+	[static data]
+		530	750	100	200	300	7	2	20	15	4	50	300	15	140
+	[/static data]
+	[level info]
+		1	193380	215800	238221	260642	283063	305484	327905	350326	372747	395168	417589	440010	462431	484852	507273	529694	552115	574536	596957	619378	641799	664220	686640	709061	731482	753903	776324	798745	821166	843587
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`次元斬攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

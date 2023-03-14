@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+	`強化 - 忍法 : 六道輪回`
+
+[basic explain]
+	`    天道、 人道、 阿修羅道、 畜生道、 餓鬼道、 地獄道， 去來往復， 周而復始。
+    施放該技能後， 會記錄接下來施放的技能。 若再次激活技能鍵或記錄時間達到上限時， 會出現火焰殘影自動施放已記錄成功的技能。
+    殘影為無敵狀態， 無法被敵人攻擊。
+    再次按下技能鍵時可立即發動火焰殘影並施放已記錄成功的技能。`
+
+[explain]
+	`    天道、 人道、 阿修羅道、 畜生道、 餓鬼道、 地獄道， 去來往復， 周而復始。
+    施放該技能後， 會記錄接下來施放的技能。 若再次激活技能鍵或記錄時間達到上限時， 會出現火焰殘影自動施放已記錄成功的技能。
+    殘影為無敵狀態， 無法被敵人攻擊。
+    再次按下技能鍵時可立即發動火焰殘影並施放已記錄成功的技能。`
+
+[basic explain ex]
+	`    增加[忍法 : 六道輪回]的殘影記錄時間增加。`
+
+[explain ex]
+	`    增加[忍法 : 六道輪回]的殘影記錄時間增加。
+    技能每增加Lv1時， 殘影記錄時間增加比率 : 5%%`
+
+[feature skill type]
+	1
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	5	5	5	5	5	5
+
+[pre required skill]
+	90	1
+[/pre required skill]
+
+[special purchase cost]
+	1
+[/special purchase cost]
+
+[weapon effect type]
+	`[magical]`
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	272
+	`Character/Thief/Effect/SkillIcon.img`	381
+
+[consume MP]
+	164	1640
+
+[cool time]
+	30000	30000
+
+[static data]
+	15000	6
+[/static data]
+
+[level info]
+	3	80	30000	0	80	30500	0	80	31000	0	80	31500	0	80	32000	0	80	32500	0	80	33000	0	80	33500	0	80	34000	0	80	34500	0	80	35000	0	80	35500	0	80	36000	0	80	36500	0	80	37000	0	80	37500	0	80	38000	0	80	38500	0	80	39000	0	80	39500	0	80	40000	0	80	40500	0	80	41000	0	80	41500	0	80	42000	0	80	42500	0	80	43000	0	80	43500	0	80	44000	0	80	44500	0
+[/level info]
+
+[special level up]
+	0	0
+	`%`	5
+[/special level up]
+
+[level property]
+	1	99
+	` 
+- [忍法 ： 六道輪回] -
+記錄時間 : <float2>秒
+記錄數量 : <int>個`	0	0	0.001	1	1	1.0
+[/level property]

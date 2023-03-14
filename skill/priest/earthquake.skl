@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`裂地捶`
+
+[name2]
+	`Fissure Hammer`
+
+[explain]
+	`    將惡魔的氣息聚集到拳頭後， 用力錘擊地面擊起亂石。 亂石柱從地面出來後， 對周圍敵人造成暗屬性魔法傷害。
+    若在[魔化 : 末日審判者]狀態下施放該技能， 石柱變為黑暗石柱， 並增加亂石的數量。
+    黑暗石柱會追加爆炸， 對敵人造成傷害。`
+
+[basic explain]
+	`    將惡魔的氣息聚集到拳頭後， 用力錘擊地面擊起亂石。`
+
+[feature skill index]
+	163
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	50	50	50	50	50
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[pre required skill]
+	64	1
+[/pre required skill]
+
+[steel learning skill]
+	1	50	200	4
+
+[required level]
+	20
+
+[required level range]
+	2
+
+[consume MP]
+	30	336
+
+[cool time]
+	7000	7000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	298
+	`Character/Priest/Effect/SkillIcon.img`	299
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →↑ + Z`
+
+[skill command advantage]
+	10	20
+
+[static data]
+	90	3
+[/static data]
+
+[level info]
+	2	441	4	487	4	532	4	577	4	620	4	668	4	714	4	759	4	805	4	852	4	896	4	943	4	986	4	1034	4	1079	4	1124	4	1170	4	1216	4	1260	4	1307	4	1351	4	1397	4	1444	4	1488	4	1534	4	1582	4	1625	4	1670	4	1716	4	1761	4	1809	4	1852	4	1899	4	1942	4	1990	4	2036	4	2081	4	2127	4	2174	4	2218	4	2265	4	2308	4	2354	4	2401	4	2444	4	2492	4	2538	4	2582	4	2629	4	2673	4	2719	4	2765	4	2810	4	2855	4	2902	4	2947	4	2992	4	3038	4	3083	4	3128	4	3176	4	3221	4	3266	4	3312	4	3357	4	3402	4	3448	4	3494	4	3539	4	3585	4
+[/level info]
+
+[pvp]
+	[static data]
+		90	3
+	[/static data]
+	[level info]
+		2	34	4	37	4	41	4	44	4	48	4	51	4	55	4	58	4	62	4	65	4	69	4	72	4	76	4	79	4	83	4	86	4	90	4	93	4	97	4	100	4	104	4	107	4	111	4	114	4	118	4	121	4	125	4	128	4	131	4	135	4	139	4	142	4	146	4	149	4	152	4	156	4	159	4	163	4	167	4	170	4	173	4	177	4	180	4	184	4	187	4	191	4	194	4	198	4	201	4	205	4	208	4	212	4	215	4	219	4	222	4	226	4	229	4	233	4	236	4	240	4	243	4	247	4	250	4	254	4	257	4	261	4	264	4	268	4	271	4	275	4
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`石柱魔法攻擊力 : <int>%%
+[裂地錘]生成數量 : <int>個
+ 
+- [魔化 : 末日審判者]狀態下施放[裂地錘]時 -
+石柱變為黑暗石柱
+升起的亂石數量 : <int>個`	-1	0	1.0	1	1	1.0	-1	1	1.0
+[/level property]

@@ -1,0 +1,41 @@
+#PVF_File
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[type]
+	`[passive]`
+
+[skill class]
+	2
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	1	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	70
+	`Character/Fighter/Effect/SkillIcon.img`	71
+
+[static data]
+	10	1
+[/static data]
+
+[name]
+	`走火入魔`
+
+[explain]
+	`因修煉非正派武術而產生的副作用， 使用念氣系列技能時， 有1%%的機率使自身進入眩暈狀態。`
+
+[basic explain]
+	`使用念氣系列技能時， 有1%%的機率使自身進入眩暈狀態。`
+
+[name2]
+	`走火入魔`

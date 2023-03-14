@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`抓轟炮`
+
+[name2]
+	`Grab Cannon`
+
+[explain]
+	`對無法抓取的敵人施放[膝擊]、 [拋投]、 [空絞錘]、 [浮空淩云踢]和[地獄風火輪]時， 可以強力推開敵人并給予敵人一定傷害。
+    推開敵人時會生成沖擊波， 沖擊波的攻擊力與技能本身的攻擊力相同， 但施放[雷霆膝擊]、 [膝擊強化]、 [摔技強化]時， 不會出現[抓轟炮]效果。`
+
+[basic explain]
+	`對無法抓取的敵人施放[膝擊]、 [拋投]、 [空絞錘]、 [浮空淩云踢]和[地獄風火輪]時， 可以強力推開敵人并給予敵人一定傷害。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	15
+
+[pre required skill]
+[/pre required skill]
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	0	1	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	96
+	`Character/Fighter/Effect/ATSkillIcon.img`	97
+
+[shake screen]
+	5	250
+
+[static data]
+	300	100	700	500
+[/static data]
+
+[level info]
+	2	150	170
+[/level info]
+
+[skill preloading image]
+	`Character/Fighter/Effect/GrabCannon.img`
+[/skill preloading image]

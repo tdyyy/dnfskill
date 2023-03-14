@@ -1,0 +1,72 @@
+#PVF_File
+
+[name]
+	`暗炎殘星`
+
+[basic explain]
+	`    掌握暗炎之術， 忍者擊中的敵人時， 會將敵人標記為暗殺目標， 增加敵人受到的傷害。`
+
+[explain]
+	`    掌握暗炎之術， 忍者擊中的敵人時， 會將敵人標記為暗殺目標。
+    被標記為暗殺目標的敵人頭上會生成暗殺標記。 忍者能對有暗殺標記的敵人造成更高的傷害。
+    暗殺標記經過一定時間後消失。
+    [當敵人察覺到自己成為被獵殺的目標時， 他的心髒早就停止了跳動。]`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	45
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	11
+
+[growtype maximum level]
+	0	0	0	1	0	0
+
+[seal enable]
+	1
+
+[durability decrease rate]
+	20
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	238
+	`Character/Thief/Effect/SkillIcon.img`	239
+
+[static data]
+	15000	8000
+[/static data]
+
+[level info]
+	1	10	11	12	13	14	15	16	17	18	19	20	21	22	23	24	25	26	27	28	29	30	31	32	33	34	35	36	37	38	39	40	41	42	43	44	45	46	47	48	49	50	51	52	53	54	55	56	57	58	59
+[/level info]
+
+[level property]
+	1	99
+	` 
+- [暗炎殘星] -
+敵人所受傷害增加率 : <float1>%%
+暗殺標記持續時間 : <float2>秒
+標記間隔 : <float2>秒`	-1	0	1.0	0	0	0.001	1	1	0.001
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]
+
+[feature skill index]
+	46

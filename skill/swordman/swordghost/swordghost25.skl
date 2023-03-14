@@ -1,0 +1,80 @@
+#PVF_File
+
+[name]
+	`夜叉`
+
+[explain]
+	`    只保留了人類的形狀卻冷酷得如同惡鬼一樣的劍鬼被別人稱之為夜叉
+    施放技能時將必定汲取敵人的靈魂
+    怨鬼的靈魂深入融合，提升劍鬼的回避率、HP\MP恢復率`
+
+[basic explain]
+	`    只保留了人類的形狀卻冷酷得如同惡鬼一樣的劍鬼被別人稱之為夜叉
+    施放技能時將必定汲取敵人的靈魂
+    怨鬼的靈魂深入融合，提升劍鬼的回避率、HP\MP恢復率`
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	50	50	50	50	50	50
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	1	1
+
+[cool time]
+	2000	2000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	628
+	`Character/Swordman/Effect/SkillIcon.img`	629
+
+[static data]
+	1
+[/static data]
+
+[level info]
+	4	15	156	105	1	18	390	370	1	21	624	635	1	24	858	900	1	27	1092	1165	1	30	1326	1430	1	33	1560	1695	1	36	1794	1960	1	39	2028	2225	1	42	2262	2490	1	45	2496	2755	1	48	2730	3020	1	51	2964	3285	1	54	3198	3550	1	57	3432	3815	1	60	3666	4080	1	63	3900	4345	1	66	4134	4610	1	69	4368	4875	1	72	4602	5140	1	75	4836	5405	1	78	5070	5670	1	81	5304	5935	1	84	5538	6200	1	87	5772	6465	1	90	6006	6730	1	93	6240	6995	1	96	6474	7260	1
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`回避率 : <int>%%
+HP回復值 : <int> 點
+MP回復值 : <int> 點
+靈魂獲取 : <int> 個
+`	-1	0	1.0	-1	1	1.0	-1	2	1.0	-1	3	1.0
+[/level property]

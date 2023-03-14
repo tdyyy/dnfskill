@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`鮮血燃燒`
+
+[explain]
+	`    燃燒血氣， 增加自身的基本攻擊力和轉職系列技能的攻擊力。`
+
+[basic explain]
+	`    燃燒血氣， 增加自身的基本攻擊力和轉職系列技能的攻擊力。`
+
+[executable states]
+	0	14
+[/executable states]
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	25
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	0	0	0	10	0	0
+
+[consume MP]
+	35	350
+
+[cool time]
+	5000	5000
+
+[casting time]
+	200	200
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	328
+	`Character/Mage/Effect/ATSkillIcon.img`	329
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(BUFF)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →→ + Space`
+
+[static data]
+	15000
+[/static data]
+
+[level info]
+	2	0	120	0	125	0	130	0	135	0	140	0	145	0	150	0	155	0	160	0	165	0	170	0	175	0	180	0	185	0	190	0	195	0	200	0	205	0	210	0	215
+[/level info]
+
+[pvp]
+	[static data]
+		15000
+	[/static data]
+	[level info]
+		2	20000	110	20000	120	20000	130	20000	140	20000	150	20000	160	20000	170	20000	180	20000	190	20000	200	20000	210	20000	220	20000	230	20000	240	20000	250	20000	260	20000	270	20000	280	20000	290	20000	300
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`Buff持續時間 : <float2> 秒
+基本攻擊力和技能攻擊力增加率 : <float2>%%`	-1	0	0.0	-1	1	0.1
+[/level property]

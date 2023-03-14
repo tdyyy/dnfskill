@@ -1,0 +1,74 @@
+#PVF_File
+
+[name]
+	`靈魂切換`
+
+[explain]
+	`    該技能使用后可對自身賦魂并選擇[冥炎之刃]、[血氣之刃]其中一把使用，同時改變普通攻擊形態；`
+
+[basic explain]
+	`    該技能使用后可對自身賦魂并選擇[冥炎之刃]、[血氣之刃]其中一把使用，同時改變普通攻擊形態；`
+
+[purchase cost]
+	1
+[/purchase cost]
+
+[required level]
+	1
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	10	10	10	10	10	10
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume MP]
+	1	1
+
+[cool time]
+	2000	2000
+
+[executable states]
+	0	14	8	9	10	20	21	22	23	24	25	26	27	28	29	30	31	32	33	34	35	36	37	38	39	40	41	42	43	44	45	46	47	48	49	50	51	52	53	54	55	56	57	58	59	60	61	62	63	64	65	66	67	68	69	70	71	72	73	74	75	76	77	78	79	80
+[/executable states]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	628
+	`Character/Swordman/Effect/SkillIcon.img`	629
+
+[static data]
+	1
+[/static data]
+
+[level info]
+	2	60	200	80	200	100	200	120	200	140	200	160	200	180	200	200	200	220	200	240	200	260	200	280	200	300	200
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`劍鬼靈魂容納上限 : <int> 
+靈魂轉換率 : <float2> 
+`	-1	0	1.0	-1	1	0.001
+[/level property]

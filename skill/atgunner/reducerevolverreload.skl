@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`快速填裝`
+
+[name2]
+	`Revolver Loading`
+
+[explain]
+	`使用左輪槍系列武器攻擊敵人時， 可以減少20%%裝填彈藥的時間。`
+
+[basic explain]
+	`使用左輪槍系列武器攻擊敵人時， 可以減少填裝彈藥的時間。`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	15
+
+[type]
+	`[passive]`
+
+[skill class]
+	0
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	1	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	30
+	`Character/Gunner/Effect/SkillIcon.img`	31
+
+[dungeon]
+	[level info]
+		1	20
+	[/level info]
+[/dungeon]
+
+[pvp]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[skill preloading image]
+[/skill preloading image]

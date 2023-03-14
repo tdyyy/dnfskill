@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`俯沖直拳`
+
+[name2]
+	`Ducking Straight`
+
+[explain]
+	`[俯沖]中向前方敵人發出直拳攻擊， 可以擊飛敵人。`
+
+[basic explain]
+	`[俯沖]中向前方敵人發出直拳攻擊， 可以擊飛敵人。`
+
+[feature skill index]
+	146
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[pre required skill]
+	2	1
+[/pre required skill]
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	50	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[required level]
+	15
+
+[required level range]
+	2
+
+[consume MP]
+	18	196
+
+[cool time]
+	3500	3500
+
+[durability decrease rate]
+	15
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	88
+	`Character/Priest/Effect/SkillIcon.img`	89
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`&`}
+	{6=`(ATTACK)`}
+[/command]
+
+[command key explain]
+	`操作指令:([俯沖]動作中)→+X`
+
+[command customizing]
+	0
+
+[level info]
+	1	872	961	1052	1142	1232	1323	1413	1502	1592	1683	1773	1863	1954	2043	2133	2224	2314	2404	2495	2585	2674	2766	2855	2945	3034	3126	3215	3305	3396	3486	3576	3667	3757	3846	3938	4027	4117	4206	4298	4387	4477	4568	4658	4748	4839	4929	5018	5109	5199	5289	5380	5470	5559	5649	5740	5830	5920	6011	6101	6190	6281	6371	6461	6552	6642	6731	6821	6912	7002	7092
+[/level info]
+
+[static data]
+	0	0
+[/static data]
+
+[pvp]
+	[cool time]
+		4500	4500
+	[level info]
+		1	105	116	127	138	149	160	170	181	192	203	214	225	236	247	258	268	279	290	301	312	323	334	345	356	366	377	388	399	410	421	432	443	453	464	475	486	497	508	519	530	541	551	562	573	584	595	606	617	628	638	649	660	671	682	693	704	715	726	736	747	758	769	780	791	802	813	824	834	845	856
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`攻擊力 : <int>%%武器物攻`	-1	0	1.0
+[/level property]
+
+[skill preloading image]
+	`Character/Priest/Effect/luckystraighteffect.img`
+[/skill preloading image]

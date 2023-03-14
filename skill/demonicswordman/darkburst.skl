@@ -1,0 +1,84 @@
+#PVF_File
+
+[name]
+	`邪影升龍斬`
+
+[basic explain]
+	`召喚凝聚著黑色鬼手之力的暗黑劍， 並在前方施放強力的能量爆炸。`
+
+[explain]
+	`召喚凝聚著黑色鬼手之力的暗黑劍， 並在前方施放強力的能量爆炸。`
+
+[pre required skill]
+	74	1
+[/pre required skill]
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	80
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	30	30	30	30	30	30
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[consume MP]
+	800	6000
+
+[cool time]
+	50000	50000
+
+[executable states]
+	0	14	8
+[/executable states]
+
+[durability decrease rate]
+	25
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	504
+	`Character/Swordman/Effect/SkillIcon.img`	505
+
+[command]
+[/command]
+
+[command key explain]
+	``
+
+[dungeon]
+	[static data]
+		125	80
+	[/static data]
+	[level info]
+		1	9261	11632	14003	16374	18745	21116	23486	25857	28228	30600	32970	35341	37712	40083	42454	44825	47195	49567	51938	54308	56679	59050	61421	63792	66163	68534	70905	73276	75647	78017	80389	82759	85130	87501	89872	92243	94614	96985	99356	101727	104098	106468
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`爆炸魔法攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

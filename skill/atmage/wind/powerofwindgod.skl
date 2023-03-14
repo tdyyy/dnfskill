@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`御風之力`
+
+[basic explain]
+	`    接受風神的力量， 變得更加銳利和敏捷。`
+
+[explain]
+	`    接受風神的力量， 變得更加銳利和敏捷。
+    增加暴擊攻擊力和移動速度。`
+
+[purchase cost]
+	45
+[/purchase cost]
+
+[executable states]
+[/executable states]
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	30	30	30	30
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[required level]
+	48
+
+[required level range]
+	3
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	376
+	`Character/Mage/Effect/ATSkillIcon.img`	377
+
+[static data]
+[/static data]
+
+[level info]
+	4	45	0	0	50	65	0	0	53	85	0	0	56	105	0	0	59	125	0	0	62	145	0	0	65	165	0	0	68	185	0	0	71	205	0	0	74	225	0	0	77	245	0	0	80	265	0	0	83	285	0	0	86	305	0	0	89	325	0	0	92	345	0	0	95	365	0	0	98	385	0	0	101	405	0	0	104	425	0	0	107	445	0	0	110	465	0	0	113	485	0	0	116	505	0	0	119	525	0	0	122	545	0	0	125	565	0	0	128	585	0	0	131	605	0	0	134	625	0	0	137	645	0	0	140	665	0	0	143	685	0	0	146	705	0	0	149	725	0	0	152	745	0	0	155	765	0	0	158	785	0	0	161	805	0	0	164	825	0	0	167	845	0	0	170	865	0	0	173	885	0	0	176	905	0	0	179	925	0	0	182	945	0	0	185	965	0	0	188	985	0	0	191	1005	0	0	194	1025	0	0	197	1045	0	0	200	1065	0	0	203	1085	0	0	206	1105	0	0	209	1125	0	0	212	1145	0	0	215	1165	0	0	218	1185	0	0	221	1205	0	0	224	1225	0	0	227
+[/level info]
+
+[pvp]
+	[static data]
+	[/static data]
+	[level info]
+		4	26	0	0	6	28	0	0	8	30	0	0	10	32	0	0	12	34	0	0	14	36	0	0	16	38	0	0	18	40	0	0	20	42	0	0	22	44	0	0	24	46	0	0	26	48	0	0	28	50	0	0	30	52	0	0	32	54	0	0	34	56	0	0	36	58	0	0	38	60	0	0	40	62	0	0	42	64	0	0	44	66	0	0	46	68	0	0	48	70	0	0	50	72	0	0	52	74	0	0	54	76	0	0	56	78	0	0	58	80	0	0	60	82	0	0	62	84	0	0	64	86	0	0	66	88	0	0	68	90	0	0	70	92	0	0	72	94	0	0	74	96	0	0	76	98	0	0	78	100	0	0	80	102	0	0	82	104	0	0	84	106	0	0	86	108	0	0	88	110	0	0	90
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`暴擊攻擊力增加量 : <float1>%%
+移動速度增加量 : <float1>%%`	-1	0	0.1	-1	3	0.1
+[/level property]

@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`沖擊斬`
+
+[basic explain]
+	`    向前方快速移動后， 擺出收刀姿勢。 收刀的瞬間， 移動路徑上產生沖擊波， 對周圍敵人造成傷害。`
+
+[explain]
+	`    向前方快速移動后， 擺出收刀姿勢。 收刀的瞬間， 移動路徑上產生沖擊波， 對周圍敵人造成傷害。
+    攻擊結束后， 可強制中斷并連接[連環斬]和轉職技能； 按反向方向鍵時， 可向相反方向使用技能。
+    施放[連環斬]過程中也可以使用該技能； 此時， 可以跟[連環斬]一樣指定攻擊方向。`
+
+[executable states]
+	0	108	14
+[/executable states]
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[purchase cost]
+	15
+[/purchase cost]
+
+[required level]
+	10
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	50	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	431
+	`Character/Swordman/Effect/ATSkillIcon.img`	432
+
+[durability decrease rate]
+	35
+
+[consume item]
+[/consume item]
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(BUFF)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑→ + Space`
+
+[skill command advantage]
+	10	20
+
+[dungeon]
+	[consume MP]
+		30	252
+	[cool time]
+		5000	5000
+
+	[dungeon]
+		[static data]
+			400	100	100	100	2	55
+		[/static data]
+		[level info]
+			1	2624	2891	3157	3423	3689	3956	4222	4488	4755	5021	5287	5554	5820	6086	6352	6619	6885	7151	7418	7684	7950	8216	8483	8749	9015	9282	9548	9814	10080	10347	10613	10879	11146	11412	11678	11944	12211	12477	12743	13010	13276	13542	13808	14075	14341	14607	14874	15140	15406	15672	15939	16205	16471	16738	17004	17270	17536	17803	18069	18335	18602	18868	19134	19401	19667	19933	20199	20466	20732	20998
+		[/level info]
+	[/dungeon]
+
+[pvp]
+	[static data]
+		300	100	100	100	2	80
+	[/static data]
+	[level info]
+		1	131	145	158	171	184	198	211	224	238	251	264	278	291	304	318	331	344	358	371	384	398	411	424	437	451	464	477	491	504	517	531	544	557	571	584	597	611	624	637	651	664	677	690	704	717	730	744	757	770	784	797	810	824	837	850	864	877	890	903	917	930	943	957	970	983	997	1010	1023	1037	1050
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`沖擊波攻擊力 : <int>`	-2	0	1.0
+[/level property]

@@ -1,0 +1,84 @@
+#PVF_File
+
+[name]
+	`強化 - 追命`
+
+[basic explain]
+	`    利用離心力將抓取到的敵人凶狠地插在地上， 同時引發衝擊波。 可以在空中使用該技能。 如果技能命中敵人背部， 衝擊波的攻擊力和範圍會增加。`
+
+[explain]
+	`    利用離心力將抓取到的敵人凶狠地插在地上， 同時引發衝擊波。 可以在空中使用該技能。 如果技能命中敵人背部， 衝擊波的攻擊力和範圍會增加。
+    在地面使用技能時， 跳躍較長距離進行攻擊。 通過方向鍵可以調整中/遠距離以及Y軸的移動方向。
+    在空中使用技能時， 會把敵人插在正前方的地面上。 [後跳]過程中也可以使用空中[追命]。`
+
+[basic explain ex]
+	`    增加[追命]的攻擊力。
+    技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[explain ex]
+	`    增加[追命]的攻擊力。
+    技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	1
+[/special purchase cost]
+
+[pre required skill]
+	232	1
+[/pre required skill]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	5	5	5	5	5	5
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	321
+	`Character/Thief/Effect/SkillIcon.img`	391
+
+[consume MP]
+	50	420
+
+[cool time]
+	10000	10000
+
+[static data]
+	300	200	200	400	-100	100	500	0	0	50	50	100	-1000
+[/static data]
+
+[level info]
+	1	2402	2645	2890	3134	3377	3619	3864	4107	4350	4594	4839	5082	5325	5570	5814	6055	6300	6543	6789	7032	7276	7520	7763	8008	8250	8494	8738	8981	9225	9468	9714	9956	10200	10445	10686	10930	11174	11419	11662	11906	12149	12394	12638	12881	13126	13368	13612	13854	14098	14343	14586	14832	15073	15318	15560	15804	16050	16293	16537	16780	17024	17266	17510	17754	17998	18242	18485	18729	18973	19216
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10	9	9
+	`%`	10
+[/special level up]
+
+[level property]
+	1	99
+	`攻擊力 : <int>%%
+背擊時攻擊力增加率 : <float1>%%
+`	-1	0	1.0	9	9	1.0
+[/level property]

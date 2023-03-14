@@ -1,0 +1,73 @@
+#PVF_File
+
+[name]
+	`詭詐之道`
+
+[name2]
+	`Wind Strike`
+
+[explain]
+	`   學習后可以增加部分技能攻擊力， 並減少敵人的異常狀態抗性。
+    增加基本攻擊力和技能攻擊力。`
+
+[basic explain]
+	`   學習后可以增加部分技能攻擊力， 並減少敵人的異常狀態抗性。
+    增加基本攻擊力和技能攻擊力。`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	30	30	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	234
+	`Character/Fighter/Effect/ATSkillIcon.img`	235
+
+[static data]
+[/static data]
+
+[level info]
+	2	20	140	25	160	30	180	35	200	40	220	45	240	50	260	55	280	60	300	65	320	70	340	75	360	80	380	85	400	90	420	95	440	100	460	105	480	110	500	115	520	120	540	125	560	130	580	135	600	140	620	145	640	150	660	155	680	160	700
+[/level info]
+
+[pvp]
+	[level info]
+		2	1	1
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`異常狀態抗性減少 : <int>
+基本攻擊力和技能攻擊力增加 : <float1>%%`	-1	0	1.0	-1	1	0.1
+[/level property]

@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`月影突襲`
+
+[basic explain]
+	`    向前方突進， 用肉眼看不見的速度攻擊敵人， 并將敵人聚集到中央。
+    可消耗連擊點數發動[終結追擊]。`
+
+[explain]
+	`    向前方突進， 用肉眼看不見的速度攻擊敵人， 并將敵人聚集到中央。
+    可消耗連擊點數發動[終結追擊]。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[purchase cost]
+	90
+[/purchase cost]
+
+[required level]
+	80
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	0	0	0	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[consume item]
+	3037	5	5
+[/consume item]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	400
+	`Character/Thief/Effect/SkillIcon.img`	401
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓↑→ + Z`
+
+[skill command advantage]
+	50	50
+
+[durability decrease rate]
+	350
+
+[consume MP]
+	800	6000
+
+[cool time]
+	50000	50000
+
+[dungeon]
+	[static data]
+		10
+	[/static data]
+	[level info]
+		2	2605	6681	2870	7360	3135	8037	3398	8715	3663	9393	3927	10071	4192	10748	4457	11427	4721	12105	4985	12782	5249	13460	5514	14138	5777	14816	6042	15493	6307	16172	6572	16850	6836	17527	7100	18206	7364	18883	7628	19561	7894	20240	8158	20917	8422	21595	8686	22272	8951	22951	9215	23628	9479	24306	9744	24985	10008	25662	10273	26340	10537	27018	10801	27696	11065	28373	11330	29052	11595	29730	11859	30407	12123	31086	12387	31763	12652	32441	12916	33118
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[static data]
+		5
+	[/static data]
+	[level info]
+		2	33	66	36	73	40	80	43	87	46	93	50	100	53	107	57	114	60	121	63	127	67	134	70	141	74	148	77	154	80	161	84	168	87	175	91	182	94	188	97	195	101	202	104	209	107	215	111	222	114	229	118	236	121	243	124	249	128	256	131	263	135	270	138	276	141	283	145	290	148	297	152	304	155	310	158	317	162	324	165	331
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`多段攻擊力 : <int>%% X <int>
+[終結追擊]攻擊力 : <int>%%`	-1	0	1.0	0	0	1.0	-1	1	1.0
+[/level property]

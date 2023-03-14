@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`弒神劍 : 惡魔孤島`
+
+[basic explain]
+	`    穿戴魔人的盔甲后， 與變身為劍的塔莫斯一起揮動蛇腹劍， 創造巨大的監獄。
+    使用巨劍凝聚所有魔人的力量后， 摧毀整個監獄。`
+
+[explain]
+	`    穿戴魔人的盔甲后， 與變身為劍的塔莫斯一起揮動蛇腹劍， 創造巨大的監獄。
+    使用巨劍凝聚所有魔人的力量后， 摧毀整個監獄。
+[三次覺醒技能]
+    使用三次覺醒技能時， 與所選的技能共享冷卻時間。
+    若所選的技能還在冷卻中， 則無法使用三次覺醒技能。`
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[required level]
+	95
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	30	0	0
+
+[consume MP]
+	4025	8055
+
+[consume item]
+	3037	15	15
+[/consume item]
+
+[cool time]
+	290000	290000
+
+[weapon effect type]
+	`[physical]`
+
+[executable states]
+	108	0	14
+[/executable states]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	413
+	`Character/Swordman/Effect/ATSkillIcon.img`	414
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←↑→↓ + Z`
+
+[skill command advantage]
+	50	50
+
+[static data]
+	100	15	500	300	50	150
+[/static data]
+
+[level info]
+	2	10293	231594	12679	285297	15066	339000	17453	392703	19840	446406	22227	500109	24613	553812	27000	607515	29387	661218	31774	714921	34161	768624	36547	822327	38934	876030	41321	929733	43708	983436	46095	1037139	48481	1090842	50868	1144545	53255	1198248	55642	1251952	58029	1305655	60415	1359358	62802	1413061	65189	1466764	67576	1520467	69963	1574170	72349	1627873	74736	1681576	77123	1735279	79510	1788982	81897	1842685	84283	1896388	86670	1950091	89057	2003794	91444	2057497	93831	2111200	96217	2164903	98604	2218606	100991	2272309	103378	2326012
+[/level info]
+
+[pvp]
+[/pvp]
+
+[level property]
+	1	99
+	`多段攻擊力 : <int>%%
+多段攻擊次數 : <int>次
+巨劍終結攻擊力 : <int>%%`	-1	0	1.0	1	1	1.0	-1	1	1.0
+[/level property]

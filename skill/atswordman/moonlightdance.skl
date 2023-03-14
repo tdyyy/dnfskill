@@ -1,0 +1,87 @@
+#PVF_File
+
+[name]
+	`輕云出月風靜夜`
+
+[basic explain]
+	`    集中精神濃縮內勁， 隨后向前方突進并進行強力的回旋斬擊。
+    moonlightdance`
+
+[explain]
+	`    集中精神凝縮內勁。 完成一閃準備后， 向前方突進并進行強力的回旋斬擊。
+[三次覺醒技能]
+    使用三次覺醒技能時， 與所選的技能共享冷卻時間。
+    若所選的技能還在冷卻中， 則無法使用三次覺醒技能。`
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[executable states]
+	0	108	14
+[/executable states]
+
+[consume item]
+	3037	15	15
+[/consume item]
+
+[required level]
+	95
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	30	0	0	0
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	407
+	`Character/Swordman/Effect/ATSkillIcon.img`	408
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←↑→↓ + Z`
+
+[skill command advantage]
+	50	50
+
+[dungeon]
+	[consume MP]
+		4028	8056
+	[cool time]
+		290000	290000
+	[static data]
+		100	400	1000
+	[/static data]
+	[level info]
+		1	384840	474079	563317	652556	741794	831033	920271	1009510	1098748	1187987	1277225	1366464	1455702	1544941	1634179	1723418	1812656	1901895	1991133	2080372	2169610	2258849	2348087	2437326	2526564	2615803	2705041	2794280	2883518	2972757	3061995	3151234	3240472	3329711	3418949	3508188	3597426	3686665	3775903	3865142
+	[/level info]
+[/dungeon]
+
+[level property]
+	1	99
+	`斬擊攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

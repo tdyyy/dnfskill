@@ -1,0 +1,40 @@
+#PVF_File
+
+[name]
+	`強制 - 激光炮`
+
+[name2]
+	`Cancel - Laser Lifle`
+
+[basic explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[激光炮]。`
+
+[explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[激光炮]。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	35
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	1	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	198
+	`Character/Gunner/Effect/SkillIcon.img`	199

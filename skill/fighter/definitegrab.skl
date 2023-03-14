@@ -1,0 +1,98 @@
+#PVF_File
+
+[name2]
+	`Definite Grab!`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	25
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	0	0	0	20	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[durability decrease rate]
+	50
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	114
+	`Character/Fighter/Effect/SkillIcon.img`	115
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(BUFF)`}
+[/command]
+
+[dungeon]
+	[consume MP]
+		30	210
+	[casting time]
+		500	500
+	[cool time]
+		5000	5000
+	[static data]
+		-1000
+	[/static data]
+	[level info]
+		3	600000	0	200	600000	0	210	600000	0	220	600000	0	230	600000	0	240	600000	0	250	600000	0	260	600000	0	270	600000	0	280	600000	0	290	600000	0	300	600000	0	310	600000	0	320	600000	0	330	600000	0	340	600000	0	350	600000	0	360	600000	0	380	600000	0	390	600000	0	400	600000	0	410	600000	0	420	600000	0	430	600000	0	440	600000	0	450	600000	0	460	600000	0	470	600000	0	480	600000	0	490	600000	0	500	600000	0	510
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		10000	10000
+	[cool time]
+		35000	35000
+	[static data]
+		-120
+	[/static data]
+	[level info]
+		2	5000	2	6000	4	6480	6	7290	8	8100	10	8910	12	10000	14	10530	16	11340	18	12150	20	12960	22	13770	24	14580	26	15390	28	16200	30	17010	32	17820	34	18630	36	19440	38	20250	40
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[name]
+	`暴力抓取`
+
+[explain]
+	`使[背摔]、 [拋投]、 [霹靂肘擊]、 [空絞錘]、 [螺旋彗星落]、 [地獄搖籃]、 [裂石破天]、 [末日風暴]技能的抓取動作出現霸體判定， 并使這些技能的命中率變成100%%， 而且增加攻擊力， 效果持續一定時間。`
+
+[basic explain]
+	`使[背摔]、 [拋投]、 [霹靂肘擊]、 [空絞錘]、 [螺旋彗星落]、 [地獄搖籃]、 [裂石破天]、 [末日風暴]技能的抓取動作出現霸體判定， 并使這些技能的命中率變成100%%， 而且增加攻擊力， 效果持續一定時間。`
+
+[command key explain]
+	`操作指令 : ↑↑ + Space`
+
+[level property]
+	1	99
+	`持續時間 : <float1>秒
+抓取攻擊力增加率 : <float1>%%
+基本攻擊力和技能攻擊力增加率 : <float1>%%`	-1	0	0.001	-1	1	1.0	-1	2	0.1
+[/level property]

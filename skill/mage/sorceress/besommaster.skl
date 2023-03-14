@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`黑魔法掃把`
+
+[explain]
+	`習得時，基本攻擊被適用為魔法獨立攻擊力 
+通過黑魔法掌握了使用掃把的能力，裝備掃把時，施放速度以及命中率增加`
+
+[basic explain]
+	`習得時，基本攻擊被適用為魔法獨立攻擊力 
+通過黑魔法掌握了使用掃把的能力，裝備掃把時，施放速度以及命中率增加`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	15
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	2
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	1	1	1	1
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	696
+	`Character/Mage/Effect/SkillIcon.img`	697
+
+[level info]
+	2	20	5
+[/level info]
+
+[level property]
+	1	99
+	`釋放速度增加量:<int>%%
+命中增加量:<int>%%`	-1	0	1.0	-1	1	1.0
+[/level property]

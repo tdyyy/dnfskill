@@ -1,0 +1,81 @@
+#PVF_File
+
+[name]
+	`強化 - 苦無精通`
+
+[basic explain]
+	`    使用苦無系列武器時， 增加武器攻擊力和命中率。
+    基本攻擊時有一定幾率向敵人投擲苦無。`
+
+[explain]
+	`    使用苦無系列武器時， 增加武器攻擊力和命中率。
+    基本攻擊時有一定幾率向敵人投擲苦無。`
+
+[basic explain ex]
+	`    增加[苦無精通]投擲苦無的幾率。`
+
+[explain ex]
+	`    增加[苦無精通]投擲苦無的幾率。
+    技能每增加Lv1時， 投擲幾率增加量 : 10%%`
+
+[feature skill type]
+	1
+
+[pre required skill]
+	84	1
+[/pre required skill]
+
+[special purchase cost]
+	1
+[/special purchase cost]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	5	5	5	5	5	5
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	412
+	`Character/Thief/Effect/SkillIcon.img`	413
+
+[static data]
+	100
+[/static data]
+
+[level info]
+	3	12	-7	27	13	-8	30	13	-8	33	14	-8	36	14	-8	39	15	-8	42	15	-9	45	16	-9	48	16	-10	51	17	-10	54	17	-10	57	18	-10	60	18	-10	63	19	-11	66	19	-11	69	20	-11	72	20	-12	75	21	-12	78	21	-13	81	22	-13	84	22	-13	87	23	-13	90	23	-13	93	24	-14	96	24	-14	99	25	-14	102	25	-15	105	26	-15	108	26	-15	111	27	-15	114	27	-15	117	28	-16	120	28	-16	123	29	-17	126	29	-17	129	30	-17	132	30	-17	135	31	-17	138	31	-18	141	32	-18	144
+[/level info]
+
+[special level up]
+	-1	2
+	`%`	10
+[/special level up]
+
+[level property]
+	1	99
+	` 
+- [苦無精通] -
+武器魔法攻擊力增加比率 : <int>%%
+武器命中率增加比率 : <int>%%
+增加基本攻擊額外投擲出苦無的幾率 : <int>%%`	-1	0	1.0	-1	1	-1.0	-1	2	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

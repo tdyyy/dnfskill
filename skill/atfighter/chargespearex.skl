@@ -1,0 +1,128 @@
+#PVF_File
+
+[name]
+	`彗星沖擊`
+
+[name2]
+	`Pierce`
+
+[explain]
+	`向前方飛沖的同時拖倒沖擊范圍內的敵人， 使其受到傷害。
+     在技能結束之前， 被命中的敵人會被拖著向前移動。
+    按住技能鍵可以蓄氣， 蓄氣時間越長沖出的距離越遠。`
+
+[basic explain]
+	`向前方飛沖的同時拖倒沖擊范圍內的敵人， 使其受到傷害。`
+
+[executable states]
+	8
+[/executable states]
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[durability decrease rate]
+	100
+
+[skill under cooltime effect each]
+[/skill under cooltime effect each]
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[league ban]
+	1
+
+[icon]
+	`Character/Fighter/Effect/ATSkillIcon.img`	146
+	`Character/Fighter/Effect/ATSkillIcon.img`	147
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↓→ + Z`
+
+[skill command advantage]
+	50	50
+
+[dungeon]
+	[consume MP]
+		280	784
+	[cool time]
+		30000	30000
+	[static data]
+		400	50	350	1200	-3000	1000	3000
+	[/static data]
+	[level info]
+		2	5254	5254	6362	6362	7467	7467	8575	8575	9679	9679	10784	10784	11892	11892	12998	12998	14105	14105	15209	15209	16315	16315	17422	17422	18528	18528	19636	19636	20739	20739	21845	21845	22953	22953	24060	24060	25162	25162	26270	26270	27377	27377	28483	28483	29591	29591	30694	30694	31800	31800	32908	32908	34013	34013	35121	35121	36224	36224	37330	37330	38438	38438	39544	39544	40651	40651	41755	41755	42860	42860	43968	43968	45076	45076	46177	46177	47285	47285	48393	48393	49498	49498	50606	50606	51710	51710	52815	52815	53923	53923	55029	55029	56137	56137	57240	57240	58346	58346	59453	59453
+	[/level info]
+[/dungeon]
+
+[shake screen]
+	5	100
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[static data]
+		400	50	350	1200	-3000	1000	3000
+	[/static data]
+	[level info]
+		2	300	300	363	363	426	426	490	490	553	553	616	616	679	679	742	742	805	805	868	868	932	932	995	995	1058	1058	1121	1121	1184	1184	1247	1247	1311	1311	1374	1374	1437	1437	1500	1500	1563	1563	1626	1626	1690	1690	1753	1753	1816	1816	1879	1879	1942	1942	2005	2005	2068	2068	2132	2132	2195	2195	2258	2258	2321	2321	2384	2384	2447	2447	2511	2511	2574	2574	2637	2637	2700	2700	2763	2763	2826	2826	2890	2890	2953	2953	3016	3016	3079	3079	3142	3142	3205	3205	3268	3268	3332	3332	3395	3395
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`蓄氣時間上限 : <float2>秒
+物理攻擊傷害 : <int>%% + <int>`	0	0	0.001	-1	0	1.0	-2	1	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

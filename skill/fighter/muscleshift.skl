@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`柔化肌肉`
+
+[name2]
+	`Muscle Shift`
+
+[explain]
+	`使自身的身體瞬間變得柔若無骨; 使用武斗系列技能時， 可以強制中斷當前的技能并立即施放武斗系列的其他技能， 可以使技能與技能形成連續技。
+ 達到一定使用次數或經過一段時間后， 柔化肌肉的效果會消失。
+可以強制中斷的技能 : [上勾拳]、 [前踢]、 [下段踢]、 [鷹踏]、 [疾風連擊]、 [旋風腿]、 [崩拳]、 [鐵山靠]、 [碎骨]、 [升龍拳]、 [寸拳]、 [閃電之舞]`
+
+[basic explain]
+	`使自身的身體瞬間變得柔若無骨; 使用武斗系列技能時， 可以強制中斷當前的技能并立即施放武斗系列的其他技能， 可以使技能與技能形成連續技。
+ 達到一定使用次數或經過一段時間后， 柔化肌肉的效果會消失。`
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[required level]
+	30
+
+[required level range]
+	5
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	5	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[durability decrease rate]
+	10
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	182
+	`Character/Fighter/Effect/SkillIcon.img`	183
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(BUFF)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↓ + Space`
+
+[dungeon]
+	[consume MP]
+		20	168
+	[static data]
+		105
+	[/static data]
+	[level info]
+		2	20	600000	25	600000	30	600000	35	600000	40	600000	45	600000	50	600000	55	600000	60	600000	60	600000
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		20000	20000
+	[cool time]
+		35000	35000
+	[casting time]
+		500	500
+	[static data]
+		90
+	[/static data]
+	[level info]
+		2	1	5000	1	7500	1	10000	2	10000	2	12500	3	12500	3	15000	4	15000	4	17500	5	17500
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`強制中斷的次數 : <int>
+持續時間 : <float1>秒
+強制中斷時下一技能攻擊力變化值 : <int>%%`	-1	0	1.0	-1	1	0.001	0	0	1.0
+[/level property]
+
+[skill preloading image]
+[/skill preloading image]

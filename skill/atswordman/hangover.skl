@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`白牙落斬`
+
+[basic explain]
+	`    該技能可以在地面和空中使用。
+    在白牙上掛上鬼縛絲， 向天花板擲出， 然后跳起。 到達最高點的瞬間， 拔出白牙， 發動強力下斬。
+    按下方向鍵可落回原地； 按向前方向鍵， 可落到更遠的地方。
+    倒地和空中被擊時也可以施放該技能， 此時進入無敵狀態。`
+
+[explain]
+	`   該技能可以在地面和空中使用。
+    在白牙上掛上鬼縛絲， 向天花板擲出， 然后跳起。 到達最高點的瞬間， 拔出白牙， 發動強力下斬。
+    按下方向鍵可落回原地； 按向前方向鍵， 可落到更遠的地方。
+    倒地和空中被擊時也可以施放該技能， 此時進入無敵狀態。`
+
+[executable states]
+	6	0	108	14	3	4
+[/executable states]
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[purchase cost]
+	25
+[/purchase cost]
+
+[required level]
+	25
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	0
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	50	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	439
+	`Character/Swordman/Effect/ATSkillIcon.img`	440
+
+[durability decrease rate]
+	70
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↑ + Z`
+
+[skill command advantage]
+	10	20
+
+[dungeon]
+	[consume MP]
+		44	375
+	[cool time]
+		10000	10000
+
+	[dungeon]
+		[static data]
+			1	100	1500	0	150	500	150	150	10	10	0	0	400	100	100	29	5	80	80	100	400
+		[/static data]
+		[level info]
+			1	6204	6834	7463	8093	8722	9351	9981	10610	11240	11869	12499	13128	13758	14387	15017	15646	16275	16905	17534	18164	18793	19423	20052	20682	21311	21941	22570	23199	23829	24458	25088	25717	26347	26976	27606	28235	28865	29494	30124	30753	31382	32012	32641	33271	33900	34530	35159	35789	36418	37048	37677	38306	38936	39565	40195	40824	41454	42083	42713	43342	43972	44601	45230	45860	46489	47119	47748	48378	49007	49637
+		[/level info]
+	[/dungeon]
+
+[pvp]
+	[static data]
+		1	100	1500	0	150	500	150	150	10	10	0	0	200	100	100	29	5	70	50	100	400
+	[/static data]
+	[level info]
+		1	108	119	130	141	152	163	174	185	196	207	218	229	240	251	262	273	284	295	306	317	327	338	349	360	371	382	393	404	415	426	437	448	459	470	481	492	503	514	525	536	547	558	569	580	591	602	613	624	635	646	657	668	678	689	700	711	722	733	744	755	766	777	788	799	810	821	832	843	854	865
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`基本下落移動距離 : <int>px
+按向前方向鍵時下落移動距離 : <int>px
+下斬攻擊力 : <int>`	0	0	1.0	1	1	1.0	-2	0	1.0
+[/level property]

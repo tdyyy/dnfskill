@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`死亡突襲`
+
+[explain]
+	`    跳到對方的頭上， 瞄準后腦勺快速射擊3發。
+    發動技能時， 可以操作與行進方向一致的方向鍵調整跳躍距離。`
+
+[basic explain]
+	`    跳到對方的頭上， 瞄準后腦勺快速射擊。`
+
+[executable states]
+	8	0	14
+[/executable states]
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	30	0	0	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[consume MP]
+	400	1620
+
+[cool time]
+	30000	30000
+
+[durability decrease rate]
+	210
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	518
+	`Character/Gunner/Effect/SkillIcon.img`	519
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↓ + Z`
+
+[skill command advantage]
+	10	20
+
+[dungeon]
+	[level info]
+		1	6482	7140	7798	8454	9112	9770	10428	11085	11743	12400	13058	13716	14373	15031	15689	16347	17004	17661	18319	18977	19635	20293	20949	21607	22265	22923	23580	24238	24895	25553	26211	26868	27526	28184	28842	29499	30156	30814	31472	32130	32787	33445	34103	34761	35418	36076	36734	37392	38050	38707	39365	40023	40681	41339	41996	42654	43312	43970	44628	45285	45943	46601	47259	47917	48574	49232	49890	50548	51206	51863
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[level info]
+		1	162	178	194	211	227	244	260	277	293	310	326	342	359	375	392	408	425	441	457	474	490	507	523	540	556	573	589	605	622	638	655	671	688	704	721	737	753	770	786	803	819	836	852	869	885	901	918	934	951	967	984	1000	1017	1033	1049	1066	1082	1099	1115	1132	1148	1165	1181	1197	1214	1230	1247	1263	1280	1296
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`射擊攻擊力 : <int>%% X 3`	-1	0	1.0
+[/level property]

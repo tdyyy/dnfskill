@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`追蹤術`
+
+[basic explain]
+	`    釋放鬼縛珠的魔力， 獲取追蹤目標所需要的信息。 增加自身基本攻擊力、 技能攻擊力、 移動速度和[鬼縛釘]的索敵范圍。`
+
+[explain]
+	`    釋放鬼縛珠的魔力， 獲取追蹤目標所需要的信息。 增加自身基本攻擊力、 技能攻擊力、 移動速度和[鬼縛釘]的索敵范圍。`
+
+[executable states]
+	0	14
+[/executable states]
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[required level]
+	25
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[pre required skill]
+	127	1
+[/pre required skill]
+
+[skill class]
+	1
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	10	0	0	0	0	0
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	483
+	`Character/Swordman/Effect/ATSkillIcon.img`	484
+
+[durability decrease rate]
+	500
+
+[consume item]
+[/consume item]
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(BUFF)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →→ + Space`
+
+[dungeon]
+	[consume MP]
+		126	975
+	[maintain MP]
+		1.0	8.1
+	[cool time]
+		5000	5000
+
+	[dungeon]
+		[static data]
+			0	120
+		[/static data]
+		[level info]
+			3	120	100	100	140	100	100	160	100	100	180	100	100	200	100	100	220	100	100	240	100	100	260	100	100	280	100	100	300	100	100	320	100	100	340	100	100	360	100	100	380	100	100	400	100	100	420	100	100	440	100	100	460	100	100	480	100	100	500	100	100
+		[/level info]
+	[/dungeon]
+
+[pvp]
+	[consume MP]
+		126	975
+	[maintain MP]
+		1.0	8.1
+	[cool time]
+		40000	40000
+	[static data]
+		20000	100
+	[/static data]
+	[level info]
+		3	73	50	50	80	50	50	87	50	50	93	50	50	100	50	50	107	50	50	113	50	50	120	50	50	127	50	50	133	50	50	140	50	50	147	50	50	153	50	50	160	50	50	167	50	50	173	50	50	180	50	50	187	50	50	193	50	50	200	50	50
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`持續時間 : <int>秒
+基本攻擊力和技能攻擊力增加量 : <float1>%%
+移動速度增加量 : <float1>%%
+[鬼縛釘]索敵范圍增加量 : <float1>%%`	0	0	0.001	-1	0	0.1	-1	1	0.1	-1	2	0.1
+[/level property]

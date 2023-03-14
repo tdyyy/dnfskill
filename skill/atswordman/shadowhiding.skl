@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`暗影遁行`
+
+[basic explain]
+	`    躲避敵人的攻擊， 隱藏到暗影內進行移動。`
+
+[explain]
+	`    躲避敵人的攻擊， 隱藏到暗影內進行移動。
+    再次按下技能鍵或技能持續時間結束后， 可現出人形態。`
+
+[feature skill index]
+	43
+
+[purchase cost]
+	100
+[/purchase cost]
+
+[executable states]
+	0	14	108	77
+[/executable states]
+
+[required level]
+	20
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	11
+
+[growtype maximum level]
+	0	0	0	0	1	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[casting time]
+	0	0
+
+[weapon effect type]
+	`[magical]`
+
+[durability decrease rate]
+	35
+
+[shake screen]
+	2	10000
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	162
+	`Character/Swordman/Effect/ATSkillIcon.img`	163
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↓↓ + Z`
+
+[skill command advantage]
+	10	20
+
+[dungeon]
+	[consume MP]
+		40	330
+	[cool time]
+		5000	5000
+	[static data]
+		300	200
+	[/static data]
+	[level info]
+		2	2000	600	2250	650	2500	700	2750	750	3000	800	3250	850	3500	900	3750	950	4000	1000	4250	1050	4500	1100	4750	1150	5000	1200	5250	1250	5500	1300	5750	1350	6000	1400	6250	1450	6500	1500	6750	1550
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[cool time]
+		20000	20000
+	[static data]
+		300	200
+	[/static data]
+	[level info]
+		2	1000	300	1050	310	1100	320	1150	330	1200	340	1250	350	1300	360	1350	370	1400	380	1450	390	1500	400	1550	410	1600	420	1650	430	1700	440	1750	450	1800	460	1850	470	1900	480	1950	490
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`可移動時間 : <float2>秒
+可移動距離 : <int>px`	-1	0	0.001	-1	1	1.0
+[/level property]

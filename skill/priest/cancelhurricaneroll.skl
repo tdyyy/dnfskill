@@ -1,0 +1,40 @@
+#PVF_File
+
+[name]
+	`強制 - 極速颶風拳`
+
+[name2]
+	`Cancel - Hurricane Roll`
+
+[explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[極速颶風拳]。`
+
+[basic explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[極速颶風拳]。`
+
+[purchase cost]
+	80
+[/purchase cost]
+
+[required level]
+	50
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	1	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[icon]
+	`Character/Priest/Effect/SkillIcon.img`	110
+	`Character/Priest/Effect/SkillIcon.img`	111

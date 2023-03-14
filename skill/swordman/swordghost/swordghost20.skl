@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+	`怨鬼: 奈落`
+
+[explain]
+	`    怨鬼浮現在一定范圍內的最強的敵人頭上進行空降打擊 
+    使用劍術技能時無視技能釋放動作進行使用`
+
+[basic explain]
+	`    怨鬼浮現在一定范圍內的最強的敵人頭上進行空降打擊 
+    使用劍術技能時無視技能釋放動作進行使用`
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	30	30	30	30	30	30
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[consume MP]
+	334	935
+
+[cool time]
+	20000	20000
+
+[executable states]
+	0	14	8	105	111	115	112
+[/executable states]
+
+[command]
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[weapon effect type]
+	`[physical]`
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	632
+	`Character/Swordman/Effect/SkillIcon.img`	633
+
+[static data]
+	800	170	150	100	100	100	2500	1500	0	120
+[/static data]
+
+[level info]
+	1	9689	10672	11655	12638	13621	14604	15587	16570	17553	18536	19519	20502	21485	22468	23452	24435	25418	26401	27384	28367	29350	30333	31316	32299	33282	34265	35248	36231	37214	38197	39180	40163	41146	42129	43112	44095	45078	46061	47044	48027	49010	49993	50976	51959	52942	53925	54908	55891	56874	57857	58840	59823	60806	61789	62772	63755	64738	65721	66704	67687	68670	69653	70636	71619	72602	73585	74568	75551	76534	77518
+[/level info]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`怨靈墜落傷害 : <int>%%`	-1	0	1.0	-1	1	0.001
+[/level property]

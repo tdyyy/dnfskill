@@ -1,0 +1,74 @@
+#PVF_File
+
+[name]
+	`亡魂之息`
+
+[explain]
+	`    增加增加基本攻擊力和技能攻擊力。
+    攻擊敵人時增加魔法暴擊率及暗屬性強化， 此效果可疊加一定層數。`
+
+[basic explain]
+	`    增加基本攻擊力和技能攻擊力。
+    攻擊敵人時增加魔法暴擊率及暗屬性強化。`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	2
+
+[maximum level]
+	30
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	0	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	339
+	`Character/Thief/Effect/SkillIcon.img`	340
+
+[static data]
+	80	150
+[/static data]
+
+[level info]
+	5	1	10	30000	3	140	2	11	30000	3	160	3	12	30000	3	180	4	13	30000	3	200	5	14	30000	3	220	6	15	30000	3	240	7	16	30000	3	260	8	17	30000	3	280	9	18	30000	3	300	10	19	30000	3	320	11	20	30000	3	340	12	21	30000	3	360	13	22	30000	3	380	14	23	30000	3	400	15	24	30000	3	420	16	25	30000	3	440	17	26	30000	3	460	18	27	30000	3	480	19	28	30000	3	500	20	29	30000	3	520	21	30	30000	3	540	22	31	30000	3	560	23	32	30000	3	580	24	33	30000	3	600	25	34	30000	3	620	26	35	30000	3	640	27	36	30000	3	660
+[/level info]
+
+[pvp]
+	[level info]
+		4	1	1	1	1
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`魔法暴擊率增加 : <int>%%
+暗屬性強化增加 : <int>
+持續時間 : <float2>秒
+Buff疊加上限 : <int>
+基本攻擊力和技能攻擊力增加 : <float1>%%`	-1	0	1.0	-1	1	1.0	-1	2	0.001	-1	3	1.0	-1	4	0.1
+[/level property]

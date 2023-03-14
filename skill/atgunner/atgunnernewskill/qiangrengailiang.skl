@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`槍刃改良`
+
+[explain]
+	`    強化左輪的攻擊力和攻擊速度， 增加基本攻擊力和技能攻擊力。`
+
+[basic explain]
+	`    強化左輪的攻擊力和攻擊速度， 增加基本攻擊力和技能攻擊力。`
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	75
+
+[required level range]
+	2
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	25
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	30	30	0	0	0	0	0	0	0	0
+
+[skill fitness second growtype]
+	2
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	472
+	`Character/Gunner/Effect/SkillIcon.img`	473
+
+[level info]
+	3	10	50	140	12	60	160	14	70	180	16	80	200	18	90	220	20	100	240	22	110	260	24	120	280	26	130	300	28	140	320	30	150	340	32	160	360	34	170	380	36	180	400	38	190	420	40	200	440	42	210	460	44	220	480	46	230	500	48	240	520	50	250	540	52	260	560	54	270	580	56	280	600	58	290	620	60	300	640
+[/level info]
+
+[pvp]
+	[level info]
+		2	1	1
+	[/level info]
+[/pvp]
+
+[level property]
+	1	99
+	`物理攻擊增加比率 : <int>%%
+左輪攻擊速度增加 : <int>%%
+基本攻擊力和技能攻擊力增加 : <float1>%%`	-1	0	1.0	-1	1	0.1	-1	2	0.1
+[/level property]

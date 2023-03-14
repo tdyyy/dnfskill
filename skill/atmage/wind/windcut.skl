@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+	`回風斬`
+
+[basic explain]
+	`    引發鋒利的寒風攻擊周圍的敵人。`
+
+[explain]
+	`    引發鋒利的寒風攻擊周圍的敵人。`
+
+[executable states]
+	0	8	14	143	102
+[/executable states]
+
+[feature skill index]
+	45
+
+[purchase cost]
+	20
+[/purchase cost]
+
+[required level]
+	25
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	50	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[consume MP]
+	38	227
+
+[cool time]
+	15500	15500
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	204
+	`Character/Mage/Effect/ATSkillIcon.img`	205
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←↓→ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+[/static data]
+
+[level info]
+	4	2543	4	130	100	2652	4	130	100	2766	4	130	100	2885	4	130	100	3009	4	130	100	3138	4	130	100	3273	4	130	100	3414	4	130	100	3561	4	130	100	3714	4	130	100	3874	4	130	100	4041	4	130	100	4215	4	130	100	4396	4	130	100	4585	4	130	100	4782	4	130	100	4988	4	130	100	5202	4	130	100	5426	4	130	100	5659	4	130	100	5902	4	130	100	6156	4	130	100	6421	4	130	100	6697	4	130	100	6985	4	130	100	7285	4	130	100	7598	4	130	100	7925	4	130	100	8266	4	130	100	8621	4	130	100	8992	4	130	100	9379	4	130	100	9782	4	130	100	10203	4	130	100	10642	4	130	100	11100	4	130	100	11577	4	130	100	12075	4	130	100	12594	4	130	100	13136	4	130	100	13701	4	130	100	14290	4	130	100	14904	4	130	100	15545	4	130	100	16213	4	130	100	16910	4	130	100	17637	4	130	100	18395	4	130	100	19186	4	130	100	20011	4	130	100	20871	4	130	100	21768	4	130	100	22704	4	130	100	23680	4	130	100	24698	4	130	100	25760	4	130	100	26868	4	130	100	28023	4	130	100	29228	4	130	100	30485	4	130	100	31796	4	130	100	33163	4	130	100	34589	4	130	100	36076	4	130	100	37627	4	130	100	39245	4	130	100	40933	4	130	100	42693	4	130	100	44529	4	130	100	46444	4	130	100
+[/level info]
+
+[pvp]
+	[level info]
+		0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`斬擊次數:<int>
+斬擊攻擊力:<int>%%`	-1	1	1.0	-1	0	1.0
+[/level property]

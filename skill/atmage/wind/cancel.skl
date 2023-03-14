@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`強化 - 朔風牽引`
+
+[explain]
+	`    在前方產生逆風， 將敵人吸附到角色周圍， 甚至可以將倒地狀態的敵人吸附過來。 逆風效果只對地面上的敵人有效。 可以強制中斷逆風並立即施放其他技能， 或反之也可以。
+    在決斗場中， 無法拉起倒地狀態的敵人。
+- [可強制中斷的技能] -
+[狂風沖刺]、 [回風斬]、 [游離之風]、 [風鳴沖擊]、 [雙翼風刃]、 [風暴之眼]、 [真空旋風破]、 [風暴之拳]、 [疾風瞬影閃]、 [風卷殘雲]`
+
+[basic explain]
+	`    在前方產生逆風， 將敵人吸附到角色周圍。`
+
+[explain ex]
+	`    增加[朔風牽引]的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`    增加[朔風牽引]的攻擊力。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	102	10
+[/pre required skill]
+
+[required level]
+	55
+
+[required level range]
+	5
+
+[skill class]
+	0
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	0	0	5	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	366
+	`Character/Mage/Effect/ATSkillIcon.img`	367
+
+[static data]
+	100	1000	3	1
+[/static data]
+
+[level info]
+	1	910	945	982	1020	1060	1101	1144	1189	1235	1283	1333	1385	1439	1495	1554	1614	1677	1742	1810	1880	1954	2030	2109	2191	2277	2366	2458	2554	2654	2757	2865	2976	3092	3213	3338	3468	3604	3744	3890	4042	4199	4363	4533	4710	4893	5084	5282	5488	5702	5925
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10
+[/special level up]
+
+[pvp]
+	[level info]
+		0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`風暴物理攻擊力 : <int>%%`	-1	0	1.0
+[/level property]

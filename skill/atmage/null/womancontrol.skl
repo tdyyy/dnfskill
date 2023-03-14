@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`乖離 : 禁錮`
+
+[explain]
+	`    奈雅麗瞬移到角色后方后， 將魔力聚集到鞭子上向前刺擊。
+    受到攻擊的敵人進入短暫的束縛狀態， 從刺擊到回收鞭子期間， 奈雅麗進入無敵狀態。`
+
+[basic explain]
+	`    奈雅麗瞬移到角色后方后， 將魔力聚集到鞭子上向前刺擊。
+    受到攻擊的敵人進入短暫的束縛狀態， 從刺擊到回收鞭子期間， 奈雅麗進入無敵狀態。
+[能把敵人徹底擊穿這一點倒是不錯， 但為什么他們第二天會對我露出笑容？]`
+
+[executable states]
+	0	8	14
+[/executable states]
+
+[purchase cost]
+	75
+[/purchase cost]
+
+[pre required skill]
+	141	1
+[/pre required skill]
+
+[required level]
+	70
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	40
+
+[skill fitness growtype]
+	0
+[/skill fitness growtype]
+
+[growtype maximum level]
+	30	0	0	0	0	0
+
+[consume MP]
+	900	1820
+
+[cool time]
+	50000	50000
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	282
+	`Character/Mage/Effect/ATSkillIcon.img`	283
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←↑→ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	-50	-1	4000
+[/static data]
+
+[level info]
+	1	19670	21665	23661	25655	27651	29646	31642	33638	35635	37631	39624	41620	43616	45612	47607	49603	51597	53593	55588	57584	59580	61577	63573	65566	67562	69558	71553	73549	75544	77540	79534	81530	83526	85523	87519	89513	91509	93504	95500	97495	99491	101486	103482	105476	107472	109469	111465	113461	115455	117451	119447	121442	123437	125433	127428	129422	131418	133416	135411	137407	139401	141397	143393	145389	147383	149379	151375	153370	155365	157360
+[/level info]
+
+[level property]
+	1	99
+	`束縛時間 : <float1>秒
+刺擊攻擊力 : <int>`	2	2	0.001	-2	0	1.0
+[/level property]

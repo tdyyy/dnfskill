@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`血腥煉獄`
+
+[explain]
+	`    爆發出旋轉的血氣， 對周圍的敵人造成多段攻擊傷害。`
+
+[basic explain]
+	`    利用旋轉的血氣攻擊敵人。`
+
+[executable states]
+	0	8	14	129
+[/executable states]
+
+[purchase cost]
+	45
+[/purchase cost]
+
+[required level]
+	35
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	0	0	50	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[consume MP]
+	0	0
+
+[cool time]
+	18000	18000
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	342
+	`Character/Mage/Effect/ATSkillIcon.img`	343
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(ATTACK)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →←→ + X(X連按)`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	10	480	150	300
+[/static data]
+
+[level info]
+	1	1024	1128	1232	1336	1440	1544	1648	1752	1856	1960	2064	2168	2272	2376	2480	2584	2688	2792	2896	3000	3104	3208	3312	3416	3520	3624	3728	3832	3936	4040	4144	4247	4351	4455	4559	4663	4767	4871	4975	5079	5183	5287	5391	5495	5599	5703	5807	5911	6015	6119	6223	6327	6431	6535	6639	6743	6847	6951	7055	7159	7263	7367	7471	7575	7679	7783	7886	7990	8094	8198
+[/level info]
+
+[pvp]
+	[start cool time]
+		25000	25000
+	[cool time]
+		25000	25000
+	[static data]
+		10	1000	100	300
+	[/static data]
+	[level info]
+		1	36	40	43	47	50	54	58	61	65	69	73	76	80	83	88	90	94	98	102	105	109	112	116	119	123	127	131	134	138	142	145	150	152	156	160	164	167	171	174	179	181	185	189	193	196	200	203	207	211	214	218	222	226	229	233	236	241	243	247	251	255	258	262	265	269	272	276	280	284	287
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`血氣消耗:<float1>%%
+持續時間:<float1>秒
+攻擊次數:<int>次
+多段物理攻擊力 : <int>%%`	3	3	0.1	1	1	0.001	0	0	1.0	-1	0	1.0
+[/level property]

@@ -1,0 +1,46 @@
+#PVF_File
+
+[name2]
+	`Cancel - Flame Thrower`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	20
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	1	0	0	0
+
+[skill fitness growtype]
+	2
+[/skill fitness growtype]
+
+[icon]
+	`Character/Gunner/Effect/SkillIcon.img`	60
+	`Character/Gunner/Effect/SkillIcon.img`	61
+
+[command]
+[/command]
+
+[static data]
+[/static data]
+
+[name]
+	`強制 - M-3噴火器`
+
+[explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[M-3噴火器]。`
+
+[basic explain]
+	`強制中斷當前進行的普通攻擊動作， 并立即施放[M-3噴火器]。`

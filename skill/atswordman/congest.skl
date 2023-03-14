@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`暗影蓄能`
+
+[basic explain]
+	`    在一定時間內激發自身實力， 增加基本攻擊力和技能攻擊力。`
+
+[explain]
+	`    在一定時間內激發自身實力， 增加基本攻擊力和技能攻擊力。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[executable states]
+	0	14	108
+[/executable states]
+
+[required level]
+	35
+
+[required level range]
+	3
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	20
+
+[growtype maximum level]
+	0	0	0	0	10	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[durability decrease rate]
+	500
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	240
+	`Character/Swordman/Effect/ATSkillIcon.img`	241
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(BUFF)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →→ + Space`
+
+[consume MP]
+	450	450
+
+[casting time]
+	500	500
+
+[cool time]
+	5000	5000
+
+[dungeon]
+	[static data]
+		1
+	[/static data]
+	[level info]
+		2	150	0	170	0	190	0	210	0	230	0	250	0	270	0	290	0	310	0	330	0	350	0	370	0	390	0	410	0	430	0	450	0	470	0	490	0	510	0	530	0	550	0	570	0	590	0	610	0	630	0	650	0	670	0	690	0	710	0	730	0	750	0
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[static data]
+		1
+	[/static data]
+	[level info]
+		2	50	0	60	0	70	0	80	0	90	0	100	0	110	0	120	0	130	0	140	0	150	0	160	0	170	0	180	0	190	0	200	0	210	0	220	0	230	0	240	0	250	0	260	0	270	0	280	0	290	0	300	0	310	0	320	0	330	0	340	0	350	0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`攻擊力增加 : <float1>%%
+Buff持續時間 : <float1>秒`	-1	0	0.1	-1	1	0.001
+[/level property]

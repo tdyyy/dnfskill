@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`暗殺之心`
+
+[basic explain]
+	`    死亡舞會所屬要員必須掌握的暗殺術， 可以准確的從背後命中目標的要害。`
+
+[explain]
+	`    死亡舞會所屬要員必須掌握的暗殺術， 可以准確的從背後命中目標的要害。
+    技能命中敵人背部時， 會增加攻擊力和暴擊率。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	48
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	4
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	0	0	0	0	30	30	0	0
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[icon]
+	`Character/Thief/Effect/SkillIcon.img`	315
+	`Character/Thief/Effect/SkillIcon.img`	316
+
+[static data]
+[/static data]
+
+[level info]
+	2	10	39	20	60	30	80	40	101	50	121	60	142	70	163	80	183	90	204	100	224	110	245	120	266	130	286	140	307	150	327	160	348	170	369	180	389	190	410	200	430	210	451	220	472	230	492	240	513	250	533	260	554	270	575	280	595	290	616	300	636	310	657	320	678	330	698	340	719	350	739	360	760	370	781	380	801	390	822	400	842	410	863	420	884	430	904	440	925	450	945	460	966	470	987	480	1007	490	1028	500	1048	510	1069	520	1090	530	1110	540	1131	550	1151	560	1172
+[/level info]
+
+[level property]
+	1	99
+	`背擊時暴擊幾率增加量 : <float1>%%
+背擊時攻擊力增加量 : <float1>%%`	-1	0	0.1	-1	1	0.1
+[/level property]

@@ -1,0 +1,80 @@
+#PVF_File
+
+[name]
+	`裏‧鬼劍術`
+
+[name2]
+	`in Devil Escrime`
+
+[explain]
+	`劍魂特有的鬼劍術， 使用的武器不同， 出現的攻擊效果也不同。
+    可以與普通攻擊形成連擊， 但最后一擊后無法連接普通攻擊或[裏‧鬼劍術]； 若使用巨劍系武器， 則最后一擊會存在霸體判定。`
+
+[basic explain]
+	`劍魂特有的鬼劍術， 使用的武器不同， 出現的攻擊效果也不同。`
+
+[purchase cost]
+	50
+[/purchase cost]
+
+[required level]
+	20
+
+[required level range]
+	1
+
+[pre required skill]
+[/pre required skill]
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	1	1	0	0	0	1
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[consume MP]
+	6	6
+
+[cool time]
+	0	0
+
+[auto cooltime apply]
+	0
+
+[durability decrease rate]
+	0
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	148
+	`Character/Swordman/Effect/SkillIcon.img`	149
+
+[command]
+[/command]
+
+[command customizing]
+	0
+
+[static data]
+	1
+[/static data]
+
+[pvp]
+	[static data]
+		0
+	[/static data]
+	[cool time]
+		2000	2000
+[/pvp]
+
+[skill preloading image]
+[/skill preloading image]

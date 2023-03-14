@@ -1,0 +1,80 @@
+#PVF_File
+
+[name]
+	`恐懼光環`
+
+[name2]
+	`Fear of Darkness`
+
+[explain]
+	`    增加基本攻擊力和技能攻擊力。
+    散發可以使周圍敵人恐懼的黑暗光環， 可以降低周圍敵人的暗屬性抗性和攻擊速度。`
+
+[basic explain]
+	`    增加基本攻擊力和技能攻擊力。
+    散發可以使周圍敵人恐懼的黑暗光環， 可以降低周圍敵人的暗屬性抗性和攻擊速度。`
+
+[purchase cost]
+	45
+[/purchase cost]
+
+[required level]
+	48
+
+[required level range]
+	3
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	0	0
+
+[second growtype maximum level]
+	0	0	0	0	30	0	0	0	0	0	0	0
+
+[skill fitness growtype]
+[/skill fitness growtype]
+
+[skill fitness second growtype]
+	1
+[/skill fitness second growtype]
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	196
+	`Character/Swordman/Effect/SkillIcon.img`	197
+
+[dungeon]
+	[static data]
+		550
+	[/static data]
+	[level info]
+		3	5	40	100	7	60	120	10	80	130	12	100	140	14	120	150	17	140	160	19	160	170	22	180	180	24	200	190	26	220	200	29	240	210	31	260	220	34	280	230	36	300	240	38	320	250	41	340	260	43	360	270	46	380	280	48	400	290	50	420	300	53	440	310	55	460	320	58	480	330	60	500	340	62	520	350	65	540	360	67	560	370	70	580	380	72	600	390	74	620	400	77	640	410	79	660	420	82	680	430	84	700	440
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[level info]
+		2	4	10	6	15	8	20	10	25	12	30	14	35	16	40	18	45	20	50	22	55	24	60	26	65	28	70	30	75	32	80	34	85	36	90	38	95	40	100	42	105	44	110	46	115	48	120	50	125	52	130	54	135	56	140	58	145	60	150	62	155	64	160	66	165	68	170	70	175	72	180	74	185	76	190	78	195	80	200	82	205	84	210	86	215	88	220	90	225	92	230	94	235	96	240	98	245	100	250	102	255	104	260	106	265	108	270	110	275	112	280	114	285	116	290	118	295	120	300	122	305	124	310	126	315	128	320	130	325	132	330	134	335	136	340	138	345	140	350	142	355
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`光環范圍 : <int>px
+降低暗屬性抗性 : <int>
+降低攻擊速度 : <float1>%%
+基本攻擊力和技能攻擊力增加 : <float1>%%`	0	0	1.0	-1	0	1.0	-1	1	0.1	-1	2	0.1
+[/level property]

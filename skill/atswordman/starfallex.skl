@@ -1,0 +1,105 @@
+#PVF_File
+
+[name]
+	`強化 - 魔影轟殺`
+
+[basic explain]
+	`    將蘊含烏希爾氣息的劍刺向地面， 生成魔影追蹤並給予敵人暗屬性傷害。`
+
+[explain]
+	`    將蘊含烏希爾氣息的劍刺向地面， 使敵人受到暗屬性傷害。r
+    抓住目標後追蹤敵人並爆炸， 爆炸時會對周圍的敵人造成傷害。r
+    可以多次更換目標進行追蹤並爆炸， 若沒有目標則向前方移動並自爆。`
+
+[basic explain ex]
+	`    增加[魔影轟殺]的攻擊力。`
+
+[explain ex]
+	`增加[魔影轟殺]的攻擊力。r
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[required level]
+	60
+
+[required level range]
+	5
+
+[type]
+	`[passive]`
+
+[skill class]
+	3
+
+[maximum level]
+	7
+
+[growtype maximum level]
+	0	0	0	0	5	5
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[durability decrease rate]
+	60
+
+[pre required skill]
+	73	1
+[/pre required skill]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	383
+	`Character/Swordman/Effect/ATSkillIcon.img`	384
+
+[dungeon]
+	[consume MP]
+		600	1840
+	[casting time]
+		500	500
+	[cool time]
+		30000	30000
+	[static data]
+		300	50	400	1500	100	0	4	250	70	25	1000	100	10	10000	1
+	[/static data]
+	[level info]
+		2	4	5453	4	6006	4	6560	4	7113	4	7666	4	8219	4	8773	4	9327	4	9879	4	10433	4	10986	4	11539	4	12092	4	12646	4	13199	4	13752	4	14305	4	14859	4	15413	4	15965	4	16519	4	17072	4	17626	4	18178	4	18732	4	19285	4	19838	4	20391	4	20945	4	21499	4	22051	4	22605	4	23158	4	23712	4	24264	4	24818	4	25371	4	25925	4	26477	4	27031	4	27585	4	28137	4	28691	4	29244	4	29798	4	30350	4	30904	4	31457	4	32011	4	32563	4	33117	4	33671	4	34223	4	34777	4	35330	4	35884	4	36436	4	36990	4	37544	4	38097	4	38649	4	39203	4	39757	4	40310	4	40863	4	41416	4	41970	4	42522	4	43076	4	43630
+	[/level info]
+	[special level up]
+		-1	1
+		`%`	10
+	[/special level up]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		600000	600000
+	[static data]
+		300	50	400	1500	100
+	[/static data]
+	[level info]
+		2	4	448	4	542	4	636	4	730	4	824	4	919	4	1013	4	1107	4	1201	4	1296	4	1390	4	1484	4	1578	4	1672	4	1767	4	1861	4	1955	4	2049	4	2143	4	2238	4	2332	4	2426	4	2520	4	2614	4	2709	4	2803	4	2897	4	2991	4	3086	4	3180	4	3274	4	3368	4	3462	4	3557	4	3651	4	3745	4	3839	4	3934	4	4028	4	4122	4	4216	4	4310	4	4405	4	4499	4	4593	4	4687	4	4781	4	4876	4	4970	4	5064
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`攻擊距離 : <int>px
+爆炸次數 : <int>次r
+爆炸魔法攻擊力 : <int>%%`	0	0	2.0	-1	0	1.0	-1	1	1.0
+[/level property]

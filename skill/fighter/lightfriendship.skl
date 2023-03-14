@@ -1,0 +1,44 @@
+#PVF_File
+
+[name2]
+	`The Friendship of Light`
+
+[purchase cost]
+	0
+[/purchase cost]
+
+[required level]
+	15
+
+[type]
+	`[passive]`
+
+[skill class]
+	1
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	1	0	0	0	0
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[icon]
+	`Character/Fighter/Effect/SkillIcon.img`	66
+	`Character/Fighter/Effect/SkillIcon.img`	67
+
+[static data]
+	20	-10
+[/static data]
+
+[name]
+	`光之親和`
+
+[explain]
+	`增加自身20點光屬性抗性， 并減少10點暗屬性抗性。`
+
+[basic explain]
+	`增加自身的光屬性抗性， 并減少暗屬性抗性。`

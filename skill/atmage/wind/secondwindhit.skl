@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`雙翼風刃`
+
+[basic explain]
+	`    雙手連續發射旋風。`
+
+[explain]
+	`    雙手連續發射旋風。 敵人會被吸附到旋風中心。`
+
+[executable states]
+	0	8	14	102	143
+[/executable states]
+
+[pre required skill]
+	139	1
+[/pre required skill]
+
+[feature skill index]
+	40
+
+[purchase cost]
+	30
+[/purchase cost]
+
+[required level]
+	30
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	50
+
+[growtype maximum level]
+	0	0	0	0	50	0
+
+[skill fitness growtype]
+	4
+[/skill fitness growtype]
+
+[consume MP]
+	91	545
+
+[cool time]
+	15000	15000
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[durability decrease rate]
+	5
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	368
+	`Character/Mage/Effect/ATSkillIcon.img`	369
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ↑↑ + Z`
+
+[skill command advantage]
+	20	40
+
+[static data]
+	75	80	100	80
+[/static data]
+
+[level info]
+	2	1488	2	1552	2	1618	2	1688	2	1760	2	1836	2	1915	2	1998	2	2084	2	2174	2	2267	2	2364	2	2466	2	2572	2	2683	2	2798	2	2919	2	3044	2	3175	2	3312	2	3455	3	3603	3	3758	3	3920	3	4088	3	4264	3	4447	3	4639	3	4838	3	5046	3	5263	3	5490	3	5726	3	5972	3	6228	3	6496	3	6775	3	7067	3	7371	3	7688	3	8018	4	8363	4	8723	4	9098	4	9489	4	9897	4	10322	4	10766	4	11229	4	11712	4
+[/level info]
+
+[pvp]
+	[level info]
+		0
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`多段連續攻擊力:<int>%%
+攻擊次數:<int> x 2 次`	-1	0	1.0	-1	1	1.0
+[/level property]

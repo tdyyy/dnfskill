@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`暗影盛宴`
+
+[basic explain]
+	`    高高躍起后， 向地面發射暗屬性劍氣并引發爆炸攻擊周圍大范圍的敵人， 對敵人造成暗屬性魔法傷害。
+    可在跳躍時使用， 爆炸攻擊命中時可以額外累積一定量的靈魂。
+    在決斗場中， 無法在跳躍過程中使用。`
+
+[explain]
+	`    高高躍起后， 向地面發射暗屬性劍氣并引發爆炸攻擊周圍敵人。
+    可在跳躍時使用， 爆炸攻擊命中時可以額外累積一定量的靈魂。
+    在決斗場中， 無法在跳躍過程中使用。`
+
+[feature skill index]
+	23
+
+[purchase cost]
+	60
+[/purchase cost]
+
+[executable states]
+	0	14	108	77	6
+[/executable states]
+
+[required level]
+	45
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	3
+
+[maximum level]
+	60
+
+[growtype maximum level]
+	0	0	0	0	50	0
+
+[skill fitness growtype]
+	0	1	2	3	4
+[/skill fitness growtype]
+
+[casting time]
+	300	300
+
+[weapon effect type]
+	`[magical]`
+
+[durability decrease rate]
+	280
+
+[consume item]
+	3037	2	2
+[/consume item]
+
+[icon]
+	`Character/Swordman/Effect/ATSkillIcon.img`	190
+	`Character/Swordman/Effect/ATSkillIcon.img`	191
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : →↓→ + Z`
+
+[skill command advantage]
+	20	40
+
+[dungeon]
+	[consume MP]
+		120	2024
+	[cool time]
+		40000	40000
+	[static data]
+		150	15	120	100	2	2000	80	20	150	300	350	0	0	0	100	40	50	100	-145	15	100	135	-35	100	145	15	100	-80	55	100	-105	-35	100	50	110	160	15	130	0	300	2250
+	[/static data]
+	[level info]
+		2	0	1786	0	1967	0	2149	0	2330	0	2512	0	2692	0	2874	0	3055	0	3237	0	3418	0	3599	0	3780	0	3962	0	4143	0	4323	0	4505	0	4687	0	4868	0	5050	0	5230	0	5411	0	5593	0	5774	0	5956	0	6136	0	6318	0	6499	0	6681	0	6862	0	7043	0	7224	0	7406	0	7587	0	7769	0	7949	0	8131	0	8312	0	8494	0	8675	0	8855	0	9037	0	9219	0	9400	0	9582	0	9762	0	9943	0	10125	0	10306	0	10488	0	10668	0	10850	0	11031	0	11213	0	11394	0	11575	0	11756	0	11938	0	12119	0	12299	0	12481	0	12663	0	12844	0	13026	0	13206	0	13387	0	13569	0	13751	0	13932	0	14112	0	14294
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		40000	40000
+	[static data]
+		150	15	75	75	2	1000	80	20	450	300	350	0	0	0	80	40	50	80	-145	15	90	135	-35	80	145	15	80	-80	55	80	-105	-35	80	50	1000	1000	5	110	0	300	0
+	[/static data]
+	[level info]
+		2	0	52	0	57	0	62	0	68	0	72	0	78	0	84	0	88	0	95	0	99	0	105	0	111	0	116	0	120	0	126	0	131	0	137	0	143	0	147	0	152	0	159	0	162	0	168	0	173	0	180	0	184	0	189	0	195	0	201	0	205	0	211	0	216	0	222	0	227	0	232	0	237	0	242	0	248	0	253	0	259	0	264	0	269	0	275	0	280	0	284	0	291	0	296	0	301	0	307	0	312	0	318	0	318	0	323	0	327	0	333	0	338	0	343	0	349	0	355	0	360	0	364	0	370	0	376	0	381	0	386	0	393	0	397	0	402	0	408	0	413
+	[/level info]
+	[consume item]
+	[/consume item]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`爆炸攻擊次數 : <int>次
+爆炸魔法攻擊力 : <int>%%
+爆炸攻擊時， 額外的靈魂累積數 : <int>`	1	1	1.0	-1	1	1.0	36	36	1.0
+[/level property]

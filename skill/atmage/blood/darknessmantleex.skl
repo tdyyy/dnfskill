@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`強化 - 獄血之牙`
+
+[explain ex]
+	`    增加[獄血之牙]的攻擊力。
+技能每增加Lv1時， 攻擊力增加率 : 10%%`
+
+[basic explain ex]
+	`    增加[獄血之牙]的攻擊力。`
+
+[explain]
+	`    利用血氣生成巨大的尖齒撕咬敵人。
+    利用向前方向鍵時， 可以在更遠處生成尖齒。`
+
+[basic explain]
+	`    利用血氣生成巨大的尖齒撕咬敵人。`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	112	5
+[/pre required skill]
+
+[required level]
+	65
+
+[required level range]
+	5
+
+[maximum level]
+	10
+
+[growtype maximum level]
+	0	0	0	5	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[weapon effect type]
+	`[magical]`
+
+[icon]
+	`Character/Mage/Effect/ATSkillIcon.img`	340
+	`Character/Mage/Effect/ATSkillIcon.img`	341
+
+[static data]
+	350	300	100
+[/static data]
+
+[level info]
+	1	5344	5885	6428	6970	7512	8055	8596	9138	9681	10223	10765	11307	11849	12392	12934	13475	14018	14560	15102	15645	16186	16729	17271	17813	18355	18897	19439	19982	20524	21065	21608	22150	22693	23235	23776	24319	24861	25403	25945	26487	27029	27572	28114	28656	29198	29740	30283	30825	31366	31909	32451	32993	33535	34077	34620	35162	35704	36246	36788	37330	37873	38415	38956	39499	40041	40584	41125	41667	42210	42752
+[/level info]
+
+[special level up]
+	-1	0
+	`%`	10
+[/special level up]
+
+[pvp]
+	[start cool time]
+		20000	20000
+	[cool time]
+		20000	20000
+	[static data]
+		250	300	50
+	[/static data]
+	[level info]
+		1	267	294	321	348	375	402	429	456	483	511	538	565	592	619	646	673	700	727	754	781	808	835	863	890	917	944	971	998	1025	1052	1079	1106	1133	1160	1187	1215	1242	1269	1296	1323	1350	1377	1404	1431	1458	1485	1512	1539	1567	1594	1621	1648	1675	1702	1729	1756	1783	1810	1837	1864	1891	1919	1946	1973	2000	2027	2054	2081	2108	2135
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`消耗血氣:<float1>%%
+物理攻擊力 : <int>%%`	1	1	0.1	-1	0	1.0
+[/level property]

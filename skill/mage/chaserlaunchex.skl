@@ -1,0 +1,90 @@
+#PVF_File
+
+[name2]
+	`Chaser Launch upgrade`
+
+[feature skill type]
+	1
+
+[special purchase cost]
+	2
+[/special purchase cost]
+
+[type]
+	`[passive]`
+
+[pre required skill]
+	39	1
+[/pre required skill]
+
+[required level]
+	20
+
+[skill class]
+	2
+
+[maximum level]
+	1
+
+[growtype maximum level]
+	0	0	0	1	0	0
+
+[skill fitness growtype]
+	3
+[/skill fitness growtype]
+
+[required level]
+	50
+
+[required level range]
+	5
+
+[icon]
+	`Character/Mage/Effect/SkillIcon.img`	420
+	`Character/Mage/Effect/SkillIcon.img`	421
+
+[dungeon]
+	[static data]
+		500
+	[/static data]
+[/dungeon]
+
+[special level up]
+	0	0
+	`+`	1000
+[/special level up]
+
+[pvp]
+	[static data]
+		350
+	[/static data]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[name]
+	`強化 - 炫紋發射`
+
+[explain]
+	`向直接攻擊的最后1名敵人發射當前炫紋中的1個， 只能在直接攻擊敵人后的一定時間內使用。
+ 若此時被敵人攻擊， 則無法發射炫紋。`
+
+[basic explain]
+	`向直接攻擊的最后1名敵人發射當前炫紋中的1個， 只能在直接攻擊敵人后的一定時間內使用。
+ 若此時被敵人攻擊， 則無法發射炫紋。`
+
+[explain ex]
+	`發射炫紋時間增加。
+技能每增加Lv1時發射時間增加值 : 1秒`
+
+[basic explain ex]
+	`可射出追擊者的時間增加。`
+
+[level property]
+	1	99
+	`炫紋發射持續時間 : <float1>秒`	0	0	0.001
+[/level property]
